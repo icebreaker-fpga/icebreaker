@@ -9,41 +9,77 @@ interesting workshop excersizes.
 
 # Hardware Requirements
 
- * FT2232H interface (microUSB plug)
-   * programming compatible with ICEStick and HX8K board (works with iceprog)
-   * serial port compatible with ICEStick and HX8K board
-   * we might just copy the schematic + EEPROM image from ICEStick
-   * 12MHz XTAL oscillator (shared with FPGA)
-   * Jumpers for SRAM programming (like on the HX8K board)
+* iCE40UP5K in QFN48 (SG48) package
+  * iCE40 UltraPlus 5K
+  * 5280 Logic Cells (4-LUT + Carry + FF)
+  * 128 KBit Dual-Port Block RAM
+  * 1 MBit (128 KB) Single-Port RAM
+  * PLL, Two SPI and two I2C hard IPs
+  * Two internal oscillators (10 kHz and 48 MHz)
+  * 8 DSPs (16x16 multiply + 32 bit accumulate)
+  * 3x 24mA drive and 3x hard PWM IP
 
- * RGB LED
-   * Footprint for LED (potentially unpopulated)
-   * Additional 5pin header (R, G, B, VCC, GND)
+* QSPI-capable flash 128 MBit (16 MB)
+  * Or at least flash in a compatible footprint so it is easy to upgrade
 
- * 39 I/O capable pins:
-   * 4 pins for config (SDI, SDO, SCK, CSB)
-   * 2 extra GPIO pins for QSPI
-   * 3 pins for RGB LED / pin header
-   * 2 LEDs (on GBIN pins)
-   * 1 Clock (on GBIN pin)
-   * 1 UART Rx Pin via FTDI
-   * 1 UART Tx Pin via FTDI
-   * 1 push button
-   * 16 pins for dual PMOD
-   * 8 pins for single PMOD / snap-off section
+* FT2232H interface (microUSB plug)
+  * programming compatible with iCEstick and HX8K board (works with iceprog)
+  * serial port compatible with iCEstick and HX8K breakout board
+  * we might just copy schematic + EEPROM image from iCEstick
+  * 12 MHz XTAL oscillator (shared with FPGA)
+  * Jumpers or zero ohm resistors for SRAM programming (like on HX8K breakout board)
 
- * Snap-off section (convertible to PMOD host / PMOD device)
+* RGB LED
+  * Footprint for LED (potentially unpopulated)
+  * Additional 5 pin header (R, G, B, VCC, GND)
 
- * Support for FTDI Async FIFO mode
-   * We want to support FTDI Async mode via some (unpopulated by default) zero ohm resistors
-   * This will share 8 GPIOs with the single PMOD / snap-off section
-   * Thil will also enable the use of the full RS232 hardware signaling
-   * BDATA[0] -- Tx on FTDI / Rx on FPGA (always connected no jumper needed)
-   * BDATA[1] -- Rx on FTDI / Tx on FPGA (always connected no jumper needed)
-   * BDATA[7:2] -- Shared with the snap-off section (solder/zero ohm jumpers)
-   * Rx Full -- Shared with the snap-off section (solder/zero ohm jumper)
-   * Tx Empty -- Shared with the snap-off section (solder/zero ohm jumper)
-   * Read -- Shared with LED1 (solder/zero ohm jumper, LED used as Rx indicator)
-   * Write -- Shared with LED2 (solder/zero ohm jumper, LED used as Tx indicator)
-   * WakeUp -- Shared with the push button (solder/zero ohm jumper)
+* 39 I/O capable pins:
+  * 4 pins for config (SDI, SDO, SCK, CSB)
+  * 2 extra GPIO pins for QSPI
+  * 3 PINs for RGB LED / pin header
+  * 2 LEDs (one on output-only PLL pin)
+  * 1 Clock pin (on PLL GBIN)
+  * 1 UART Rx Pin via FTDI
+  * 1 UART Tx Pin via FTDI
+  * 1 Push Button
+  * 16 PINs on dual PMOD
+  * 8 PINs on single PMOD / snap-off section
+
+* Support for FTDI Async FIFO mode
+  * We want to support FTDI Async mode via some (unpopulated by default) zero ohm resistors
+  * This shares 8 GPIOs with the single PMOD / snap-off section
+  * This would also enable use of full list of RS232 signals
+  * BDATA[0] -- Tx on FTDI / Rx on FPGA (always connected, no zohm resistor required)
+  * BDATA[1] -- Rx on FTDI / Tx on FPGA (always connected, no zohm resistor required)
+  * BDATA[7:2] -- Shared with snap-off section (via zohm resistor footprint)
+  * RX Full -- Shared with snap-off section (via zohm resistor footprint)
+  * TX Empty -- Shared with snap-off section (via zohm resistor footprint)
+  * Read -- Shared with LED 1 (via zohm resistor footprint, LED used as RX indicator)
+  * Write -- Shared with LED 2 (via zohm resistor footprint, LED used as TX indicator)
+  * WakeUp -- Shared with Push Button (via zohm resistor footprint)
+
+* Snap-off section (convertible to PMOD host / PMOD device)
+  * 5 LEDs in similar arrangement to iCEstick
+  * 3 Push Buttons
+
+* Other stuff
+  * Status LEDs for Power and CDONE
+  * Add some kind of header for unregulated 5V directly from USB
+  * Test points / debug header for all 6 QSPI pins
+  * Test points for UART Rx / Tx signals
+  * Test points for all power rails
+  * Jumpers or zohm resistors on all rails for measuring currents
+  * Four 3mm mounting holes on the main section and two more on the snap-off section
+  * The two LEDs on the main section should be wired "active low" so they work well as indicator LEDs for FIFO read/write.
+  * The five LEDs on the snap-off section should be wired "active high"
+  * A zohm resistor for Bank 2 supply so that the IO voltage can be changed. Use Bank 2 for one of the ports on the double PMOD. (Note: Double check that pad 44 is not output-only when PLL is used.)
+
+* Unpopulated parts shipped with the board
+  * 3x Host PMOD (2x for dual PMOD port, 1x for snap-off section)
+  * 1x Device PMOD (for other side of snap-off section)
+  * 1x RGB LED
+
+* Branding
+  * *add suggestions for names here*
+  * iCEbreaker (https://twitter.com/AboveVacant/status/948323920595308545)
 
