@@ -1,0 +1,3 @@
+[submodule "lib/pkl"]
+	path = lib/pkl
+	url = https://github.com/esden/pretty-kicad-libs.git
