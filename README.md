@@ -33,3 +33,17 @@ interesting workshop excersizes.
    * 8 pins for single PMOD / snap-off section
 
  * Snap-off section (convertible to PMOD host / PMOD device)
+
+ * Support for FTDI Async FIFO mode
+   * We want to support FTDI Async mode via some (unpopulated by default) zero ohm resistors
+   * This will share 8 GPIOs with the single PMOD / snap-off section
+   * Thil will also enable the use of the full RS232 hardware signaling
+   * BDATA[0] -- Tx on FTDI / Rx on FPGA (always connected no jumper needed)
+   * BDATA[1] -- Rx on FTDI / Tx on FPGA (always connected no jumper needed)
+   * BDATA[7:2] -- Shared with the snap-off section (solder/zero ohm jumpers)
+   * Rx Full -- Shared with the snap-off section (solder/zero ohm jumper)
+   * Tx Empty -- Shared with the snap-off section (solder/zero ohm jumper)
+   * Read -- Shared with LED1 (solder/zero ohm jumper, LED used as Rx indicator)
+   * Write -- Shared with LED2 (solder/zero ohm jumper, LED used as Tx indicator)
+   * WakeUp -- Shared with the push button (solder/zero ohm jumper)
+
