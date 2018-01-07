@@ -31,14 +31,10 @@ interesting workshop excersizes.
   * 12 MHz XTAL oscillator (shared with FPGA)
   * Jumpers or zero ohm resistors for SRAM programming (like on HX8K breakout board)
 
-* RGB LED
-  * Footprint for LED (potentially unpopulated)
-  * Additional 5 pin header (R, G, B, VCC, GND)
-
 * 39 I/O capable pins:
   * 4 pins for config (SDI, SDO, SCK, CSB)
   * 2 extra GPIO pins for QSPI
-  * 3 PINs for RGB LED / pin header
+  * 3 PINs for RGB LED (pin header)
   * 2 LEDs (one on output-only PLL pin)
   * 1 Clock pin (on PLL GBIN)
   * 1 UART Rx Pin via FTDI
@@ -66,22 +62,18 @@ interesting workshop excersizes.
 
 * Other stuff
   * Status LEDs for Power and CDONE
-  * Add some kind of header for unregulated 5V directly from USB
-  * Test points / debug header for all 6 QSPI pins
+  * Header with supply rails: 5V, 3V3, 1V2, GND
+  * Debug header for all 6 QSPI pins
   * Test points for UART Rx / Tx signals
-  * Test points for all power rails
   * Jumpers or zohm resistors on all rails for measuring currents
   * Four 3mm mounting holes on the main section and two more on the snap-off section
   * The two LEDs on the main section should be wired "active low" so they work well as indicator LEDs for FIFO read/write.
   * The five LEDs on the snap-off section should be wired "active high"
-  * A zohm resistor for Bank 2 supply so that the IO voltage can be changed. Use Bank 2 for one of the ports on the double PMOD. (Note: Double check that pad 44 is not output-only when PLL is used.)
+  * A zohm resistor for Bank 2 supply so that the IO voltage can be changed. Use Bank 2 for one of the ports on the double PMOD.
 
 * Unpopulated parts shipped with the board
   * 3x Host PMOD (2x for dual PMOD port, 1x for snap-off section)
   * 1x Device PMOD (for other side of snap-off section)
-  * 1x RGB LED
 
 * Branding
-  * *add suggestions for names here*
   * iCEbreaker (https://twitter.com/AboveVacant/status/948323920595308545)
-
