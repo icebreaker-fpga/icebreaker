@@ -1,5 +1,7 @@
 # ICEBreaker FPGA
 
+[![Join the chat at https://gitter.im/esden/icebreaker](https://badges.gitter.im/esden/icebreaker.svg)](https://gitter.im/esden/icebreaker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The icebreaker FPGA board is a low cost, open-source FPGA development board.
 
 The main motivating application of this board is for classes and workshops
