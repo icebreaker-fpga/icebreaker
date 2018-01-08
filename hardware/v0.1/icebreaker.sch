@@ -405,18 +405,6 @@ F 4 "ANY" H 2900 3250 50  0001 C CNN "Source"
 	1    2900 3250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L pkl_device:pkl_C_Small C7
-U 1 1 5A53C567
-P 2600 3250
-F 0 "C7" H 2650 3300 50  0000 L CNN
-F 1 "100n" H 2600 3200 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 2692 3157 60  0001 L CNN
-F 3 "" H 2600 3250 60  0000 C CNN
-F 4 "ANY" H 2600 3250 50  0001 C CNN "Source"
-	1    2600 3250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 3350 2600 3450
 Wire Wire Line
@@ -3878,4 +3866,16 @@ Wire Wire Line
 	10850 8350 10950 8350
 Wire Wire Line
 	10850 8450 10950 8450
+$Comp
+L pkl_device:pkl_C C7
+U 1 1 5A57F2C5
+P 2600 3250
+F 0 "C7" H 2700 3350 50  0000 L CNN
+F 1 "4u7" H 2650 3150 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 2692 3157 60  0001 L CNN
+F 3 "" H 2600 3250 60  0000 C CNN
+F 4 "ANY" H 2600 3250 50  0001 C CNN "Source"
+	1    2600 3250
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
