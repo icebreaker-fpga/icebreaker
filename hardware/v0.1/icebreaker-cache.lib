@@ -35,6 +35,30 @@ X Pin_7 7 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# conn:Conn_02x01
+#
+DEF conn:Conn_02x01 J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "conn:Conn_02x01" 50 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 150 -50 1 1 10 f
+S 150 5 100 -5 1 1 6 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # conn:Conn_02x04_Odd_Even
 #
 DEF conn:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
