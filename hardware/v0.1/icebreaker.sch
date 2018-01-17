@@ -3152,21 +3152,21 @@ Text Label 10750 5300 0    50   ~ 0
 P2_4
 Text Label 10750 5400 0    50   ~ 0
 P2_10
-Text Label 6500 5250 0    50   ~ 0
-P2_1
-Text Label 6500 5350 0    50   ~ 0
-P2_7
-Text Label 6500 5450 0    50   ~ 0
-P2_2
-Text Label 6500 5550 0    50   ~ 0
-P2_8
-Text Label 6500 5650 0    50   ~ 0
-P2_3
-Text Label 6500 5750 0    50   ~ 0
-P2_9
-Text Label 6500 5950 0    50   ~ 0
-P2_4
 Text Label 6500 6050 0    50   ~ 0
+P2_1
+Text Label 6500 5950 0    50   ~ 0
+P2_7
+Text Label 6500 5750 0    50   ~ 0
+P2_2
+Text Label 6500 5650 0    50   ~ 0
+P2_8
+Text Label 6500 5550 0    50   ~ 0
+P2_3
+Text Label 6500 5450 0    50   ~ 0
+P2_9
+Text Label 6500 5350 0    50   ~ 0
+P2_4
+Text Label 6500 5250 0    50   ~ 0
 P2_10
 Text Notes 7050 1700 0    100  ~ 0
 FPGA
