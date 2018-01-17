@@ -1655,13 +1655,13 @@ FLASH_MOSI/IO0
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 1 1 5AB5AE47
-P 8600 7400
-F 0 "R11" V 8550 7100 50  0000 L CNN
-F 1 "10k" V 8550 7500 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8600 7400 60  0001 C CNN
-F 3 "" H 8600 7400 60  0000 C CNN
-F 4 "ANY" H 8600 7400 50  0001 C CNN "Source"
-	1    8600 7400
+P 8800 7400
+F 0 "R11" V 8750 7100 50  0000 L CNN
+F 1 "10k" V 8750 7500 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8800 7400 60  0001 C CNN
+F 3 "" H 8800 7400 60  0000 C CNN
+F 4 "ANY" H 8800 7400 50  0001 C CNN "Source"
+	1    8800 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1701,13 +1701,13 @@ Wire Wire Line
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 3 1 5ABF6624
-P 8800 7400
-F 0 "R11" V 8750 7100 50  0000 L CNN
-F 1 "10k" V 8750 7500 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8800 7400 60  0001 C CNN
-F 3 "" H 8800 7400 60  0000 C CNN
-F 4 "ANY" H 8800 7400 50  0001 C CNN "Source"
-	3    8800 7400
+P 8600 7400
+F 0 "R11" V 8550 7100 50  0000 L CNN
+F 1 "10k" V 8550 7500 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8600 7400 60  0001 C CNN
+F 3 "" H 8600 7400 60  0000 C CNN
+F 4 "ANY" H 8600 7400 50  0001 C CNN "Source"
+	3    8600 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2207,16 +2207,14 @@ F 3 "" H 15300 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 8700 14300 8700
-Wire Wire Line
 	15200 8600 15600 8600
 Wire Wire Line
 	14700 8600 14300 8600
-Text Label 14300 8600 2    50   ~ 0
-~LED_RED
 Text Label 15600 8600 0    50   ~ 0
+~LED_RED
+Text Label 14300 8600 2    50   ~ 0
 ~LED_GRN
-Text Label 14300 8700 2    50   ~ 0
+Text Label 15600 8700 0    50   ~ 0
 ~LED_BLU
 Wire Wire Line
 	12100 4400 12200 4400
@@ -3291,19 +3289,15 @@ Wire Wire Line
 	15200 8900 15300 8900
 Wire Wire Line
 	15300 8900 15300 8500
-Wire Wire Line
-	15200 8700 15500 8700
-Wire Wire Line
-	15500 8700 15500 8500
 $Comp
 L power:+1V2 #PWR076
 U 1 1 5E0003AE
-P 15500 8500
-F 0 "#PWR076" H 15500 8350 50  0001 C CNN
-F 1 "+1V2" H 15515 8676 50  0000 C CNN
-F 2 "" H 15500 8500 50  0001 C CNN
-F 3 "" H 15500 8500 50  0001 C CNN
-	1    15500 8500
+P 14400 8500
+F 0 "#PWR076" H 14400 8350 50  0001 C CNN
+F 1 "+1V2" H 14415 8676 50  0000 C CNN
+F 2 "" H 14400 8500 50  0001 C CNN
+F 3 "" H 14400 8500 50  0001 C CNN
+	1    14400 8500
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -4130,10 +4124,10 @@ Connection ~ 8000 5400
 Wire Wire Line
 	8000 5400 7800 5400
 $Comp
-L pkl_device:pkl_R_Small R?
+L pkl_device:pkl_R_Small R3
 U 1 1 5A9AF5CF
 P 1200 8550
-F 0 "R?" V 1100 8550 50  0000 C CNN
+F 0 "R3" V 1100 8550 50  0000 C CNN
 F 1 "10k" V 1300 8550 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 1259 8457 60  0001 L CNN
 F 3 "" H 1200 8550 60  0000 C CNN
@@ -4142,10 +4136,10 @@ F 4 "ANY" H 1200 8550 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:pkl_C_Small C?
+L pkl_device:pkl_C_Small C39
 U 1 1 5A9B1132
 P 1200 8850
-F 0 "C?" V 1250 8650 50  0000 L CNN
+F 0 "C39" V 1250 8650 50  0000 L CNN
 F 1 "1u" V 1250 8900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 1292 8757 60  0001 L CNN
 F 3 "" H 1200 8850 60  0000 C CNN
@@ -4178,4 +4172,10 @@ Wire Wire Line
 Connection ~ 1500 9050
 Text Notes 550  8900 0    50   ~ 0
 Enable Delay\n~~0.001s\nShould enable\nafter 1v2 rail\n(Test!!!)
+Wire Wire Line
+	14400 8500 14400 8700
+Wire Wire Line
+	14400 8700 14700 8700
+Wire Wire Line
+	15200 8700 15600 8700
 $EndSCHEMATC
