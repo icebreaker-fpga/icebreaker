@@ -23,6 +23,7 @@ F 1 "ICE5LP4K-SG48" H 9600 6277 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-48-1EP_7x7mm_Pitch0.5mm" H 11900 4400 50  0001 C CNN
 F 3 "" H 11900 4400 50  0001 C CNN
 F 4 "ANY" H 9600 4200 50  0001 C CNN "Source"
+F 5 "ic-ice5lp4k-sg48" H 0   0   50  0001 C CNN "Key"
 	1    9600 4200
 	1    0    0    -1  
 $EndComp
@@ -50,6 +51,7 @@ F 1 "FT2232H" H 5200 7250 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-64-4.45mm1EP_9x9mm_Pitch0.5mm" H 5200 7250 50  0001 C CNN
 F 3 "" H 5200 7250 50  0001 C CNN
 F 4 "ANY" H 4300 5150 50  0001 C CNN "Source"
+F 5 "ic-ft2232h" H 0   0   50  0001 C CNN "Key"
 	1    4300 5150
 	1    0    0    -1  
 $EndComp
@@ -65,6 +67,7 @@ F 4 "12MHz Oscillator" H 1900 6750 50  0001 C CNN "Description"
 F 5 "SiTIME" H 1900 6750 50  0001 C CNN "Manufacturer"
 F 6 "SIT2001BI-S2-33E-12.000000G" H 1900 6750 50  0001 C CNN "MFN"
 F 7 "ANY" H 1900 6750 50  0001 C CNN "Source"
+F 8 "xtal-sot23-5-12mhz-osc" H 0   0   50  0001 C CNN "Key"
 	1    1900 6750
 	-1   0    0    1   
 $EndComp
@@ -79,6 +82,7 @@ F 1 "10k" V 2550 6600 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2559 6657 60  0001 L CNN
 F 3 "" H 2500 6750 60  0000 C CNN
 F 4 "ANY" H 2500 6750 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 	1    2500 6750
 	0    1    1    0   
 $EndComp
@@ -188,6 +192,7 @@ F 1 "100n" H 1292 6804 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 1292 6757 60  0001 L CNN
 F 3 "" H 1200 6850 60  0000 C CNN
 F 4 "ANY" H 1200 6850 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    1200 6850
 	-1   0    0    -1  
 $EndComp
@@ -231,6 +236,7 @@ F 1 "pkl_USB_OTG" V 1363 4274 50  0000 C CNN
 F 2 "pkl_connectors:Connector_USB_Micro_B_SMD" V 1355 4274 60  0001 C CNN
 F 3 "" V 1650 4250 60  0000 C CNN
 F 4 "ANY" H 1700 4350 50  0001 C CNN "Source"
+F 5 "conn-smd-usb-micro-b" H 0   0   50  0001 C CNN "Key"
 	1    1700 4350
 	0    -1   1    0   
 $EndComp
@@ -258,6 +264,7 @@ F 1 "1M" V 1850 4700 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 1859 4757 60  0001 L CNN
 F 3 "" H 1800 4850 60  0000 C CNN
 F 4 "ANY" H 1800 4850 50  0001 C CNN "Source"
+F 5 "res-0402-1m" H 0   0   50  0001 C CNN "Key"
 	1    1800 4850
 	0    1    1    0   
 $EndComp
@@ -334,6 +341,7 @@ F 1 "10k" V 2800 4750 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2959 4657 60  0001 L CNN
 F 3 "" H 2900 4750 60  0000 C CNN
 F 4 "ANY" H 2900 4750 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 	1    2900 4750
 	0    1    1    0   
 $EndComp
@@ -402,6 +410,7 @@ F 1 "100n" H 3000 3600 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3092 3557 60  0001 L CNN
 F 3 "" H 3000 3650 60  0000 C CNN
 F 4 "ANY" H 3000 3650 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    3000 3650
 	-1   0    0    -1  
 $EndComp
@@ -443,6 +452,7 @@ F 2 "pkl_dipol:R_0402" H 2959 4457 60  0001 L CNN
 F 3 "" H 2900 4550 60  0000 C CNN
 F 4 "1% current reference" H 2900 4550 50  0001 C CNN "Description"
 F 5 "ANY" H 2900 4550 50  0001 C CNN "Source"
+F 6 "res-0402-12k" H 0   0   50  0001 C CNN "Key"
 	1    2900 4550
 	0    1    1    0   
 $EndComp
@@ -474,6 +484,7 @@ F 1 "600" V 2110 2150 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 2200 2150 60  0001 C CNN
 F 3 "" V 2200 2150 60  0000 C CNN
 F 4 "ANY" H 2200 2150 50  0001 C CNN "Source"
+F 5 "ferrite-0402-600" H 0   0   50  0001 C CNN "Key"
 	1    2200 2150
 	0    1    1    0   
 $EndComp
@@ -486,6 +497,7 @@ F 1 "600" V 2388 2250 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" V 2200 2250 60  0001 C CNN
 F 3 "" V 2200 2250 60  0000 C CNN
 F 4 "ANY" H 2200 2250 50  0001 C CNN "Source"
+F 5 "ferrite-0402-600" H 0   0   50  0001 C CNN "Key"
 	1    2200 2250
 	0    1    1    0   
 $EndComp
@@ -498,6 +510,7 @@ F 1 "100n" H 3650 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3692 2357 60  0001 L CNN
 F 3 "" H 3600 2450 60  0000 C CNN
 F 4 "ANY" H 3600 2450 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    3600 2450
 	-1   0    0    -1  
 $EndComp
@@ -510,6 +523,7 @@ F 1 "100n" H 3350 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3392 2357 60  0001 L CNN
 F 3 "" H 3300 2450 60  0000 C CNN
 F 4 "ANY" H 3300 2450 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    3300 2450
 	-1   0    0    -1  
 $EndComp
@@ -522,6 +536,7 @@ F 1 "4u7" H 3050 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 3092 2357 60  0001 L CNN
 F 3 "" H 3000 2450 60  0000 C CNN
 F 4 "ANY" H 3000 2450 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
 	1    3000 2450
 	-1   0    0    -1  
 $EndComp
@@ -534,6 +549,7 @@ F 1 "4u7" H 2750 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2792 2357 60  0001 L CNN
 F 3 "" H 2700 2450 60  0000 C CNN
 F 4 "ANY" H 2700 2450 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
 	1    2700 2450
 	-1   0    0    -1  
 $EndComp
@@ -654,6 +670,7 @@ F 1 "100n" V 4150 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4192 1857 60  0001 L CNN
 F 3 "" H 4100 1950 60  0000 C CNN
 F 4 "ANY" H 4100 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    4100 1950
 	-1   0    0    -1  
 $EndComp
@@ -690,6 +707,7 @@ F 1 "100n" V 4350 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4392 1857 60  0001 L CNN
 F 3 "" H 4300 1950 60  0000 C CNN
 F 4 "ANY" H 4300 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    4300 1950
 	-1   0    0    -1  
 $EndComp
@@ -739,6 +757,7 @@ F 1 "100n" V 4550 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4592 1857 60  0001 L CNN
 F 3 "" H 4500 1950 60  0000 C CNN
 F 4 "ANY" H 4500 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    4500 1950
 	-1   0    0    -1  
 $EndComp
@@ -812,6 +831,7 @@ F 1 "100n" V 4750 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4792 1857 60  0001 L CNN
 F 3 "" H 4700 1950 60  0000 C CNN
 F 4 "ANY" H 4700 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    4700 1950
 	-1   0    0    -1  
 $EndComp
@@ -824,6 +844,7 @@ F 1 "100n" V 4950 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 4992 1857 60  0001 L CNN
 F 3 "" H 4900 1950 60  0000 C CNN
 F 4 "ANY" H 4900 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    4900 1950
 	-1   0    0    -1  
 $EndComp
@@ -836,6 +857,7 @@ F 1 "100n" V 5150 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5192 1857 60  0001 L CNN
 F 3 "" H 5100 1950 60  0000 C CNN
 F 4 "ANY" H 5100 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    5100 1950
 	-1   0    0    -1  
 $EndComp
@@ -848,6 +870,7 @@ F 1 "100n" V 5350 1700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5392 1857 60  0001 L CNN
 F 3 "" H 5300 1950 60  0000 C CNN
 F 4 "ANY" H 5300 1950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    5300 1950
 	-1   0    0    -1  
 $EndComp
@@ -928,6 +951,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1300 5950 
 F 4 "EEPROM 1KBit 2MHz SOT-23-6" H 1300 5950 50  0001 C CNN "Description"
 F 5 "93C46B" H 1300 5950 50  0001 C CNN "MFN"
 F 6 "ANY" H 1300 5950 50  0001 C CNN "Source"
+F 7 "eeprom-sot23-6-93c46b" H 0   0   50  0001 C CNN "Key"
 	1    1300 5950
 	1    0    0    -1  
 $EndComp
@@ -968,6 +992,7 @@ F 1 "100n" H 500 6350 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 792 6057 60  0001 L CNN
 F 3 "" H 700 6150 60  0000 C CNN
 F 4 "ANY" H 700 6150 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    700  6150
 	-1   0    0    -1  
 $EndComp
@@ -991,6 +1016,7 @@ F 1 "2k2" V 2550 6000 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2559 6057 60  0001 L CNN
 F 3 "" H 2500 6150 60  0000 C CNN
 F 4 "ANY" H 2500 6150 50  0001 C CNN "Source"
+F 5 "res-0402-2k2" H 0   0   50  0001 C CNN "Key"
 	1    2500 6150
 	0    1    1    0   
 $EndComp
@@ -1299,6 +1325,7 @@ F 1 "CDBU0520" H 8400 5850 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" V 8150 5800 60  0001 C CNN
 F 3 "" V 8150 5800 60  0000 C CNN
 F 4 "ANY" H 8150 5800 50  0001 C CNN "Source"
+F 5 "diode-shottky-0603" H 0   0   50  0001 C CNN "Key"
 	1    8150 5800
 	1    0    0    -1  
 $EndComp
@@ -1315,6 +1342,7 @@ F 1 "100n" V 7900 5750 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8042 5907 60  0001 L CNN
 F 3 "" H 7950 6000 60  0000 C CNN
 F 4 "ANY" H 7950 6000 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    7950 6000
 	-1   0    0    -1  
 $EndComp
@@ -1356,6 +1384,7 @@ F 1 "100E" V 7450 5700 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 7409 5607 60  0001 L CNN
 F 3 "" H 7350 5700 60  0000 C CNN
 F 4 "ANY" H 7350 5700 50  0001 C CNN "Source"
+F 5 "res-0402-100" H 0   0   50  0001 C CNN "Key"
 	1    7350 5700
 	0    1    1    0   
 $EndComp
@@ -1372,6 +1401,7 @@ F 1 "100n" V 7800 6050 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7842 5907 60  0001 L CNN
 F 3 "" H 7750 6000 60  0000 C CNN
 F 4 "ANY" H 7750 6000 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    7750 6000
 	-1   0    0    -1  
 $EndComp
@@ -1384,6 +1414,7 @@ F 1 "10u" V 7600 6050 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 7642 5907 60  0001 L CNN
 F 3 "" H 7550 6000 60  0000 C CNN
 F 4 "ANY" H 7550 6000 50  0001 C CNN "Source"
+F 5 "cap-cer-0603-10u" H 0   0   50  0001 C CNN "Key"
 	1    7550 6000
 	-1   0    0    -1  
 $EndComp
@@ -1447,6 +1478,7 @@ F 1 "10n" V 7850 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7892 5107 60  0001 L CNN
 F 3 "" H 7800 5200 60  0000 C CNN
 F 4 "ANY" H 7800 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-10n" H 0   0   50  0001 C CNN "Key"
 	1    7800 5200
 	-1   0    0    -1  
 $EndComp
@@ -1459,6 +1491,7 @@ F 1 "100n" V 7650 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7692 5107 60  0001 L CNN
 F 3 "" H 7600 5200 60  0000 C CNN
 F 4 "ANY" H 7600 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    7600 5200
 	-1   0    0    -1  
 $EndComp
@@ -1471,6 +1504,7 @@ F 1 "1u" V 7450 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7492 5107 60  0001 L CNN
 F 3 "" H 7400 5200 60  0000 C CNN
 F 4 "ANY" H 7400 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-1u" H 0   0   50  0001 C CNN "Key"
 	1    7400 5200
 	-1   0    0    -1  
 $EndComp
@@ -1547,6 +1581,7 @@ F 1 "W25Q" H 7900 8287 50  0000 C CNN
 F 2 "pkl_housings_soic:SOIC-8_5.3x5.3mm_Pitch1.27mm" H 7900 7950 50  0001 C CNN
 F 3 "" H 7900 7950 50  0001 C CNN
 F 4 "ANY" H 7900 7950 50  0001 C CNN "Source"
+F 5 "eeprom-so8w-W25Q" H 0   0   50  0001 C CNN "Key"
 	1    7900 7950
 	-1   0    0    -1  
 $EndComp
@@ -1578,6 +1613,7 @@ F 1 "100n" V 7150 7700 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7292 7857 60  0001 L CNN
 F 3 "" H 7200 7950 60  0000 C CNN
 F 4 "ANY" H 7200 7950 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    7200 7950
 	-1   0    0    -1  
 $EndComp
@@ -1661,6 +1697,7 @@ F 1 "10k" V 8750 7500 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8800 7400 60  0001 C CNN
 F 3 "" H 8800 7400 60  0000 C CNN
 F 4 "ANY" H 8800 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	1    8800 7400
 	1    0    0    -1  
 $EndComp
@@ -1673,6 +1710,7 @@ F 1 "10k" V 8650 7500 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8700 7400 60  0001 C CNN
 F 3 "" H 8700 7400 60  0000 C CNN
 F 4 "ANY" H 8700 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	2    8700 7400
 	1    0    0    -1  
 $EndComp
@@ -1707,6 +1745,7 @@ F 1 "10k" V 8550 7500 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8600 7400 60  0001 C CNN
 F 3 "" H 8600 7400 60  0000 C CNN
 F 4 "ANY" H 8600 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	3    8600 7400
 	1    0    0    -1  
 $EndComp
@@ -1719,6 +1758,7 @@ F 1 "10k" V 8850 7500 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8900 7400 60  0001 C CNN
 F 3 "" H 8900 7400 60  0000 C CNN
 F 4 "ANY" H 8900 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	4    8900 7400
 	1    0    0    -1  
 $EndComp
@@ -1910,6 +1950,7 @@ F 1 "100n" H 7908 2546 50  0000 R CNN
 F 2 "pkl_dipol:C_0402" H 8092 2407 60  0001 L CNN
 F 3 "" H 8000 2500 60  0000 C CNN
 F 4 "ANY" H 8000 2500 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    8000 2500
 	1    0    0    1   
 $EndComp
@@ -1935,6 +1976,7 @@ F 1 "100n" H 11108 2454 50  0000 R CNN
 F 2 "pkl_dipol:C_0402" H 11292 2407 60  0001 L CNN
 F 3 "" H 11200 2500 60  0000 C CNN
 F 4 "ANY" H 11200 2500 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    11200 2500
 	-1   0    0    -1  
 $EndComp
@@ -1972,6 +2014,7 @@ F 1 "100n" H 11700 4550 50  0000 R CNN
 F 2 "pkl_dipol:C_0402" H 11542 4307 60  0001 L CNN
 F 3 "" H 11450 4400 60  0000 C CNN
 F 4 "ANY" H 11450 4400 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    11450 4400
 	-1   0    0    -1  
 $EndComp
@@ -2061,6 +2104,7 @@ F 1 "PMOD_1A" H 12450 2700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 12400 2400 50  0001 C CNN
 F 3 "~" H 12400 2400 50  0001 C CNN
 F 4 "ANY" H 12400 2400 50  0001 C CNN "Source"
+F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
 	1    12400 2400
 	1    0    0    -1  
 $EndComp
@@ -2073,6 +2117,7 @@ F 1 "PMOD_1B" H 12450 3700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 12400 4100 50  0001 C CNN
 F 3 "~" H 12400 4100 50  0001 C CNN
 F 4 "ANY" H 12400 4100 50  0001 C CNN "Source"
+F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
 	1    12400 4100
 	1    0    0    -1  
 $EndComp
@@ -2181,6 +2226,7 @@ F 1 "RGB Led" H 14800 8400 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 14900 8700 50  0001 C CNN
 F 3 "~" H 14900 8700 50  0001 C CNN
 F 4 "ANY" H 14900 8700 50  0001 C CNN "Source"
+F 5 "conn-th-01in-4-2-hdr" H 0   0   50  0001 C CNN "Key"
 	1    14900 8700
 	1    0    0    -1  
 $EndComp
@@ -2320,6 +2366,7 @@ F 1 "GRN" H 12650 8700 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 12600 8600 60  0001 C CNN
 F 3 "" V 12600 8600 60  0000 C CNN
 F 4 "ANY" H 12600 8600 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    12600 8600
 	-1   0    0    1   
 $EndComp
@@ -2332,6 +2379,7 @@ F 1 "RED" H 12650 9000 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 12600 8900 60  0001 C CNN
 F 3 "" V 12600 8900 60  0000 C CNN
 F 4 "ANY" H 12600 8900 50  0001 C CNN "Source"
+F 5 "led-0603-red" H 0   0   50  0001 C CNN "Key"
 	1    12600 8900
 	-1   0    0    1   
 $EndComp
@@ -2348,6 +2396,7 @@ F 1 "330E" V 13000 8550 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 12959 8507 60  0001 L CNN
 F 3 "" H 12900 8600 60  0000 C CNN
 F 4 "ANY" H 12900 8600 50  0001 C CNN "Source"
+F 5 "res-0402-330" H 0   0   50  0001 C CNN "Key"
 	1    12900 8600
 	0    -1   -1   0   
 $EndComp
@@ -2360,6 +2409,7 @@ F 1 "330E" V 13000 8850 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 12959 8807 60  0001 L CNN
 F 3 "" H 12900 8900 60  0000 C CNN
 F 4 "ANY" H 12900 8900 50  0001 C CNN "Source"
+F 5 "res-0402-330" H 0   0   50  0001 C CNN "Key"
 	1    12900 8900
 	0    -1   -1   0   
 $EndComp
@@ -2515,6 +2565,7 @@ F 1 "PMOD_2H" H 12450 5927 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x06" H 12400 5600 50  0001 C CNN
 F 3 "~" H 12400 5600 50  0001 C CNN
 F 4 "ANY" H 12400 5600 50  0001 C CNN "Source"
+F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
 	1    12400 5600
 	1    0    0    -1  
 $EndComp
@@ -2527,6 +2578,7 @@ F 1 "PMOD_2P" H 14100 5927 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 14050 5600 50  0001 C CNN
 F 3 "~" H 14050 5600 50  0001 C CNN
 F 4 "ANY" H 14050 5600 50  0001 C CNN "Source"
+F 5 "conn-th-01in-6-2-hdr-ra" H 0   0   50  0001 C CNN "Key"
 	1    14050 5600
 	1    0    0    -1  
 $EndComp
@@ -2719,6 +2771,7 @@ F 1 "GRN" H 15350 7150 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 15300 7050 60  0001 C CNN
 F 3 "" V 15300 7050 60  0000 C CNN
 F 4 "ANY" H 15300 7050 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    15300 7050
 	0    1    1    0   
 $EndComp
@@ -2731,6 +2784,7 @@ F 1 "RED" H 15550 7150 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 15500 7050 60  0001 C CNN
 F 3 "" V 15500 7050 60  0000 C CNN
 F 4 "ANY" H 15500 7050 50  0001 C CNN "Source"
+F 5 "led-0603-red" H 0   0   50  0001 C CNN "Key"
 	1    15500 7050
 	0    1    1    0   
 $EndComp
@@ -2743,6 +2797,7 @@ F 1 "GRN" H 15450 6200 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 15500 6100 60  0001 C CNN
 F 3 "" V 15500 6100 60  0000 C CNN
 F 4 "ANY" H 15500 6100 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    15500 6100
 	1    0    0    -1  
 $EndComp
@@ -2755,6 +2810,7 @@ F 1 "GRN" H 15450 7800 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 15500 7700 60  0001 C CNN
 F 3 "" V 15500 7700 60  0000 C CNN
 F 4 "ANY" H 15500 7700 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    15500 7700
 	1    0    0    -1  
 $EndComp
@@ -2778,6 +2834,7 @@ F 1 "GRN" H 15750 7150 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 15700 7050 60  0001 C CNN
 F 3 "" V 15700 7050 60  0000 C CNN
 F 4 "ANY" H 15700 7050 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    15700 7050
 	0    1    1    0   
 $EndComp
@@ -2812,6 +2869,7 @@ F 1 "330E" V 15250 6650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 15300 6850 60  0001 C CNN
 F 3 "" H 15300 6850 60  0000 C CNN
 F 4 "ANY" H 15300 6850 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-330" H 0   0   50  0001 C CNN "Key"
 	4    15300 6850
 	-1   0    0    1   
 $EndComp
@@ -2826,6 +2884,7 @@ F 1 "330E" V 15250 5900 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 15300 6100 60  0001 C CNN
 F 3 "" H 15300 6100 60  0000 C CNN
 F 4 "ANY" H 15300 6100 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-330" H 0   0   50  0001 C CNN "Key"
 	2    15300 6100
 	0    1    1    0   
 $EndComp
@@ -2838,6 +2897,7 @@ F 1 "330E" V 15650 6650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 15700 6850 60  0001 C CNN
 F 3 "" H 15700 6850 60  0000 C CNN
 F 4 "ANY" H 15700 6850 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-330" H 0   0   50  0001 C CNN "Key"
 	3    15700 6850
 	-1   0    0    1   
 $EndComp
@@ -2850,6 +2910,7 @@ F 1 "330E" V 15250 7500 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 15300 7700 60  0001 C CNN
 F 3 "" H 15300 7700 60  0000 C CNN
 F 4 "ANY" H 15300 7700 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-330" H 0   0   50  0001 C CNN "Key"
 	1    15300 7700
 	0    1    1    0   
 $EndComp
@@ -2900,6 +2961,7 @@ F 0 "SW2" H 14400 6750 60  0000 C CNN
 F 1 "TACT" H 14800 6750 60  0000 C CNN
 F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 6575 60  0001 C CNN
 F 3 "" H 14600 6575 60  0000 C CNN
+F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
 	1    14600 6600
 	1    0    0    -1  
 $EndComp
@@ -2911,6 +2973,7 @@ F 0 "SW3" H 14400 7150 60  0000 C CNN
 F 1 "TACT" H 14850 7150 60  0000 C CNN
 F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 6975 60  0001 C CNN
 F 3 "" H 14600 6975 60  0000 C CNN
+F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
 	1    14600 7000
 	1    0    0    -1  
 $EndComp
@@ -2922,6 +2985,7 @@ F 0 "SW4" H 14400 7550 60  0000 C CNN
 F 1 "TACT" H 14850 7550 60  0000 C CNN
 F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 7375 60  0001 C CNN
 F 3 "" H 14600 7375 60  0000 C CNN
+F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
 	1    14600 7400
 	1    0    0    -1  
 $EndComp
@@ -2934,6 +2998,7 @@ F 1 "10k" V 14000 6700 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 14100 6700 60  0001 C CNN
 F 3 "" H 14100 6700 60  0000 C CNN
 F 4 "ANY" H 14100 6700 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	1    14100 6700
 	0    1    -1   0   
 $EndComp
@@ -2959,6 +3024,7 @@ F 1 "330E" V 15450 6650 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 15500 6850 60  0001 C CNN
 F 3 "" H 15500 6850 60  0000 C CNN
 F 4 "ANY" H 15500 6850 50  0001 C CNN "Source"
+F 5 "res-0402-330" H 0   0   50  0001 C CNN "Key"
 	1    15500 6850
 	-1   0    0    1   
 $EndComp
@@ -2971,6 +3037,7 @@ F 1 "10k" V 14000 7100 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 14100 7100 60  0001 C CNN
 F 3 "" H 14100 7100 60  0000 C CNN
 F 4 "ANY" H 14100 7100 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	2    14100 7100
 	0    1    -1   0   
 $EndComp
@@ -2985,6 +3052,7 @@ F 1 "10k" V 14000 7500 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 14100 7500 60  0001 C CNN
 F 3 "" H 14100 7500 60  0000 C CNN
 F 4 "ANY" H 14100 7500 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	3    14100 7500
 	0    1    -1   0   
 $EndComp
@@ -3078,6 +3146,7 @@ F 0 "SW1" H 12800 9800 60  0000 C CNN
 F 1 "TACT" H 13200 9800 60  0000 C CNN
 F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 13000 9625 60  0001 C CNN
 F 3 "" H 13000 9625 60  0000 C CNN
+F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
 	1    13000 9650
 	1    0    0    -1  
 $EndComp
@@ -3090,6 +3159,7 @@ F 1 "10k" V 12700 9500 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 12659 9357 60  0001 L CNN
 F 3 "" H 12600 9450 60  0000 C CNN
 F 4 "ANY" H 12600 9450 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 	1    12600 9450
 	-1   0    0    1   
 $EndComp
@@ -3327,6 +3397,7 @@ F 1 "GRN" H 11450 6000 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 11400 5900 60  0001 C CNN
 F 3 "" V 11400 5900 60  0000 C CNN
 F 4 "ANY" H 11400 5900 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    11400 5900
 	0    1    1    0   
 $EndComp
@@ -3354,6 +3425,7 @@ F 1 "2k2" V 11500 5600 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 11459 5407 60  0001 L CNN
 F 3 "" H 11400 5500 60  0000 C CNN
 F 4 "ANY" H 11400 5500 50  0001 C CNN "Source"
+F 5 "res-0402-2k2" H 0   0   50  0001 C CNN "Key"
 	1    11400 5500
 	1    0    0    -1  
 $EndComp
@@ -3386,6 +3458,7 @@ F 1 "GRN" H 3100 9050 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 3050 8950 60  0001 C CNN
 F 3 "" V 3050 8950 60  0000 C CNN
 F 4 "ANY" H 3050 8950 50  0001 C CNN "Source"
+F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
 	1    3050 8950
 	0    1    1    0   
 $EndComp
@@ -3411,6 +3484,7 @@ F 1 "330E" V 3150 8650 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 3109 8557 60  0001 L CNN
 F 3 "" H 3050 8650 60  0000 C CNN
 F 4 "ANY" H 3050 8650 50  0001 C CNN "Source"
+F 5 "res-0402-330" H 0   0   50  0001 C CNN "Key"
 	1    3050 8650
 	1    0    0    -1  
 $EndComp
@@ -3438,6 +3512,7 @@ F 1 "3.3V" H 2100 8650 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-23-5" H 2100 8450 60  0001 C CNN
 F 3 "" H 2100 8450 60  0000 C CNN
 F 4 "ANY" H 2100 8450 60  0001 C CNN "Source"
+F 5 "vreg-sot23-5-3v3" H 0   0   50  0001 C CNN "Key"
 	1    2100 8450
 	1    0    0    -1  
 $EndComp
@@ -3450,6 +3525,7 @@ F 1 "4u7" H 1525 8750 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 1538 8700 30  0001 C CNN
 F 3 "" H 1500 8850 60  0000 C CNN
 F 4 "ANY" H 1500 8850 60  0001 C CNN "Source"
+F 5 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 	1    1500 8850
 	1    0    0    -1  
 $EndComp
@@ -3462,6 +3538,7 @@ F 1 "10n" H 1710 8770 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 1700 8850 60  0001 C CNN
 F 3 "" H 1700 8850 60  0000 C CNN
 F 4 "ANY" H 1700 8850 60  0001 C CNN "Source"
+F 5 "cap-cer-0402-10n" H 0   0   50  0001 C CNN "Key"
 	1    1700 8850
 	1    0    0    -1  
 $EndComp
@@ -3485,6 +3562,7 @@ F 1 "4u7" H 2725 8750 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 2738 8700 30  0001 C CNN
 F 3 "" H 2700 8850 60  0000 C CNN
 F 4 "ANY" H 2700 8850 60  0001 C CNN "Source"
+F 5 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 	1    2700 8850
 	1    0    0    -1  
 $EndComp
@@ -3532,6 +3610,7 @@ F 1 "1V2" H 6000 8600 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-23-5" H 6000 8400 60  0001 C CNN
 F 3 "" H 6000 8400 60  0000 C CNN
 F 4 "ANY" H 6000 8400 60  0001 C CNN "Source"
+F 5 "vreg-sot23-5-1v2" H 0   0   50  0001 C CNN "Key"
 	1    6000 8400
 	1    0    0    -1  
 $EndComp
@@ -3544,6 +3623,7 @@ F 1 "4u7" H 5425 8700 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 5438 8650 30  0001 C CNN
 F 3 "" H 5400 8800 60  0000 C CNN
 F 4 "ANY" H 5400 8800 60  0001 C CNN "Source"
+F 5 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 	1    5400 8800
 	1    0    0    -1  
 $EndComp
@@ -3556,6 +3636,7 @@ F 1 "10n" H 5610 8720 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5600 8800 60  0001 C CNN
 F 3 "" H 5600 8800 60  0000 C CNN
 F 4 "ANY" H 5600 8800 60  0001 C CNN "Source"
+F 5 "cap-cer-0402-10n" H 0   0   50  0001 C CNN "Key"
 	1    5600 8800
 	1    0    0    -1  
 $EndComp
@@ -3579,6 +3660,7 @@ F 1 "4u7" H 6625 8700 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 6638 8650 30  0001 C CNN
 F 3 "" H 6600 8800 60  0000 C CNN
 F 4 "ANY" H 6600 8800 60  0001 C CNN "Source"
+F 5 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 	1    6600 8800
 	1    0    0    -1  
 $EndComp
@@ -3764,6 +3846,7 @@ F 1 "Flash" H 11329 7999 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 11250 8050 50  0001 C CNN
 F 3 "~" H 11250 8050 50  0001 C CNN
 F 4 "ANY" H 11250 8050 50  0001 C CNN "Source"
+F 5 "conn-th-01in-7-1-hdr" H 0   0   50  0001 C CNN "Key"
 	1    11250 8050
 	1    0    0    -1  
 $EndComp
@@ -3790,6 +3873,7 @@ F 1 "4u7" H 2815 3604 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 2792 3557 60  0001 L CNN
 F 3 "" H 2700 3650 60  0000 C CNN
 F 4 "ANY" H 2700 3650 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
 	1    2700 3650
 	-1   0    0    -1  
 $EndComp
@@ -3824,6 +3908,7 @@ F 1 "5V AUX" H 12450 3427 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 12400 3300 50  0001 C CNN
 F 3 "~" H 12400 3300 50  0001 C CNN
 F 4 "ANY" H 12400 3300 50  0001 C CNN "Source"
+F 5 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
 	1    12400 3300
 	1    0    0    -1  
 $EndComp
@@ -3842,6 +3927,7 @@ F 1 "DNP" H 13165 5896 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 13142 5757 60  0001 L CNN
 F 3 "" H 13050 5850 60  0000 C CNN
 F 4 "ANY" H 13050 5850 50  0001 C CNN "Source"
+F 5 "cap-cer-0603-10u" H 0   0   50  0001 C CNN "Key"
 	1    13050 5850
 	1    0    0    1   
 $EndComp
@@ -3868,6 +3954,7 @@ F 1 "DNP" H 13165 4396 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 13142 4257 60  0001 L CNN
 F 3 "" H 13050 4350 60  0000 C CNN
 F 4 "ANY" H 13050 4350 50  0001 C CNN "Source"
+F 5 "cap-cer-0603-10u" H 0   0   50  0001 C CNN "Key"
 	1    13050 4350
 	1    0    0    1   
 $EndComp
@@ -3890,6 +3977,7 @@ F 1 "DNP" H 13165 2696 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 13142 2557 60  0001 L CNN
 F 3 "" H 13050 2650 60  0000 C CNN
 F 4 "ANY" H 13050 2650 50  0001 C CNN "Source"
+F 5 "cap-cer-0603-10u" H 0   0   50  0001 C CNN "Key"
 	1    13050 2650
 	1    0    0    1   
 $EndComp
@@ -3983,6 +4071,7 @@ F 1 "5V AUX" H 12450 6677 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 12400 6550 50  0001 C CNN
 F 3 "~" H 12400 6550 50  0001 C CNN
 F 4 "ANY" H 12400 6550 50  0001 C CNN "Source"
+F 5 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
 	1    12400 6550
 	1    0    0    -1  
 $EndComp
@@ -4003,6 +4092,7 @@ F 1 "10k" V 11100 5550 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 11259 5307 60  0001 L CNN
 F 3 "" H 11200 5400 60  0000 C CNN
 F 4 "ANY" H 11200 5400 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 	1    11200 5400
 	1    0    0    -1  
 $EndComp
@@ -4030,6 +4120,7 @@ F 1 "10k" V 1900 5650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2000 5650 60  0001 C CNN
 F 3 "" H 2000 5650 60  0000 C CNN
 F 4 "ANY" H 2000 5650 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	1    2000 5650
 	1    0    0    1   
 $EndComp
@@ -4042,6 +4133,7 @@ F 1 "10k" V 1700 5650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 1800 5650 60  0001 C CNN
 F 3 "" H 1800 5650 60  0000 C CNN
 F 4 "ANY" H 1800 5650 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	2    1800 5650
 	1    0    0    1   
 $EndComp
@@ -4054,6 +4146,7 @@ F 1 "10k" V 2100 5650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2200 5650 60  0001 C CNN
 F 3 "" H 2200 5650 60  0000 C CNN
 F 4 "ANY" H 2200 5650 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	3    2200 5650
 	1    0    0    1   
 $EndComp
@@ -4066,6 +4159,7 @@ F 1 "10n" V 8450 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8492 5107 60  0001 L CNN
 F 3 "" H 8400 5200 60  0000 C CNN
 F 4 "ANY" H 8400 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-10n" H 0   0   50  0001 C CNN "Key"
 	1    8400 5200
 	-1   0    0    -1  
 $EndComp
@@ -4078,6 +4172,7 @@ F 1 "100n" V 8250 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8292 5107 60  0001 L CNN
 F 3 "" H 8200 5200 60  0000 C CNN
 F 4 "ANY" H 8200 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    8200 5200
 	-1   0    0    -1  
 $EndComp
@@ -4090,6 +4185,7 @@ F 1 "1u" V 8050 5250 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8092 5107 60  0001 L CNN
 F 3 "" H 8000 5200 60  0000 C CNN
 F 4 "ANY" H 8000 5200 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-1u" H 0   0   50  0001 C CNN "Key"
 	1    8000 5200
 	-1   0    0    -1  
 $EndComp
@@ -4132,6 +4228,7 @@ F 1 "10k" V 1300 8550 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 1259 8457 60  0001 L CNN
 F 3 "" H 1200 8550 60  0000 C CNN
 F 4 "ANY" H 1200 8550 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 	1    1200 8550
 	1    0    0    -1  
 $EndComp
@@ -4144,6 +4241,7 @@ F 1 "1u" V 1250 8900 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 1292 8757 60  0001 L CNN
 F 3 "" H 1200 8850 60  0000 C CNN
 F 4 "ANY" H 1200 8850 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-1u" H 0   0   50  0001 C CNN "Key"
 	1    1200 8850
 	-1   0    0    -1  
 $EndComp
