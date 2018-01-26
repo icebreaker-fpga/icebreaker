@@ -7,7 +7,7 @@ The icebreaker FPGA board is a low cost, open-source FPGA development board.
 The main motivating application of this board is for classes and workshops
 teaching the use of the icestorm FPGA design flow. This means the board has to
 be low cost and have a nice set of features to allow for the design of
-interesting workshop excersizes.
+interesting workshop exercises.
 
 # Hardware Requirements
 
