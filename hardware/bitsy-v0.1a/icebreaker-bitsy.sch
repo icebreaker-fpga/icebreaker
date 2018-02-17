@@ -2245,7 +2245,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 2900 9800 2900
 Text Label 9400 1500 0    50   ~ 0
-IOT_36b
+IOT_36B
 Text Label 9400 1600 0    50   ~ 0
 IOT_37A
 Text Label 9400 1700 0    50   ~ 0
