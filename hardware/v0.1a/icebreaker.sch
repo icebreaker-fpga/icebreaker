@@ -2096,28 +2096,28 @@ Wire Wire Line
 Wire Wire Line
 	10700 2150 10700 2300
 $Comp
-L conn:Conn_02x06_Top_Bottom J21
+L Connector_Generic:Conn_02x06_Top_Bottom J21
 U 1 1 5B1E5C63
 P 12400 2400
 F 0 "J21" H 12450 2800 50  0000 C CNN
 F 1 "PMOD_1A" H 12450 2700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 12400 2400 50  0001 C CNN
 F 3 "~" H 12400 2400 50  0001 C CNN
-F 4 "ANY" H 12400 2400 50  0001 C CNN "Source"
-F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 12400 2400 50  0001 C CNN "Source"
 	1    12400 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x06_Top_Bottom J22
+L Connector_Generic:Conn_02x06_Top_Bottom J22
 U 1 1 5B1E5EFC
 P 12400 4100
 F 0 "J22" H 12450 4400 50  0000 C CNN
 F 1 "PMOD_1B" H 12450 3700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 12400 4100 50  0001 C CNN
 F 3 "~" H 12400 4100 50  0001 C CNN
-F 4 "ANY" H 12400 4100 50  0001 C CNN "Source"
-F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 12400 4100 50  0001 C CNN "Source"
 	1    12400 4100
 	1    0    0    -1  
 $EndComp
@@ -2218,15 +2218,15 @@ F 3 "" H 12100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x04_Odd_Even J25
+L Connector_Generic:Conn_02x04_Odd_Even J25
 U 1 1 5B43F731
 P 14900 8700
 F 0 "J25" H 14900 8900 50  0000 L CNN
 F 1 "RGB Led" H 14800 8400 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 14900 8700 50  0001 C CNN
 F 3 "~" H 14900 8700 50  0001 C CNN
-F 4 "ANY" H 14900 8700 50  0001 C CNN "Source"
-F 5 "conn-th-01in-4-2-hdr" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-4-2-hdr" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 14900 8700 50  0001 C CNN "Source"
 	1    14900 8700
 	1    0    0    -1  
 $EndComp
@@ -2557,28 +2557,28 @@ Wire Wire Line
 	8500 4800 8500 5500
 Connection ~ 8500 5500
 $Comp
-L conn:Conn_02x06_Top_Bottom J23
+L Connector_Generic:Conn_02x06_Top_Bottom J23
 U 1 1 5BFA913D
 P 12400 5600
 F 0 "J23" H 12450 6020 50  0000 C CNN
 F 1 "PMOD_2H" H 12450 5927 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x06" H 12400 5600 50  0001 C CNN
 F 3 "~" H 12400 5600 50  0001 C CNN
-F 4 "ANY" H 12400 5600 50  0001 C CNN "Source"
-F 5 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-6-2-rec-ra" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 12400 5600 50  0001 C CNN "Source"
 	1    12400 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x06_Top_Bottom J24
+L Connector_Generic:Conn_02x06_Top_Bottom J24
 U 1 1 5BFA93A4
 P 14050 5600
 F 0 "J24" H 14100 6020 50  0000 C CNN
 F 1 "PMOD_2P" H 14100 5927 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 14050 5600 50  0001 C CNN
 F 3 "~" H 14050 5600 50  0001 C CNN
-F 4 "ANY" H 14050 5600 50  0001 C CNN "Source"
-F 5 "conn-th-01in-6-2-hdr-ra" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-6-2-hdr-ra" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 14050 5600 50  0001 C CNN "Source"
 	1    14050 5600
 	1    0    0    -1  
 $EndComp
@@ -3838,15 +3838,15 @@ FLASH_~WP~/IO2
 Text Label 10950 8250 2    50   ~ 0
 FLASH_~HLD~/~RST~/IO3
 $Comp
-L conn:Conn_01x07 J20
+L Connector_Generic:Conn_01x07 J20
 U 1 1 5EB92B77
 P 11250 8050
 F 0 "J20" H 11329 8092 50  0000 L CNN
 F 1 "Flash" H 11329 7999 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 11250 8050 50  0001 C CNN
 F 3 "~" H 11250 8050 50  0001 C CNN
-F 4 "ANY" H 11250 8050 50  0001 C CNN "Source"
-F 5 "conn-th-01in-7-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-7-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 11250 8050 50  0001 C CNN "Source"
 	1    11250 8050
 	1    0    0    -1  
 $EndComp
@@ -3900,15 +3900,15 @@ F 3 "" H 12100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x01 J26
+L Connector_Generic:Conn_02x01 J26
 U 1 1 5A936954
 P 12400 3300
 F 0 "J26" H 12450 3520 50  0000 C CNN
 F 1 "5V AUX" H 12450 3427 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 12400 3300 50  0001 C CNN
 F 3 "~" H 12400 3300 50  0001 C CNN
-F 4 "ANY" H 12400 3300 50  0001 C CNN "Source"
-F 5 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 12400 3300 50  0001 C CNN "Source"
 	1    12400 3300
 	1    0    0    -1  
 $EndComp
@@ -4063,15 +4063,15 @@ F 3 "" H 12100 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x01 J27
+L Connector_Generic:Conn_02x01 J27
 U 1 1 5A5CE3A7
 P 12400 6550
 F 0 "J27" H 12450 6770 50  0000 C CNN
 F 1 "5V AUX" H 12450 6677 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 12400 6550 50  0001 C CNN
 F 3 "~" H 12400 6550 50  0001 C CNN
-F 4 "ANY" H 12400 6550 50  0001 C CNN "Source"
-F 5 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-1-hdr" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 12400 6550 50  0001 C CNN "Source"
 	1    12400 6550
 	1    0    0    -1  
 $EndComp
