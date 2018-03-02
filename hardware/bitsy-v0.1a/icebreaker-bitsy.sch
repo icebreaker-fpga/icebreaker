@@ -58,8 +58,6 @@ F 8 "xtal-sot23-5-12mhz-osc" H -350 -3600 50  0001 C CNN "Key"
 	1    1550 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1950 3150 2050 3150
 $Comp
 L pkl_device:pkl_R_Small R7
 U 1 1 5A52417F
@@ -84,10 +82,6 @@ F 3 "" H 2450 2950 50  0001 C CNN
 	1    2450 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 3050 1050 3050
-Wire Wire Line
-	1050 3050 1050 2950
 $Comp
 L power:+3V3 #PWR03
 U 1 1 5A5243FF
@@ -99,10 +93,6 @@ F 3 "" H 1050 2950 50  0001 C CNN
 	1    1050 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 3150 1050 3150
-Wire Wire Line
-	1050 3150 1050 3450
 $Comp
 L pkl_device:pkl_C_Small C4
 U 1 1 5A526171
@@ -116,13 +106,6 @@ F 5 "cap-cer-0402-100n" H -350 -3600 50  0001 C CNN "Key"
 	1    850  3250
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	850  3350 850  3450
-Wire Wire Line
-	850  3150 850  3050
-Wire Wire Line
-	850  3050 1050 3050
-Connection ~ 1050 3050
 $Comp
 L power:GND #PWR05
 U 1 1 5A52451B
@@ -134,17 +117,6 @@ F 3 "" H 950 3550 50  0001 C CNN
 	1    950  3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  3450 950  3450
-Wire Wire Line
-	950  3450 950  3550
-Connection ~ 950  3450
-Wire Wire Line
-	950  3450 1050 3450
-Wire Wire Line
-	2250 3150 2450 3150
-Wire Wire Line
-	2450 2950 2450 3150
 Text Notes 1950 3350 0    50   ~ 0
 10k or less
 $Comp
@@ -1816,8 +1788,6 @@ Wire Wire Line
 Connection ~ 1500 5200
 Text Notes 550  5050 0    50   ~ 0
 Enable Delay\n~~0.001s\nShould enable\nafter 1v2 rail\n(Test!!!)
-Wire Wire Line
-	1950 3050 2050 3050
 $Comp
 L pkl_device:pkl_R_Small R2
 U 1 1 5AAF697C
@@ -1883,7 +1853,7 @@ USB_N
 Text Label 4300 1400 0    50   ~ 0
 USB_P
 $Comp
-L conn:Conn_01x01 J21
+L Connector_Generic:Conn_01x01 J21
 U 1 1 5ACEE8F6
 P 6600 5800
 F 0 "J21" H 6680 5795 50  0000 L CNN
@@ -1895,7 +1865,7 @@ F 4 "ANY" H 6600 5800 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J22
+L Connector_Generic:Conn_01x01 J22
 U 1 1 5ACEF407
 P 6600 5900
 F 0 "J22" H 6680 5895 50  0000 L CNN
@@ -1907,7 +1877,7 @@ F 4 "ANY" H 6600 5900 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J23
+L Connector_Generic:Conn_01x01 J23
 U 1 1 5ACEF48F
 P 6600 6000
 F 0 "J23" H 6680 5995 50  0000 L CNN
@@ -1919,7 +1889,7 @@ F 4 "ANY" H 6600 6000 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J24
+L Connector_Generic:Conn_01x01 J24
 U 1 1 5ACEF519
 P 6600 6100
 F 0 "J24" H 6680 6095 50  0000 L CNN
@@ -1931,7 +1901,7 @@ F 4 "ANY" H 6600 6100 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J25
+L Connector_Generic:Conn_01x01 J25
 U 1 1 5ACEF5A5
 P 6600 6200
 F 0 "J25" H 6680 6195 50  0000 L CNN
@@ -1943,7 +1913,7 @@ F 4 "ANY" H 6600 6200 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J26
+L Connector_Generic:Conn_01x01 J26
 U 1 1 5ACEF633
 P 6600 6300
 F 0 "J26" H 6680 6295 50  0000 L CNN
@@ -1955,7 +1925,7 @@ F 4 "ANY" H 6600 6300 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J27
+L Connector_Generic:Conn_01x01 J27
 U 1 1 5ACEF6C3
 P 6600 6400
 F 0 "J27" H 6680 6395 50  0000 L CNN
@@ -1967,7 +1937,7 @@ F 4 "ANY" H 6600 6400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J28
+L Connector_Generic:Conn_01x01 J28
 U 1 1 5ACEF755
 P 6600 6500
 F 0 "J28" H 6680 6495 50  0000 L CNN
@@ -1983,7 +1953,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 6500 6300 6500
 $Comp
-L conn:Conn_01x01 J7
+L Connector_Generic:Conn_01x01 J7
 U 1 1 5AD40D83
 P 6500 1500
 F 0 "J7" H 6580 1495 50  0000 L CNN
@@ -1995,7 +1965,7 @@ F 4 "ANY" H 6500 1500 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J8
+L Connector_Generic:Conn_01x01 J8
 U 1 1 5AD4158F
 P 6500 1600
 F 0 "J8" H 6580 1595 50  0000 L CNN
@@ -2007,7 +1977,7 @@ F 4 "ANY" H 6500 1600 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J9
+L Connector_Generic:Conn_01x01 J9
 U 1 1 5AD41627
 P 6500 1700
 F 0 "J9" H 6580 1695 50  0000 L CNN
@@ -2019,7 +1989,7 @@ F 4 "ANY" H 6500 1700 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J10
+L Connector_Generic:Conn_01x01 J10
 U 1 1 5AD416C1
 P 6500 1800
 F 0 "J10" H 6580 1795 50  0000 L CNN
@@ -2031,7 +2001,7 @@ F 4 "ANY" H 6500 1800 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J11
+L Connector_Generic:Conn_01x01 J11
 U 1 1 5AD4175D
 P 6500 1900
 F 0 "J11" H 6580 1895 50  0000 L CNN
@@ -2043,7 +2013,7 @@ F 4 "ANY" H 6500 1900 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J12
+L Connector_Generic:Conn_01x01 J12
 U 1 1 5AD417FB
 P 6500 2000
 F 0 "J12" H 6580 1995 50  0000 L CNN
@@ -2055,7 +2025,7 @@ F 4 "ANY" H 6500 2000 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J13
+L Connector_Generic:Conn_01x01 J13
 U 1 1 5AD4189B
 P 6500 2100
 F 0 "J13" H 6580 2095 50  0000 L CNN
@@ -2067,7 +2037,7 @@ F 4 "ANY" H 6500 2100 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J20
+L Connector_Generic:Conn_01x01 J20
 U 1 1 5AD4193D
 P 6500 2200
 F 0 "J20" H 6580 2195 50  0000 L CNN
@@ -2095,7 +2065,7 @@ IOB_8A
 Text Label 7100 2200 2    50   ~ 0
 IOB_9B
 $Comp
-L conn:Conn_01x01 J29
+L Connector_Generic:Conn_01x01 J29
 U 1 1 5AE1DB99
 P 10000 1500
 F 0 "J29" H 10080 1495 50  0000 L CNN
@@ -2107,7 +2077,7 @@ F 4 "ANY" H 10000 1500 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J30
+L Connector_Generic:Conn_01x01 J30
 U 1 1 5AE1E029
 P 10000 1600
 F 0 "J30" H 10080 1595 50  0000 L CNN
@@ -2119,7 +2089,7 @@ F 4 "ANY" H 10000 1600 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J31
+L Connector_Generic:Conn_01x01 J31
 U 1 1 5AE1E0D1
 P 10000 1700
 F 0 "J31" H 10080 1695 50  0000 L CNN
@@ -2131,7 +2101,7 @@ F 4 "ANY" H 10000 1700 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J32
+L Connector_Generic:Conn_01x01 J32
 U 1 1 5AE1E17B
 P 10000 1800
 F 0 "J32" H 10080 1795 50  0000 L CNN
@@ -2143,7 +2113,7 @@ F 4 "ANY" H 10000 1800 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J33
+L Connector_Generic:Conn_01x01 J33
 U 1 1 5AE1E227
 P 10000 1900
 F 0 "J33" H 10080 1895 50  0000 L CNN
@@ -2155,7 +2125,7 @@ F 4 "ANY" H 10000 1900 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J34
+L Connector_Generic:Conn_01x01 J34
 U 1 1 5AE1E2D5
 P 10000 2000
 F 0 "J34" H 10080 1995 50  0000 L CNN
@@ -2167,7 +2137,7 @@ F 4 "ANY" H 10000 2000 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J35
+L Connector_Generic:Conn_01x01 J35
 U 1 1 5AE1E385
 P 10000 2100
 F 0 "J35" H 10080 2095 50  0000 L CNN
@@ -2179,7 +2149,7 @@ F 4 "ANY" H 10000 2100 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J37
+L Connector_Generic:Conn_01x01 J37
 U 1 1 5AE1E437
 P 10000 2500
 F 0 "J37" H 10080 2495 50  0000 L CNN
@@ -2191,7 +2161,7 @@ F 4 "ANY" H 10000 2500 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J41
+L Connector_Generic:Conn_01x01 J41
 U 1 1 5AE1E71F
 P 10000 2900
 F 0 "J41" H 10080 2895 50  0000 L CNN
@@ -2203,7 +2173,7 @@ F 4 "ANY" H 10000 2900 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J42
+L Connector_Generic:Conn_01x01 J42
 U 1 1 5AE1E7DB
 P 10000 3000
 F 0 "J42" H 10080 2995 50  0000 L CNN
@@ -2215,7 +2185,7 @@ F 4 "ANY" H 10000 3000 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J43
+L Connector_Generic:Conn_01x01 J43
 U 1 1 5AE1E899
 P 10000 3100
 F 0 "J43" H 10080 3095 50  0000 L CNN
@@ -2227,7 +2197,7 @@ F 4 "ANY" H 10000 3100 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J36
+L Connector_Generic:Conn_01x01 J36
 U 1 1 5AE5210D
 P 10000 2200
 F 0 "J36" H 10080 2195 50  0000 L CNN
@@ -2269,7 +2239,7 @@ USB_P
 Text Label 9400 2800 0    50   ~ 0
 USB_N
 $Comp
-L conn:Conn_01x01 J44
+L Connector_Generic:Conn_01x01 J44
 U 1 1 5AECDDB7
 P 10000 3500
 F 0 "J44" H 10080 3495 50  0000 L CNN
@@ -2281,7 +2251,7 @@ F 4 "ANY" H 10000 3500 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J45
+L Connector_Generic:Conn_01x01 J45
 U 1 1 5AECDEA1
 P 10000 3600
 F 0 "J45" H 10080 3595 50  0000 L CNN
@@ -2293,7 +2263,7 @@ F 4 "ANY" H 10000 3600 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J49
+L Connector_Generic:Conn_01x01 J49
 U 1 1 5AECDF67
 P 10200 4000
 F 0 "J49" H 10280 3995 50  0000 L CNN
@@ -2305,7 +2275,7 @@ F 4 "ANY" H 10200 4000 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J46
+L Connector_Generic:Conn_01x01 J46
 U 1 1 5AECE05B
 P 10000 4200
 F 0 "J46" H 10080 4195 50  0000 L CNN
@@ -2317,7 +2287,7 @@ F 4 "ANY" H 10000 4200 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J47
+L Connector_Generic:Conn_01x01 J47
 U 1 1 5AECE13D
 P 10000 4300
 F 0 "J47" H 10080 4295 50  0000 L CNN
@@ -2329,7 +2299,7 @@ F 4 "ANY" H 10000 4300 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J48
+L Connector_Generic:Conn_01x01 J48
 U 1 1 5AECE209
 P 10000 4400
 F 0 "J48" H 10080 4395 50  0000 L CNN
@@ -2373,7 +2343,7 @@ Wire Notes Line
 Text Notes 600  700  0    100  ~ 0
 USB
 $Comp
-L conn:Conn_01x01 J1
+L Connector_Generic:Conn_01x01 J1
 U 1 1 5B1151BE
 P 700 6200
 F 0 "J1" H 780 6195 50  0000 L CNN
@@ -2385,7 +2355,7 @@ F 4 "ANY" H 700 6200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5B14536A
 P 700 6300
 F 0 "J2" H 780 6295 50  0000 L CNN
@@ -2417,7 +2387,7 @@ F 3 "" H 1000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x01 J3
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5B1A6195
 P 700 6400
 F 0 "J3" H 780 6395 50  0000 L CNN
@@ -2429,7 +2399,7 @@ F 4 "ANY" H 700 6400 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5B1A6265
 P 700 6500
 F 0 "J4" H 780 6495 50  0000 L CNN
@@ -2441,7 +2411,7 @@ F 4 "ANY" H 700 6500 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J5
 U 1 1 5B1A6337
 P 700 6600
 F 0 "J5" H 780 6595 50  0000 L CNN
@@ -2453,7 +2423,7 @@ F 4 "ANY" H 700 6600 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5B1A640B
 P 700 6700
 F 0 "J6" H 780 6695 50  0000 L CNN
@@ -2635,4 +2605,34 @@ Text Notes 4700 6050 0    100  ~ 0
 iCE FPGA Flash\n& Prog Pins
 Wire Notes Line
 	4700 5700 4700 7700
+Wire Wire Line
+	2450 2950 2450 3150
+Wire Wire Line
+	2250 3150 2450 3150
+Wire Wire Line
+	1950 3150 2050 3150
+Wire Wire Line
+	1950 3050 2050 3050
+Wire Wire Line
+	1050 3050 1050 2950
+Wire Wire Line
+	1150 3050 1050 3050
+Connection ~ 1050 3050
+Wire Wire Line
+	850  3050 1050 3050
+Wire Wire Line
+	850  3150 850  3050
+Wire Wire Line
+	850  3350 850  3450
+Wire Wire Line
+	950  3450 950  3550
+Wire Wire Line
+	850  3450 950  3450
+Connection ~ 950  3450
+Wire Wire Line
+	950  3450 1050 3450
+Wire Wire Line
+	1050 3150 1050 3450
+Wire Wire Line
+	1150 3150 1050 3150
 $EndSCHEMATC
