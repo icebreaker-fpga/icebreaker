@@ -145,22 +145,6 @@ X shield GND 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:Oscillator
-#
-DEF pkl_device:Oscillator X 0 40 Y Y 1 F N
-F0 "X" 0 -250 60 H V C CNN
-F1 "pkl_device:Oscillator" 0 150 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -200 100 200 -200 0 1 0 N
-X ST 1 -400 0 200 R 50 50 1 1 P
-X OUT 2 -400 -100 200 R 50 50 1 1 P
-X VDD 3 400 -100 200 L 50 50 1 1 P
-X GND 4 400 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # pkl_device:pkl_C
 #
 DEF pkl_device:pkl_C C 0 10 N Y 1 F N
@@ -325,6 +309,23 @@ X GND 2 300 -100 100 L 50 50 1 1 W
 X EN 3 -300 -100 100 R 50 50 1 1 I
 X BYP 4 -300 0 100 R 50 50 1 1 w
 X OUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# pkl_device:pkl_oscillator_sit2001
+#
+DEF pkl_device:pkl_oscillator_sit2001 U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "pkl_device:pkl_oscillator_sit2001" 0 -250 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+S 400 -200 -400 200 1 1 0 N
+X GND 1 500 -100 100 L 50 50 1 1 P
+X NC 2 500 0 100 L 50 50 1 1 P
+X OE/~ST~/NC 3 500 100 100 L 50 50 1 1 P
+X VDD 4 -500 100 100 R 50 50 1 1 P
+X OUT 5 -500 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

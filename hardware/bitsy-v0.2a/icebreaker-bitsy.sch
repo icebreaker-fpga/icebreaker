@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "iCEBreaker-bitsy"
 Date ""
-Rev "V0.2a"
+Rev "V0.1a"
 Comp "1BitSquared"
 Comment1 "2018 (C) 1BitSquared <info@1bitsquared.com>"
 Comment2 "2018 (C) Piotr Esden-Tempski <piotr@esden.net>"
@@ -43,81 +43,81 @@ F 3 "" H 7100 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:Oscillator X1
+L pkl_device:pkl_oscillator_sit2001 X1
 U 1 1 5A523EA3
-P 1550 3150
-F 0 "X1" H 1550 2755 60  0000 C CNN
-F 1 "12MHz" H 1550 2865 60  0000 C CNN
-F 2 "pkl_housings_sot:SOT-23-5" H 1550 3150 60  0001 C CNN
-F 3 "https://www.sitime.com/datasheet/SiT2001" H 1550 3150 60  0001 C CNN
-F 4 "12MHz Oscillator" H 1550 3150 50  0001 C CNN "Description"
-F 5 "SiTIME" H 1550 3150 50  0001 C CNN "Manufacturer"
-F 6 "SIT2001BI-S2-33E-12.000000G" H 1550 3150 50  0001 C CNN "MFN"
-F 7 "ANY" H 1550 3150 50  0001 C CNN "Source"
-F 8 "xtal-sot23-5-12mhz-osc" H -350 -3600 50  0001 C CNN "Key"
-	1    1550 3150
-	-1   0    0    1   
+P 1750 3250
+F 0 "X1" H 1750 3600 60  0000 C CNN
+F 1 "12MHz" H 1750 3500 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-23-5" H 1750 3250 60  0001 C CNN
+F 3 "https://www.sitime.com/datasheet/SiT2001" H 1750 3250 60  0001 C CNN
+F 4 "xtal-sot23-5-12mhz-osc" H -150 -3500 50  0001 C CNN "Key"
+F 5 "12MHz Oscillator" H 1750 3250 50  0001 C CNN "Description"
+F 6 "SiTIME" H 1750 3250 50  0001 C CNN "Manufacturer"
+F 7 "SIT2001BI-S2-33E-12.000000G" H 1750 3250 50  0001 C CNN "MFN"
+F 8 "ANY" H 1750 3250 50  0001 C CNN "Source"
+	1    1750 3250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L pkl_device:pkl_R_Small R7
 U 1 1 5A52417F
-P 2150 3150
-F 0 "R7" V 2200 3300 50  0000 C CNN
-F 1 "10k" V 2200 3000 50  0000 C CNN
-F 2 "pkl_dipol:R_0402" H 2209 3057 60  0001 L CNN
-F 3 "" H 2150 3150 60  0000 C CNN
-F 4 "ANY" H 2150 3150 50  0001 C CNN "Source"
-F 5 "res-0402-10k" H -350 -3600 50  0001 C CNN "Key"
-	1    2150 3150
-	0    1    1    0   
+P 1050 3150
+F 0 "R7" V 1100 3300 50  0000 C CNN
+F 1 "10k" V 1100 3000 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" H 1109 3057 60  0001 L CNN
+F 3 "" H 1050 3150 60  0000 C CNN
+F 4 "ANY" H 1050 3150 50  0001 C CNN "Source"
+F 5 "res-0402-10k" H -1450 -3600 50  0001 C CNN "Key"
+	1    1050 3150
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR02
 U 1 1 5A524395
-P 2450 2950
-F 0 "#PWR02" H 2450 2800 50  0001 C CNN
-F 1 "+3V3" H 2465 3126 50  0000 C CNN
-F 2 "" H 2450 2950 50  0001 C CNN
-F 3 "" H 2450 2950 50  0001 C CNN
-	1    2450 2950
+P 2350 3050
+F 0 "#PWR02" H 2350 2900 50  0001 C CNN
+F 1 "+3V3" H 2365 3226 50  0000 C CNN
+F 2 "" H 2350 3050 50  0001 C CNN
+F 3 "" H 2350 3050 50  0001 C CNN
+	1    2350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR03
 U 1 1 5A5243FF
-P 1050 2950
-F 0 "#PWR03" H 1050 2800 50  0001 C CNN
-F 1 "+3V3" H 1065 3126 50  0000 C CNN
-F 2 "" H 1050 2950 50  0001 C CNN
-F 3 "" H 1050 2950 50  0001 C CNN
-	1    1050 2950
+P 850 3050
+F 0 "#PWR03" H 850 2900 50  0001 C CNN
+F 1 "+3V3" H 865 3226 50  0000 C CNN
+F 2 "" H 850 3050 50  0001 C CNN
+F 3 "" H 850 3050 50  0001 C CNN
+	1    850  3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L pkl_device:pkl_C_Small C4
 U 1 1 5A526171
-P 850 3250
-F 0 "C4" H 942 3297 50  0000 L CNN
-F 1 "100n" H 942 3204 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 942 3157 60  0001 L CNN
-F 3 "" H 850 3250 60  0000 C CNN
-F 4 "ANY" H 850 3250 50  0001 C CNN "Source"
-F 5 "cap-cer-0402-100n" H -350 -3600 50  0001 C CNN "Key"
-	1    850  3250
-	-1   0    0    -1  
+P 2350 3550
+F 0 "C4" H 2442 3597 50  0000 L CNN
+F 1 "100n" H 2442 3504 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2442 3457 60  0001 L CNN
+F 3 "" H 2350 3550 60  0000 C CNN
+F 4 "ANY" H 2350 3550 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 1150 -3300 50  0001 C CNN "Key"
+	1    2350 3550
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5A52451B
-P 950 3550
-F 0 "#PWR05" H 950 3300 50  0001 C CNN
-F 1 "GND" H 955 3374 50  0000 C CNN
-F 2 "" H 950 3550 50  0001 C CNN
-F 3 "" H 950 3550 50  0001 C CNN
-	1    950  3550
+P 1150 3750
+F 0 "#PWR05" H 1150 3500 50  0001 C CNN
+F 1 "GND" H 1155 3574 50  0000 C CNN
+F 2 "" H 1150 3750 50  0001 C CNN
+F 3 "" H 1150 3750 50  0001 C CNN
+	1    1150 3750
 	1    0    0    -1  
 $EndComp
-Text Notes 1950 3350 0    50   ~ 0
+Text Notes 650  3300 0    50   ~ 0
 10k or less
 $Comp
 L pkl_conn:pkl_USB_OTG P1
@@ -770,7 +770,7 @@ Text Label 9300 3900 0    50   ~ 0
 FLASH_~WP~/IO2
 Text Label 9300 4100 0    50   ~ 0
 FLASH_~HLD~/~RST~/IO3
-Text Label 2050 3050 0    50   ~ 0
+Text Label 2450 3350 0    50   ~ 0
 CLK
 Text Label 9400 2400 0    50   ~ 0
 CLK
@@ -2606,33 +2606,36 @@ iCE FPGA Flash\n& Prog Pins
 Wire Notes Line
 	4700 5700 4700 7700
 Wire Wire Line
-	1950 3050 2050 3050
+	2250 3350 2450 3350
 Wire Wire Line
-	1050 3050 1050 2950
+	2250 3150 2350 3150
 Wire Wire Line
-	850  3150 850  3050
+	2350 3150 2350 3050
 Wire Wire Line
-	850  3050 1050 3050
-Connection ~ 1050 3050
+	2350 3150 2350 3450
+Connection ~ 2350 3150
 Wire Wire Line
-	1150 3050 1050 3050
+	2350 3650 2350 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5B81576B
+P 2350 3750
+F 0 "#PWR?" H 2350 3500 50  0001 C CNN
+F 1 "GND" H 2355 3574 50  0000 C CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1150 3150 1050 3150
+	1250 3350 1150 3350
 Wire Wire Line
-	850  3350 850  3450
+	1150 3350 1150 3750
 Wire Wire Line
-	950  3450 950  3550
+	850  3050 850  3150
 Wire Wire Line
-	850  3450 950  3450
-Connection ~ 950  3450
+	850  3150 950  3150
 Wire Wire Line
-	950  3450 1050 3450
-Wire Wire Line
-	1050 3150 1050 3450
-Wire Wire Line
-	2250 3150 2450 3150
-Wire Wire Line
-	2450 2950 2450 3150
-Wire Wire Line
-	1950 3150 2050 3150
+	1150 3150 1250 3150
+NoConn ~ 1250 3250
 $EndSCHEMATC
