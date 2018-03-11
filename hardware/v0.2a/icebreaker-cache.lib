@@ -529,6 +529,19 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pkl_misc_PAD_SMD
+#
+DEF pkl_misc_PAD_SMD P 0 40 Y N 1 F N
+F0 "P" 0 -150 60 H V C CNN
+F1 "pkl_misc_PAD_SMD" 0 150 60 H V C CNN
+F2 "" 0 -250 60 H V C CNN
+F3 "" 0 -150 60 H V C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+X PAD 1 -200 0 150 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # pkl_misc_TACT
 #
 DEF pkl_misc_TACT SW 0 40 N N 1 F N
