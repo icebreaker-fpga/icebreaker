@@ -2828,7 +2828,7 @@
       (net 74 "Net-(C24-Pad1)"))
     (pad 2 smd roundrect (at 0.75 0 45) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25)
       (net 28 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3302,12 +3302,7 @@
       (net 96 "Net-(C35-Pad1)"))
     (pad A smd roundrect (at 0.75 0 135) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25)
       (net 4 +3V3))
-    (model LEDs.3dshapes/LED_0603.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_0603.wrl
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
