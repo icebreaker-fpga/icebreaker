@@ -1619,10 +1619,10 @@ U 1 1 5BD3E874
 P 8400 5400
 F 0 "J1" H 8450 6020 50  0000 C CNN
 F 1 "Conn" H 8450 5927 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 8400 5400 50  0001 C CNN
+F 2 "pkl_samtec:FTSH-EDGE-20pin" H 8400 5400 50  0001 C CNN
 F 3 "~" H 8400 5400 50  0001 C CNN
-F 4 "ANY" H 8400 5400 50  0001 C CNN "Source"
-F 5 "conn-th-01in-2-10-hdr-ra" H 100 0   50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-10-hdr-ra" H 100 0   50  0001 C CNN "Key"
+F 5 "ANY" H 8400 5400 50  0001 C CNN "Source"
 	1    8400 5400
 	-1   0    0    1   
 $EndComp
