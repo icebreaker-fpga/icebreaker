@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "ftdi breakout"
 Date ""
-Rev "V0.2a"
+Rev "V1.0a"
 Comp "1BitSquared"
 Comment1 "2018 (C) 1BitSquared <info@1bitsquared.com>"
 Comment2 "2018 (C) Piotr Esden-Tempski <piotr@esden.net>"
@@ -1616,15 +1616,15 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 5BD3E874
-P 8400 5400
-F 0 "J1" H 8450 6020 50  0000 C CNN
-F 1 "Conn" H 8450 5927 50  0000 C CNN
-F 2 "pkl_samtec:FTSH-EDGE-20pin" H 8400 5400 50  0001 C CNN
-F 3 "~" H 8400 5400 50  0001 C CNN
-F 4 "conn-th-01in-2-10-hdr-ra" H 100 0   50  0001 C CNN "Key"
-F 5 "ANY" H 8400 5400 50  0001 C CNN "Source"
-	1    8400 5400
-	-1   0    0    1   
+P 8300 5300
+F 0 "J1" H 8350 5920 50  0000 C CNN
+F 1 "Conn" H 8350 5827 50  0000 C CNN
+F 2 "pkl_samtec:FTSH-EDGE-20pin" H 8300 5300 50  0001 C CNN
+F 3 "~" H 8300 5300 50  0001 C CNN
+F 4 "conn-th-01in-2-10-hdr-ra" H 0   -100 50  0001 C CNN "Key"
+F 5 "ANY" H 8300 5300 50  0001 C CNN "Source"
+	1    8300 5300
+	1    0    0    -1  
 $EndComp
 Text Label 7900 5000 2    50   ~ 0
 ADBUS0
