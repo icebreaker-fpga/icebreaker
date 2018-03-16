@@ -466,7 +466,7 @@ ACBUS9
 Text Notes 2450 5250 0    50   ~ 0
 ACBUS8
 Text Notes 2450 5150 0    50   ~ 0
-~WRSAV
+~PWRSAV
 Text Notes 2450 5050 0    50   ~ 0
 ACBUS6
 Text Notes 2450 4950 0    50   ~ 0

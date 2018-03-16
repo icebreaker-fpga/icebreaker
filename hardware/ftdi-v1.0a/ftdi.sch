@@ -1274,7 +1274,7 @@ ACBUS5
 Text Notes 6650 4200 0    50   ~ 0
 ACBUS6
 Text Notes 6650 4300 0    50   ~ 0
-~WRSAV
+~PWRSAV
 Text Notes 6650 4400 0    50   ~ 0
 ACBUS8
 Text Notes 6650 4500 0    50   ~ 0
