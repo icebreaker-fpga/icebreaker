@@ -547,7 +547,7 @@ U 1 1 5AB98614
 P 5000 1700
 F 0 "J4" H 4950 2000 50  0000 L CNN
 F 1 "PMOD" H 4850 2100 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5000 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 5000 1700 50  0001 C CNN
 F 3 "~" H 5000 1700 50  0001 C CNN
 F 4 "ANY" H 5000 1700 50  0001 C CNN "Source"
 	1    5000 1700
@@ -562,13 +562,13 @@ Wire Wire Line
 Wire Wire Line
 	4800 1800 4600 1800
 Wire Wire Line
-	4800 2000 4700 2000
+	4800 1900 4700 1900
 Text Label 4600 1600 2    50   ~ 0
 DO
 Text Label 4600 1700 2    50   ~ 0
 DI
 Wire Wire Line
-	4700 2000 4700 2100
+	4700 1900 4700 2100
 $Comp
 L power:GND #PWR0103
 U 1 1 5AB9BCCE
@@ -590,7 +590,7 @@ Text Notes 4450 1500 2    50   ~ 0
 CS
 Text Label 4600 1800 2    50   ~ 0
 SK
-NoConn ~ 4800 1900
+NoConn ~ 4800 2000
 Text Label 4600 1500 2    50   ~ 0
 CS
 Wire Wire Line
@@ -598,9 +598,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 1600 5400 1600
 Wire Wire Line
-	5300 2000 5400 2000
+	5300 1900 5400 1900
 Wire Wire Line
-	5400 2000 5400 2100
+	5400 1900 5400 2100
 $Comp
 L power:GND #PWR0104
 U 1 1 5AAB3559
@@ -612,7 +612,7 @@ F 3 "" H 5400 2100 50  0001 C CNN
 	1    5400 2100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 1900
+NoConn ~ 5300 2000
 NoConn ~ 5300 1700
 NoConn ~ 5300 1800
 Text Label 5400 1500 0    50   ~ 0
