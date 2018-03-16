@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ftdi-pmod-spi-cache
+LIBS:ftdi-pmod-uart-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -342,7 +342,7 @@ ACBUS5
 Text Label 2600 2100 2    50   ~ 0
 ACBUS6
 Text Label 3500 2100 0    50   ~ 0
-~WRSAV
+~PWRSAV
 Text Label 2600 2200 2    50   ~ 0
 ACBUS8
 Text Label 3500 2200 0    50   ~ 0
@@ -466,7 +466,7 @@ ACBUS9
 Text Notes 2450 5250 0    50   ~ 0
 ACBUS8
 Text Notes 2450 5150 0    50   ~ 0
-~WRSAV
+~PWRSAV
 Text Notes 2450 5050 0    50   ~ 0
 ACBUS6
 Text Notes 2450 4950 0    50   ~ 0
@@ -542,12 +542,12 @@ Wire Notes Line
 Wire Wire Line
 	2700 1300 2700 2400
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L Connector_Generic:Conn_02x06_Odd_Even J4
 U 1 1 5AB98614
 P 5000 1700
 F 0 "J4" H 4950 2000 50  0000 L CNN
-F 1 "Prog" H 4850 2100 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5000 1700 50  0001 C CNN
+F 1 "PMOD" H 4850 2100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 5000 1700 50  0001 C CNN
 F 3 "~" H 5000 1700 50  0001 C CNN
 F 4 "ANY" H 5000 1700 50  0001 C CNN "Source"
 	1    5000 1700
@@ -562,13 +562,13 @@ Wire Wire Line
 Wire Wire Line
 	4800 1800 4600 1800
 Wire Wire Line
-	4800 2000 4700 2000
-Text Label 4600 1600 2    50   ~ 0
+	4800 1900 4700 1900
+Text Label 4600 1500 2    50   ~ 0
 ~RTS
-Text Label 4600 1700 2    50   ~ 0
+Text Label 4600 1600 2    50   ~ 0
 RXD
 Wire Wire Line
-	4700 2000 4700 2100
+	4700 1900 4700 2100
 $Comp
 L power:GND #PWR0103
 U 1 1 5AB9BCCE
@@ -580,9 +580,37 @@ F 3 "" H 4700 2100 50  0001 C CNN
 	1    4700 2100
 	1    0    0    -1  
 $EndComp
-Text Label 4600 1800 2    50   ~ 0
+Text Label 4600 1700 2    50   ~ 0
 TXD
-NoConn ~ 4800 1900
-Text Label 4600 1500 2    50   ~ 0
+NoConn ~ 4800 2000
+Text Label 4600 1800 2    50   ~ 0
 ~CTS
+Text Notes 4450 1150 0    50   ~ 0
+PMOD Interface Type 4 (UART)
+Wire Wire Line
+	5300 1500 5400 1500
+Wire Wire Line
+	5300 1600 5400 1600
+Wire Wire Line
+	5300 1900 5400 1900
+Wire Wire Line
+	5400 1900 5400 2100
+$Comp
+L power:GND #PWR0104
+U 1 1 5AAB5F9F
+P 5400 2100
+F 0 "#PWR0104" H 5400 1850 50  0001 C CNN
+F 1 "GND" H 5405 1924 50  0000 C CNN
+F 2 "" H 5400 2100 50  0001 C CNN
+F 3 "" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 1700
+NoConn ~ 5300 1800
+NoConn ~ 5300 2000
+Text Label 5400 1600 0    50   ~ 0
+ACBUS1
+Text Label 5400 1500 0    50   ~ 0
+ACBUS2
 $EndSCHEMATC
