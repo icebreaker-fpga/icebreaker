@@ -542,12 +542,12 @@ Wire Notes Line
 Wire Wire Line
 	2700 1300 2700 2400
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L Connector_Generic:Conn_02x06_Odd_Even J4
 U 1 1 5AB98614
 P 5000 1700
 F 0 "J4" H 4950 2000 50  0000 L CNN
-F 1 "Prog" H 4850 2100 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5000 1700 50  0001 C CNN
+F 1 "PMOD" H 4850 2100 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5000 1700 50  0001 C CNN
 F 3 "~" H 5000 1700 50  0001 C CNN
 F 4 "ANY" H 5000 1700 50  0001 C CNN "Source"
 	1    5000 1700
@@ -580,17 +580,47 @@ F 3 "" H 4700 2100 50  0001 C CNN
 	1    4700 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 5100 1600 0    50   ~ 0
+Text Notes 4450 1600 2    50   ~ 0
 MOSI
-Text Notes 5100 1700 0    50   ~ 0
+Text Notes 4450 1700 2    50   ~ 0
 MISO
-Text Notes 5100 1800 0    50   ~ 0
+Text Notes 4450 1800 2    50   ~ 0
 SCK
-Text Notes 5100 1500 0    50   ~ 0
+Text Notes 4450 1500 2    50   ~ 0
 CS
 Text Label 4600 1800 2    50   ~ 0
 SK
 NoConn ~ 4800 1900
 Text Label 4600 1500 2    50   ~ 0
 CS
+Wire Wire Line
+	5300 1500 5400 1500
+Wire Wire Line
+	5300 1600 5400 1600
+Wire Wire Line
+	5300 2000 5400 2000
+Wire Wire Line
+	5400 2000 5400 2100
+$Comp
+L power:GND #PWR0104
+U 1 1 5AAB3559
+P 5400 2100
+F 0 "#PWR0104" H 5400 1850 50  0001 C CNN
+F 1 "GND" H 5405 1924 50  0000 C CNN
+F 2 "" H 5400 2100 50  0001 C CNN
+F 3 "" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 1900
+NoConn ~ 5300 1700
+NoConn ~ 5300 1800
+Text Label 5400 1500 0    50   ~ 0
+GPIOL0
+Text Label 5400 1600 0    50   ~ 0
+GPIOL1
+Text Notes 5700 1500 0    50   ~ 0
+INT
+Text Notes 5700 1600 0    50   ~ 0
+RST
 $EndSCHEMATC
