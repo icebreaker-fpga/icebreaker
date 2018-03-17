@@ -1,7 +1,7 @@
 (kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-dev-unknown-c6ef0d5~62~ubuntu16.04.1)
 
   (general
-    (thickness 1.6)
+    (thickness 0.8)
     (drawings 44)
     (tracks 345)
     (zones 0)
@@ -1432,7 +1432,7 @@
   (gr_text "CC-BY-SA 4.0" (at 39.5 38.5) (layer B.SilkS) (tstamp 5AAADA9D)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left mirror))
   )
-  (gr_text "FT232H Breakout\nV1.0a" (at 49.7 47.6 270) (layer B.SilkS) (tstamp 5AAADA8E)
+  (gr_text "FT232H USBtoX\nMultitool Breakout\nV1.0a" (at 49.7 47.6 270) (layer B.SilkS) (tstamp 5AAADA8E)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
   (gr_text GND (at 33.165 51.31) (layer B.SilkS) (tstamp 5AAADA7C)
@@ -1527,7 +1527,7 @@
   (gr_text GND (at 59.43 53.215) (layer F.SilkS) (tstamp 5AAACE61)
     (effects (font (size 0.9 0.9) (thickness 0.225)) (justify right))
   )
-  (gr_text "FT232H Breakout V1.0a" (at 31.3 56.6) (layer F.SilkS) (tstamp 5AA91FE1)
+  (gr_text "FT232H USBtoX\nMultitool Breakout V1.0a" (at 30.8 55.6) (layer F.SilkS) (tstamp 5AA91FE1)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
   (gr_line (start 47 33.4) (end 47 61.5) (layer Dwgs.User) (width 0.2) (tstamp 5AA7B405))
