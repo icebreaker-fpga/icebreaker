@@ -4749,4 +4749,8 @@ F 4 "ANY" H 2300 3850 50  0001 C CNN "Source"
 	1    2300 3850
 	0    -1   -1   0   
 $EndComp
+Text Label 3100 4250 2    50   ~ 0
+USB_DM
+Text Label 3100 4350 2    50   ~ 0
+USB_DP
 $EndSCHEMATC
