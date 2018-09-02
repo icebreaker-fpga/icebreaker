@@ -31,7 +31,7 @@ we need to be compatible with their firmware upload tools.
 
 * QSPI-DDR-capable flash 128 MBit (16 MB)
   * We selected to use the Winbond
-    [W25Q128JVSIM](https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf)
+    [W25Q128JVSIM](http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf)
   * We want to enable projects that access the flash and we want to provide the
     highest flash access speed possible.
 
