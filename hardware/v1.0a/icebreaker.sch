@@ -888,10 +888,11 @@ F 0 "U1" H 1300 6320 50  0000 C CNN
 F 1 "93C46B-SOT-23-6" H 1300 6227 50  0000 C CNN
 F 2 "pkl_housings_sot:SOT-23-6" H 1300 5600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1300 5950 50  0001 C CNN
-F 4 "EEPROM 1KBit 2MHz SOT-23-6" H 1300 5950 50  0001 C CNN "Description"
-F 5 "93C46B" H 1300 5950 50  0001 C CNN "MFN"
-F 6 "ANY" H 1300 5950 50  0001 C CNN "Source"
-F 7 "eeprom-sot23-6-93c46b" H 0   0   50  0001 C CNN "Key"
+F 4 "eeprom-sot23-6-93c46b" H 0   0   50  0001 C CNN "Key"
+F 5 "EEPROM 1KBit 2MHz SOT-23-6" H 1300 5950 50  0001 C CNN "Description"
+F 6 "93C46B" H 1300 5950 50  0001 C CNN "MFN"
+F 7 "ANY" H 1300 5950 50  0001 C CNN "Source"
+F 8 "YES" H 1300 5950 50  0001 C CNN "DNP"
 	1    1300 5950
 	1    0    0    -1  
 $EndComp
@@ -931,8 +932,9 @@ F 0 "C1" H 650 6000 50  0000 L CNN
 F 1 "100n" H 600 5850 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 892 5857 60  0001 L CNN
 F 3 "" H 800 5950 60  0000 C CNN
-F 4 "ANY" H 800 5950 50  0001 C CNN "Source"
-F 5 "cap-cer-0402-100n" H 100 -200 50  0001 C CNN "Key"
+F 4 "cap-cer-0402-100n" H 100 -200 50  0001 C CNN "Key"
+F 5 "ANY" H 800 5950 50  0001 C CNN "Source"
+F 6 "YES" H 800 5950 50  0001 C CNN "DNP"
 	1    800  5950
 	-1   0    0    -1  
 $EndComp
@@ -950,8 +952,9 @@ F 0 "R6" V 2250 6300 50  0000 C CNN
 F 1 "2k2" V 2250 6000 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2259 6057 60  0001 L CNN
 F 3 "" H 2200 6150 60  0000 C CNN
-F 4 "ANY" H 2200 6150 50  0001 C CNN "Source"
-F 5 "res-0402-2k2" H -300 0   50  0001 C CNN "Key"
+F 4 "res-0402-2k2" H -300 0   50  0001 C CNN "Key"
+F 5 "ANY" H 2200 6150 50  0001 C CNN "Source"
+F 6 "YES" H 2200 6150 50  0001 C CNN "DNP"
 	1    2200 6150
 	0    1    1    0   
 $EndComp
@@ -3857,8 +3860,9 @@ F 0 "R2" V 1850 5450 50  0000 C CNN
 F 1 "10k" V 1850 5750 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 1900 5600 60  0001 C CNN
 F 3 "" H 1900 5600 60  0000 C CNN
-F 4 "ANY" H 1900 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -100 -50 50  0001 C CNN "Key"
+F 4 "res-0402cv-array-4-10k" H -100 -50 50  0001 C CNN "Key"
+F 5 "ANY" H 1900 5600 50  0001 C CNN "Source"
+F 6 "YES" H 1900 5600 50  0001 C CNN "DNP"
 	1    1900 5600
 	1    0    0    1   
 $EndComp
@@ -3870,8 +3874,9 @@ F 0 "R2" V 1750 5450 50  0000 C CNN
 F 1 "10k" V 1750 5750 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 1800 5600 60  0001 C CNN
 F 3 "" H 1800 5600 60  0000 C CNN
-F 4 "ANY" H 1800 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H 0   -50 50  0001 C CNN "Key"
+F 4 "res-0402cv-array-4-10k" H 0   -50 50  0001 C CNN "Key"
+F 5 "ANY" H 1800 5600 50  0001 C CNN "Source"
+F 6 "YES" H 1800 5600 50  0001 C CNN "DNP"
 	2    1800 5600
 	1    0    0    1   
 $EndComp
@@ -3883,8 +3888,9 @@ F 0 "R2" V 1950 5450 50  0000 C CNN
 F 1 "10k" V 1950 5750 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2000 5600 60  0001 C CNN
 F 3 "" H 2000 5600 60  0000 C CNN
-F 4 "ANY" H 2000 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -200 -50 50  0001 C CNN "Key"
+F 4 "res-0402cv-array-4-10k" H -200 -50 50  0001 C CNN "Key"
+F 5 "ANY" H 2000 5600 50  0001 C CNN "Source"
+F 6 "YES" H 2000 5600 50  0001 C CNN "DNP"
 	3    2000 5600
 	1    0    0    1   
 $EndComp
@@ -4697,4 +4703,6 @@ Wire Wire Line
 	4900 5250 6000 5250
 Wire Wire Line
 	5800 6750 5800 7050
+Text Notes 550  5500 0    50   ~ 0
+Optional:\nWe are not programming the\nFTDI flash. We will keep the\nfootprint but will not populate.
 $EndSCHEMATC
