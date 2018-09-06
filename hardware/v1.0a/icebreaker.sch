@@ -196,10 +196,6 @@ F 5 "conn-smd-usb-micro-b" H -600 0   50  0001 C CNN "Key"
 	1    1100 4350
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1400 4250 1900 4250
-Wire Wire Line
-	1400 4350 2100 4350
 NoConn ~ 1400 4450
 Wire Wire Line
 	1400 4550 1500 4550
@@ -299,10 +295,6 @@ F 5 "res-0402-10k" H 0   0   50  0001 C CNN "Key"
 $EndComp
 Wire Wire Line
 	3100 4750 3000 4750
-Wire Wire Line
-	2800 4750 2700 4750
-Wire Wire Line
-	2700 4750 2700 4150
 $Comp
 L power:+3V3 #PWR09
 U 1 1 5A5357CD
@@ -408,10 +400,6 @@ F 6 "res-0402-12k" H 0   0   50  0001 C CNN "Key"
 	1    2900 4550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2800 4550 2600 4550
-Wire Wire Line
-	2600 4550 2600 4950
 Wire Wire Line
 	3000 4550 3100 4550
 Text Notes 3000 4500 0    50   ~ 0
@@ -951,11 +939,6 @@ $EndComp
 Wire Wire Line
 	700  6350 800  6350
 Wire Wire Line
-	800  6350 800  6450
-Wire Wire Line
-	700  5850 700  6050
-Connection ~ 700  5850
-Wire Wire Line
 	1700 5850 1800 5850
 Wire Wire Line
 	1700 6050 2700 6050
@@ -1057,9 +1040,9 @@ NoConn ~ 5500 4550
 NoConn ~ 5500 4650
 NoConn ~ 5500 4750
 NoConn ~ 5500 4850
-Text Label 6150 4900 0    50   ~ 0
+Text Label 6200 5050 0    50   ~ 0
 Rx_TTL|FIFO_D0
-Text Label 6150 5050 0    50   ~ 0
+Text Label 6200 5150 0    50   ~ 0
 Tx_TTL|FIFO_D1
 Wire Wire Line
 	5500 5250 6200 5250
@@ -1106,7 +1089,7 @@ Wire Wire Line
 Text Label 5600 6350 0    50   ~ 0
 xFIFO_WKUP
 $Comp
-L pkl_misc:Jumper J3
+L pkl_misc:pkl_jumper J3
 U 1 1 5A785136
 P 6300 5250
 F 0 "J3" H 6150 5300 60  0000 C CNN
@@ -1118,7 +1101,7 @@ F 4 "ANY" H 6300 5250 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J4
+L pkl_misc:pkl_jumper J4
 U 1 1 5A785655
 P 6300 5350
 F 0 "J4" H 6150 5400 60  0000 C CNN
@@ -1130,7 +1113,7 @@ F 4 "ANY" H 6300 5350 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J5
+L pkl_misc:pkl_jumper J5
 U 1 1 5A7856A7
 P 6300 5450
 F 0 "J5" H 6150 5500 60  0000 C CNN
@@ -1142,7 +1125,7 @@ F 4 "ANY" H 6300 5450 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J6
+L pkl_misc:pkl_jumper J6
 U 1 1 5A7856FB
 P 6300 5550
 F 0 "J6" H 6150 5600 60  0000 C CNN
@@ -1154,7 +1137,7 @@ F 4 "ANY" H 6300 5550 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J7
+L pkl_misc:pkl_jumper J7
 U 1 1 5A785751
 P 6300 5650
 F 0 "J7" H 6150 5700 60  0000 C CNN
@@ -1166,7 +1149,7 @@ F 4 "ANY" H 6300 5650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J8
+L pkl_misc:pkl_jumper J8
 U 1 1 5A7857A9
 P 6300 5750
 F 0 "J8" H 6150 5800 60  0000 C CNN
@@ -1178,7 +1161,7 @@ F 4 "ANY" H 6300 5750 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J9
+L pkl_misc:pkl_jumper J9
 U 1 1 5A785803
 P 6300 5950
 F 0 "J9" H 6150 6000 60  0000 C CNN
@@ -1190,7 +1173,7 @@ F 4 "ANY" H 6300 5950 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J10
+L pkl_misc:pkl_jumper J10
 U 1 1 5A785863
 P 6300 6050
 F 0 "J10" H 6150 6100 60  0000 C CNN
@@ -1202,7 +1185,7 @@ F 4 "ANY" H 6300 6050 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J11
+L pkl_misc:pkl_jumper J11
 U 1 1 5A7858C1
 P 6300 6150
 F 0 "J11" H 6150 6200 60  0000 C CNN
@@ -1214,7 +1197,7 @@ F 4 "ANY" H 6300 6150 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J12
+L pkl_misc:pkl_jumper J12
 U 1 1 5A785921
 P 6300 6250
 F 0 "J12" H 6150 6300 60  0000 C CNN
@@ -1226,7 +1209,7 @@ F 4 "ANY" H 6300 6250 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J13
+L pkl_misc:pkl_jumper J13
 U 1 1 5A785983
 P 6300 6350
 F 0 "J13" H 6150 6400 60  0000 C CNN
@@ -1399,19 +1382,6 @@ Wire Wire Line
 	7650 6200 7550 6200
 Connection ~ 7550 5700
 Wire Wire Line
-	7150 5700 7150 5550
-$Comp
-L power:+1V2 #PWR037
-U 1 1 5A8E4E6A
-P 7150 5550
-F 0 "#PWR037" H 7150 5400 50  0001 C CNN
-F 1 "+1V2" H 7165 5726 50  0000 C CNN
-F 2 "" H 7150 5550 50  0001 C CNN
-F 3 "" H 7150 5550 50  0001 C CNN
-	1    7150 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	8600 5600 8500 5600
 Wire Wire Line
 	7800 4800 7800 5100
@@ -1517,11 +1487,6 @@ Text Label 10800 4000 0    50   ~ 0
 ~LED_GRN
 Text Label 10800 3900 0    50   ~ 0
 ~LED_RED
-Wire Wire Line
-	800  6150 800  6350
-Connection ~ 800  6350
-Wire Wire Line
-	700  6250 700  6350
 Text Notes 550  1700 0    100  ~ 0
 FTDI Programmer/UART/FIFO
 $Comp
@@ -1611,31 +1576,19 @@ iCE_MOSI
 Text Label 8500 4400 2    50   ~ 0
 iCE_MISO
 $Comp
-L pkl_misc:Jumper J18
+L pkl_misc:pkl_jumper_nc J18
 U 1 1 5AA93E10
-P 9100 7750
-F 0 "J18" H 9100 7850 60  0000 C CNN
-F 1 "Jumper" H 9100 7895 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 9100 7750 60  0001 C CNN
-F 3 "" H 9100 7750 60  0000 C CNN
-F 4 "ANY" H 9100 7750 50  0001 C CNN "Source"
-	1    9100 7750
+P 9500 7750
+F 0 "J18" H 9500 7850 60  0000 C CNN
+F 1 "Jumper" H 9500 7895 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_15" H 9500 7750 60  0001 C CNN
+F 3 "" H 9500 7750 60  0000 C CNN
+F 4 "ANY" H 9500 7750 50  0001 C CNN "Source"
+	1    9500 7750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 7750 9250 7750
-Text Label 9300 7750 0    50   ~ 0
+Text Label 9700 7750 0    50   ~ 0
 iCE_SS_B
-Wire Wire Line
-	9250 7750 9250 7800
-Wire Wire Line
-	8950 7800 8950 7750
-Connection ~ 9250 7750
-Connection ~ 8950 7750
-Wire Wire Line
-	8950 7750 9000 7750
-Wire Wire Line
-	9250 7800 8950 7800
 Text Label 9300 8050 0    50   ~ 0
 FLASH_MISO|IO1
 Text Label 9300 7950 0    50   ~ 0
@@ -1667,14 +1620,10 @@ F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 7750 9300 7750
-Wire Wire Line
 	8500 7850 8700 7850
 Wire Wire Line
 	8600 7500 8600 7750
 Connection ~ 8600 7750
-Wire Wire Line
-	8600 7750 8950 7750
 Wire Wire Line
 	8700 7500 8700 7850
 Connection ~ 8700 7850
@@ -1757,63 +1706,31 @@ FLASH_~HLD~|~RST~|IO3
 Text Notes 7500 8500 0    50   ~ 0
 J18: Remove jumper when only programming iCE\nReplace jumper for programming Flash and for normal operation
 $Comp
-L pkl_misc:Jumper J15
+L pkl_misc:pkl_jumper_nc J15
 U 1 1 5AC840EE
 P 8250 8750
 F 0 "J15" H 8050 8800 60  0000 C CNN
 F 1 "Jumper" H 8250 8895 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 8250 8750 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_15" H 8250 8750 60  0001 C CNN
 F 3 "" H 8250 8750 60  0000 C CNN
 F 4 "ANY" H 8250 8750 50  0001 C CNN "Source"
 	1    8250 8750
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_misc:Jumper J16
+L pkl_misc:pkl_jumper_nc J16
 U 1 1 5AC847B4
 P 8250 8950
 F 0 "J16" H 8050 9000 60  0000 C CNN
 F 1 "Jumper" H 8250 9095 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 8250 8950 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_15" H 8250 8950 60  0001 C CNN
 F 3 "" H 8250 8950 60  0000 C CNN
 F 4 "ANY" H 8250 8950 50  0001 C CNN "Source"
 	1    8250 8950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 8750 8100 8750
-Wire Wire Line
-	8350 8750 8400 8750
-Wire Wire Line
-	8350 8950 8400 8950
-Wire Wire Line
-	8150 8950 8100 8950
 Text Label 7950 8750 2    50   ~ 0
 FLASH_MOSI|IO0
-Wire Wire Line
-	8100 8750 8100 8800
-Wire Wire Line
-	8100 8800 8400 8800
-Wire Wire Line
-	8400 8800 8400 8750
-Connection ~ 8100 8750
-Wire Wire Line
-	8100 8750 7950 8750
-Connection ~ 8400 8750
-Wire Wire Line
-	8400 8750 8550 8750
-Wire Wire Line
-	8100 8950 8100 9000
-Wire Wire Line
-	8100 9000 8400 9000
-Wire Wire Line
-	8400 9000 8400 8950
-Connection ~ 8100 8950
-Wire Wire Line
-	8100 8950 7950 8950
-Connection ~ 8400 8950
-Wire Wire Line
-	8400 8950 8550 8950
 Text Label 7950 8950 2    50   ~ 0
 iCE_MOSI
 Text Label 8550 8750 0    50   ~ 0
@@ -1863,12 +1780,12 @@ FTDI_CLK
 Wire Wire Line
 	10600 2300 10700 2300
 $Comp
-L pkl_misc:Jumper J17
+L pkl_misc:pkl_jumper_nc J17
 U 1 1 5AEE1775
 P 8500 2000
 F 0 "J17" V 8500 2090 60  0000 L CNN
 F 1 "Jumper" H 8500 2145 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 8500 2000 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_30" H 8500 2000 60  0001 C CNN
 F 3 "" H 8500 2000 60  0000 C CNN
 F 4 "ANY" H 8500 2000 50  0001 C CNN "Source"
 	1    8500 2000
@@ -1876,8 +1793,6 @@ F 4 "ANY" H 8500 2000 50  0001 C CNN "Source"
 $EndComp
 Wire Wire Line
 	8600 2300 8500 2300
-Wire Wire Line
-	8500 2100 8500 2150
 $Comp
 L power:+3V3 #PWR043
 U 1 1 5AF06EDA
@@ -1889,10 +1804,6 @@ F 3 "" H 8500 1800 50  0001 C CNN
 	1    8500 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8500 1850 8500 1900
-Wire Wire Line
-	8500 2150 8500 2300
 $Comp
 L pkl_device:pkl_C_Small C27
 U 1 1 5AF1A44D
@@ -1906,8 +1817,6 @@ F 5 "cap-cer-0402-100n" H 0   0   50  0001 C CNN "Key"
 	1    8000 2500
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	8500 1800 8500 1850
 $Comp
 L power:GND #PWR044
 U 1 1 5AF55029
@@ -1987,66 +1896,30 @@ Wire Wire Line
 	11450 4500 11450 4600
 Wire Wire Line
 	10600 3400 10800 3400
-Connection ~ 8500 1850
-Wire Wire Line
-	8500 1850 8550 1850
-Connection ~ 8500 2150
-Wire Wire Line
-	8550 2150 8500 2150
-Wire Wire Line
-	8550 1850 8550 2150
-Wire Wire Line
-	7400 4600 7400 4650
-Wire Wire Line
-	7400 4350 7450 4350
-Wire Wire Line
-	7450 4350 7450 4650
-Wire Wire Line
-	7450 4650 7400 4650
-Connection ~ 7400 4350
-Wire Wire Line
-	7400 4350 7400 4400
-Connection ~ 7400 4650
 $Comp
-L pkl_misc:Jumper J14
+L pkl_misc:pkl_jumper_nc J14
 U 1 1 5B0E558D
 P 7400 4500
 F 0 "J14" V 7400 4590 60  0000 L CNN
 F 1 "Jumper" H 7400 4645 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 7400 4500 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_30" H 7400 4500 60  0001 C CNN
 F 3 "" H 7400 4500 60  0000 C CNN
 F 4 "ANY" H 7400 4500 50  0001 C CNN "Source"
 	1    7400 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pkl_misc:Jumper J19
+L pkl_misc:pkl_jumper_nc J19
 U 1 1 5B16AD82
 P 10700 2000
 F 0 "J19" V 10700 2090 60  0000 L CNN
 F 1 "Jumper" H 10700 2145 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 10700 2000 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_30" H 10700 2000 60  0001 C CNN
 F 3 "" H 10700 2000 60  0000 C CNN
 F 4 "ANY" H 10700 2000 50  0001 C CNN "Source"
 	1    10700 2000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10700 2100 10700 2150
-Wire Wire Line
-	10700 1850 10700 1900
-Wire Wire Line
-	10700 1800 10700 1850
-Connection ~ 10700 1850
-Wire Wire Line
-	10700 1850 10750 1850
-Connection ~ 10700 2150
-Wire Wire Line
-	10750 2150 10700 2150
-Wire Wire Line
-	10750 1850 10750 2150
-Wire Wire Line
-	10700 2150 10700 2300
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J21
 U 1 1 5B1E5C63
@@ -3183,70 +3056,30 @@ Wire Wire Line
 	10600 3600 10800 3600
 Wire Wire Line
 	10600 3800 10800 3800
-Wire Wire Line
-	6150 4900 6100 4900
-Wire Wire Line
-	5850 4900 5800 4900
-Wire Wire Line
-	6100 4900 6100 4950
-Wire Wire Line
-	6100 4950 5800 4950
-Wire Wire Line
-	5800 4950 5800 4900
-Connection ~ 6100 4900
-Wire Wire Line
-	6100 4900 6050 4900
 $Comp
-L pkl_misc:Jumper J1
+L pkl_misc:pkl_jumper_nc J1
 U 1 1 5D995BB8
-P 5950 4900
-F 0 "J1" H 5750 4950 60  0000 C CNN
-F 1 "Jumper" H 5950 5045 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 5950 4900 60  0001 C CNN
-F 3 "" H 5950 4900 60  0000 C CNN
-F 4 "ANY" H 5950 4900 50  0001 C CNN "Source"
-	1    5950 4900
+P 6000 5050
+F 0 "J1" H 6150 5100 60  0000 C CNN
+F 1 "Jumper" H 6000 5195 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_15" H 6000 5050 60  0001 C CNN
+F 3 "" H 6000 5050 60  0000 C CNN
+F 4 "ANY" H 6000 5050 50  0001 C CNN "Source"
+	1    6000 5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5800 4900
 $Comp
-L pkl_misc:Jumper J2
+L pkl_misc:pkl_jumper_nc J2
 U 1 1 5DA2DA68
-P 5950 5050
-F 0 "J2" H 5750 5100 60  0000 C CNN
-F 1 "Jumper" H 5950 5195 60  0001 C CNN
-F 2 "pkl_jumpers:J_0603" H 5950 5050 60  0001 C CNN
-F 3 "" H 5950 5050 60  0000 C CNN
-F 4 "ANY" H 5950 5050 50  0001 C CNN "Source"
-	1    5950 5050
+P 6000 5150
+F 0 "J2" H 6150 5200 60  0000 C CNN
+F 1 "Jumper" H 6000 5295 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_15" H 6000 5150 60  0001 C CNN
+F 3 "" H 6000 5150 60  0000 C CNN
+F 4 "ANY" H 6000 5150 50  0001 C CNN "Source"
+	1    6000 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 5050 5800 5050
-Wire Wire Line
-	6050 5050 6100 5050
-Wire Wire Line
-	6100 5050 6100 5100
-Wire Wire Line
-	6100 5100 5800 5100
-Wire Wire Line
-	5800 5100 5800 5050
-Connection ~ 6100 5050
-Wire Wire Line
-	6100 5050 6150 5050
-Connection ~ 5800 5050
-Wire Wire Line
-	5800 5050 5700 5050
-Wire Wire Line
-	5700 5050 5700 5150
-Wire Wire Line
-	5700 5150 5500 5150
-Wire Wire Line
-	5600 4900 5600 5050
-Wire Wire Line
-	5600 5050 5500 5050
-Wire Wire Line
-	5600 4900 5800 4900
 $Comp
 L power:GND #PWR075
 U 1 1 5DDE62D6
@@ -3737,7 +3570,7 @@ $EndComp
 Wire Wire Line
 	11050 7750 10950 7750
 Text Label 10950 7750 2    50   ~ 0
-iCE_SS_B
+FLASH_CS
 Text Label 10950 7850 2    50   ~ 0
 iCE_SCK
 Text Label 10950 7950 2    50   ~ 0
@@ -3916,11 +3749,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 2300 10700 4300
 Connection ~ 10700 4300
-Wire Wire Line
-	7400 4650 7400 4800
 Connection ~ 7400 4800
-Wire Wire Line
-	7400 4300 7400 4350
 $Comp
 L pkl_device:pkl_C_Small C35
 U 1 1 5BD3BE0E
@@ -4207,8 +4036,6 @@ Wire Wire Line
 	1500 6700 1400 6700
 Wire Wire Line
 	1200 6700 1100 6700
-Wire Wire Line
-	1100 6700 1100 6600
 Wire Wire Line
 	2600 6700 2600 7000
 Connection ~ 2600 6700
@@ -4691,11 +4518,6 @@ F 4 "ANY" H 1700 3850 50  0001 C CNN "Source"
 	1    1700 3850
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1900 4250
-Wire Wire Line
-	1900 4250 3100 4250
-Wire Wire Line
-	1900 4050 1900 4250
 Wire Wire Line
 	1500 3950 1500 4050
 Wire Wire Line
@@ -4703,13 +4525,6 @@ Wire Wire Line
 Connection ~ 1500 4050
 Wire Wire Line
 	1500 4050 1500 4150
-Wire Wire Line
-	2100 4050 2100 4350
-Connection ~ 2100 4350
-Wire Wire Line
-	2100 4350 3100 4350
-Wire Wire Line
-	2300 4050 2300 4550
 Wire Wire Line
 	2300 4550 1500 4550
 Connection ~ 1500 4550
@@ -4753,4 +4568,88 @@ Text Label 3100 4250 2    50   ~ 0
 USB_DM
 Text Label 3100 4350 2    50   ~ 0
 USB_DP
+Wire Wire Line
+	6100 5050 6200 5050
+Text Label 5500 5050 0    50   ~ 0
+xFIFO_D0
+Wire Wire Line
+	6100 5150 6200 5150
+Wire Wire Line
+	8600 7750 9400 7750
+Wire Wire Line
+	9600 7750 9700 7750
+Wire Wire Line
+	7950 8750 8150 8750
+Wire Wire Line
+	8350 8750 8550 8750
+Wire Wire Line
+	7950 8950 8150 8950
+Wire Wire Line
+	8350 8950 8550 8950
+Wire Wire Line
+	7400 4600 7400 4800
+Wire Wire Line
+	7400 4300 7400 4400
+Wire Wire Line
+	8500 2100 8500 2300
+Wire Wire Line
+	8500 1800 8500 1900
+Wire Wire Line
+	10700 2100 10700 2300
+Wire Wire Line
+	10700 1800 10700 1900
+Wire Wire Line
+	5500 5150 5900 5150
+Wire Wire Line
+	5500 5050 5900 5050
+Text Label 5500 5150 0    50   ~ 0
+xFIFO_D1
+Text Label 9000 7750 0    50   ~ 0
+FLASH_CS
+Text Label 8500 5600 2    50   ~ 0
+VCORE
+Text Label 8400 2300 2    50   ~ 0
+VCCIO_2
+Text Label 10800 2300 0    50   ~ 0
+VCCIO_0|1
+Text Label 8500 5700 2    50   ~ 0
+VCCPLL
+Text Label 7150 5700 1    50   ~ 0
+VCORE
+Wire Wire Line
+	1100 6700 1100 6600
+Wire Wire Line
+	700  5850 700  6050
+Connection ~ 800  6350
+Wire Wire Line
+	800  6150 800  6350
+Wire Wire Line
+	800  6350 800  6450
+Wire Wire Line
+	700  6250 700  6350
+Connection ~ 700  5850
+Wire Wire Line
+	2800 4750 2700 4750
+Wire Wire Line
+	2600 4550 2600 4950
+Wire Wire Line
+	2800 4550 2600 4550
+Wire Wire Line
+	2700 4750 2700 4150
+Wire Wire Line
+	1400 4250 1900 4250
+Connection ~ 1900 4250
+Wire Wire Line
+	1900 4050 1900 4250
+Wire Wire Line
+	2100 4350 3100 4350
+Wire Wire Line
+	1400 4350 2100 4350
+Connection ~ 2100 4350
+Wire Wire Line
+	2100 4050 2100 4350
+Wire Wire Line
+	1900 4250 3100 4250
+Wire Wire Line
+	2300 4050 2300 4550
 $EndSCHEMATC
