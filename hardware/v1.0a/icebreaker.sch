@@ -1018,9 +1018,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 3650 5000 3650
 Wire Wire Line
-	4900 3850 5000 3850
+	4900 3850 6400 3850
 Wire Wire Line
-	4900 3950 5000 3950
+	4900 3950 6000 3950
 NoConn ~ 4900 3550
 NoConn ~ 4900 3750
 Text Label 5000 3250 0    50   ~ 0
@@ -1031,9 +1031,9 @@ Text Label 5000 3450 0    50   ~ 0
 FLASH_MISO|IO1
 Text Label 5000 3650 0    50   ~ 0
 iCE_SS_B
-Text Label 5000 3850 0    50   ~ 0
+Text Label 6400 3850 0    50   ~ 0
 iCE_CDONE
-Text Label 5000 3950 0    50   ~ 0
+Text Label 6400 3950 0    50   ~ 0
 iCE_CRESET
 NoConn ~ 4900 4150
 NoConn ~ 4900 4250
@@ -4705,4 +4705,52 @@ Wire Wire Line
 	5800 6750 5800 7050
 Text Notes 550  5500 0    50   ~ 0
 Optional:\nWe are not programming the\nFTDI flash. We will keep the\nfootprint but will not populate.
+$Comp
+L pkl_device:pkl_R_Small R26
+U 1 1 5B973233
+P 6100 3950
+F 0 "R26" V 6150 3800 50  0000 C CNN
+F 1 "10k" V 6150 4100 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" H 6159 3857 60  0001 L CNN
+F 3 "" H 6100 3950 60  0000 C CNN
+F 4 "res-0402-10k" H 3600 -2800 50  0001 C CNN "Key"
+F 5 "ANY" H 6100 3950 50  0001 C CNN "Source"
+	1    6100 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 3950 6400 3950
+Text Label 5000 3950 0    50   ~ 0
+xiCE_CRESET
+$Comp
+L Connector_Generic:Conn_02x01 J28
+U 1 1 5BB15B0D
+P 11000 5850
+F 0 "J28" H 11050 6070 50  0000 C CNN
+F 1 "CRESET" H 11050 5977 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 11000 5850 50  0001 C CNN
+F 3 "~" H 11000 5850 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H -1400 -700 50  0001 C CNN "Key"
+F 5 "ANY" H 11000 5850 50  0001 C CNN "Source"
+	1    11000 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11200 5850 11200 5700
+Connection ~ 11200 5700
+Wire Wire Line
+	10700 5850 10600 5850
+Wire Wire Line
+	10600 5850 10600 6100
+$Comp
+L power:GND #PWR0103
+U 1 1 5BBBDFA9
+P 10600 6100
+F 0 "#PWR0103" H 10600 5850 50  0001 C CNN
+F 1 "GND" H 10600 5950 50  0000 C CNN
+F 2 "" H 10600 6100 50  0001 C CNN
+F 3 "" H 10600 6100 50  0001 C CNN
+	1    10600 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
