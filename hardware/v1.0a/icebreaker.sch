@@ -1573,9 +1573,9 @@ Wire Wire Line
 Text Label 8500 4700 2    50   ~ 0
 iCE_SS_B
 Text Label 8500 4500 2    50   ~ 0
-iCE_MOSI
+iCE_SI
 Text Label 8500 4400 2    50   ~ 0
-iCE_MISO
+iCE_SO
 $Comp
 L pkl_misc:pkl_jumper_nc J18
 U 1 1 5AA93E10
@@ -1597,14 +1597,14 @@ FLASH_MOSI|IO0
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 1 1 5AB5AE47
-P 8800 7400
-F 0 "R11" V 8750 7100 50  0000 L CNN
-F 1 "10k" V 8750 7500 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8800 7400 60  0001 C CNN
-F 3 "" H 8800 7400 60  0000 C CNN
-F 4 "ANY" H 8800 7400 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
-	1    8800 7400
+P 8900 7400
+F 0 "R11" V 8850 7100 50  0000 L CNN
+F 1 "10k" V 8850 7500 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8900 7400 60  0001 C CNN
+F 3 "" H 8900 7400 60  0000 C CNN
+F 4 "ANY" H 8900 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 100 0   50  0001 C CNN "Key"
+	1    8900 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1654,14 +1654,14 @@ $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 4 1 5ABF66A6
-P 8900 7400
-F 0 "R11" V 8850 7100 50  0000 L CNN
-F 1 "10k" V 8850 7500 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8900 7400 60  0001 C CNN
-F 3 "" H 8900 7400 60  0000 C CNN
-F 4 "ANY" H 8900 7400 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H 0   0   50  0001 C CNN "Key"
-	4    8900 7400
+P 8800 7400
+F 0 "R11" V 8750 7100 50  0000 L CNN
+F 1 "10k" V 8750 7500 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8800 7400 60  0001 C CNN
+F 3 "" H 8800 7400 60  0000 C CNN
+F 4 "ANY" H 8800 7400 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -100 0   50  0001 C CNN "Key"
+	4    8800 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1733,9 +1733,9 @@ $EndComp
 Text Label 7950 8750 2    50   ~ 0
 FLASH_MOSI|IO0
 Text Label 7950 8950 2    50   ~ 0
-iCE_MOSI
+iCE_SI
 Text Label 8550 8750 0    50   ~ 0
-iCE_MISO
+iCE_SO
 Text Label 8550 8950 0    50   ~ 0
 FLASH_MISO|IO1
 Wire Notes Line
