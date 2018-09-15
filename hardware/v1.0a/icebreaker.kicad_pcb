@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 311)
+    (drawings 312)
     (tracks 1472)
     (zones 0)
     (modules 128)
@@ -5251,6 +5251,9 @@
     )
   )
 
+  (gr_text CRESET (at 68.181 57.66 90) (layer B.SilkS) (tstamp 5BA41BF5)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_line (start 74.15 34.927) (end 74.15 34.292) (layer B.SilkS) (width 0.2))
   (gr_line (start 71.229 34.927) (end 71.991 34.927) (layer B.SilkS) (width 0.2))
   (gr_line (start 51.29 34.927) (end 51.29 34.292) (layer B.SilkS) (width 0.2))
@@ -7188,7 +7191,6 @@
   (segment (start 62.65 55.6) (end 62.65 57.375) (width 0.15) (layer F.Cu) (net 124))
   (via (at 62.425 57.6) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 124))
   (segment (start 62.65 57.375) (end 62.425 57.6) (width 0.15) (layer F.Cu) (net 124))
-  (via (at 62.425 60.2) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 132))
   (segment (start 50.825 52.85) (end 50.2 52.85) (width 0.15) (layer B.Cu) (net 125))
   (segment (start 48.314636 48.610364) (end 48.107574 48.610364) (width 0.15) (layer F.Cu) (net 125))
   (segment (start 48.675 48.25) (end 48.314636 48.610364) (width 0.15) (layer F.Cu) (net 125))
@@ -7286,6 +7288,7 @@
   (segment (start 58.6 55.8) (end 58.6 55.1) (width 0.15) (layer B.Cu) (net 131))
   (segment (start 58.6 53.407106) (end 58.546447 53.353553) (width 0.15) (layer F.Cu) (net 131))
   (segment (start 58.6 55.1) (end 58.6 53.407106) (width 0.15) (layer F.Cu) (net 131))
+  (via (at 62.425 60.2) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 132))
   (segment (start 64.55 55.75) (end 64 56.3) (width 0.15) (layer F.Cu) (net 132))
   (segment (start 64 58.625) (end 62.425 60.2) (width 0.15) (layer F.Cu) (net 132))
   (segment (start 64 56.3) (end 64 58.625) (width 0.15) (layer F.Cu) (net 132))
