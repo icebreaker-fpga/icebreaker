@@ -4753,4 +4753,92 @@ F 3 "" H 10600 6100 50  0001 C CNN
 	1    10600 6100
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	9250 2700 9300 2700
+Wire Notes Line
+	9300 2700 9300 2600
+Wire Notes Line
+	9300 2600 9100 2600
+Text Notes 9300 2700 0    50   ~ 0
+DPair
+Wire Notes Line
+	9100 2800 9300 2800
+Wire Notes Line
+	9300 2800 9300 2900
+Wire Notes Line
+	9300 2900 9100 2900
+Text Notes 9300 2900 0    50   ~ 0
+DPair
+Wire Notes Line
+	9100 3100 9300 3100
+Wire Notes Line
+	9300 3100 9300 3200
+Wire Notes Line
+	9300 3200 9100 3200
+Text Notes 9300 3200 0    50   ~ 0
+DPair
+Wire Notes Line
+	10050 4900 9850 4900
+Wire Notes Line
+	9850 4900 9850 5000
+Wire Notes Line
+	9850 5000 10050 5000
+Text Notes 9850 5000 2    50   ~ 0
+DPair 
+Wire Notes Line
+	10050 5100 9850 5100
+Wire Notes Line
+	9850 5100 9850 5200
+Wire Notes Line
+	9850 5200 9900 5200
+Text Notes 9850 5200 2    50   ~ 0
+DPair 
+Wire Notes Line
+	10050 2500 9850 2500
+Wire Notes Line
+	9850 2500 9850 2600
+Wire Notes Line
+	9850 2600 10050 2600
+Text Notes 9800 2600 2    50   ~ 0
+DPair
+Wire Notes Line
+	10050 2700 9850 2700
+Wire Notes Line
+	9850 2700 9850 2800
+Wire Notes Line
+	9850 2800 10050 2800
+Text Notes 9800 2800 2    50   ~ 0
+DPair
+Wire Notes Line
+	10050 3000 9850 3000
+Wire Notes Line
+	9850 3000 9850 3100
+Wire Notes Line
+	9850 3100 10050 3100
+Text Notes 9800 3100 2    50   ~ 0
+DPair
+Wire Notes Line
+	10050 3200 9850 3200
+Wire Notes Line
+	9850 3200 9850 3300
+Wire Notes Line
+	9850 3300 9900 3300
+Text Notes 9800 3300 2    50   ~ 0
+DPair
+Wire Notes Line
+	10050 3500 9850 3500
+Wire Notes Line
+	9850 3500 9850 3600
+Wire Notes Line
+	9850 3600 10050 3600
+Text Notes 9800 3600 2    50   ~ 0
+DPair
+Wire Notes Line
+	10050 3700 9850 3700
+Wire Notes Line
+	9850 3700 9850 3800
+Wire Notes Line
+	9850 3800 10050 3800
+Text Notes 9800 3800 2    50   ~ 0
+DPair
 $EndSCHEMATC
