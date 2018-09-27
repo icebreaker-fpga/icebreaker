@@ -4841,4 +4841,17 @@ Wire Notes Line
 	9850 3800 10050 3800
 Text Notes 9800 3800 2    50   ~ 0
 DPair
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5BAE28FE
+P 1550 3450
+F 0 "TP1" H 1608 3570 50  0000 L CNN
+F 1 "TestPoint" H 1608 3479 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1750 3450 50  0001 C CNN
+F 3 "~" H 1750 3450 50  0001 C CNN
+	1    1550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3450 2100 3450
 $EndSCHEMATC
