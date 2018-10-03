@@ -22,8 +22,8 @@ F 0 "U6" H 9600 6370 50  0000 C CNN
 F 1 "ICE5LP4K-SG48" H 9600 6277 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-48-1EP_7x7mm_Pitch0.5mm" H 11900 4400 50  0001 C CNN
 F 3 "" H 11900 4400 50  0001 C CNN
-F 4 "ANY" H 9600 4200 50  0001 C CNN "Source"
-F 5 "ic-ice5lp4k-sg48" H 0   0   50  0001 C CNN "Key"
+F 4 "ic-ice40up5k-sg48" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 9600 4200 50  0001 C CNN "Source"
 	1    9600 4200
 	1    0    0    -1  
 $EndComp
@@ -892,7 +892,6 @@ F 4 "eeprom-sot23-6-93c46b" H 0   0   50  0001 C CNN "Key"
 F 5 "EEPROM 1KBit 2MHz SOT-23-6" H 1300 5950 50  0001 C CNN "Description"
 F 6 "93C46B" H 1300 5950 50  0001 C CNN "MFN"
 F 7 "ANY" H 1300 5950 50  0001 C CNN "Source"
-F 8 "YES" H 1300 5950 50  0001 C CNN "DNP"
 	1    1300 5950
 	1    0    0    -1  
 $EndComp
@@ -934,7 +933,6 @@ F 2 "pkl_dipol:C_0402" H 892 5857 60  0001 L CNN
 F 3 "" H 800 5950 60  0000 C CNN
 F 4 "cap-cer-0402-100n" H 100 -200 50  0001 C CNN "Key"
 F 5 "ANY" H 800 5950 50  0001 C CNN "Source"
-F 6 "YES" H 800 5950 50  0001 C CNN "DNP"
 	1    800  5950
 	-1   0    0    -1  
 $EndComp
@@ -954,7 +952,6 @@ F 2 "pkl_dipol:R_0402" H 2259 6057 60  0001 L CNN
 F 3 "" H 2200 6150 60  0000 C CNN
 F 4 "res-0402-2k2" H -300 0   50  0001 C CNN "Key"
 F 5 "ANY" H 2200 6150 50  0001 C CNN "Source"
-F 6 "YES" H 2200 6150 50  0001 C CNN "DNP"
 	1    2200 6150
 	0    1    1    0   
 $EndComp
@@ -1260,8 +1257,8 @@ F 0 "D2" H 8050 5750 50  0000 C CNN
 F 1 "CDBU0520" H 8400 5850 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" V 8150 5800 60  0001 C CNN
 F 3 "" V 8150 5800 60  0000 C CNN
-F 4 "ANY" H 8150 5800 50  0001 C CNN "Source"
-F 5 "diode-shottky-0603" H 0   0   50  0001 C CNN "Key"
+F 4 "diode-schottky-0603" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 8150 5800 50  0001 C CNN "Source"
 	1    8150 5800
 	1    0    0    -1  
 $EndComp
@@ -1926,7 +1923,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J21
 U 1 1 5B1E5C63
 P 13700 2400
 F 0 "J21" H 13750 2800 50  0000 C CNN
-F 1 "PMOD_1A" H 13750 2700 50  0000 C CNN
+F 1 "PMOD" H 13750 2700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 13700 2400 50  0001 C CNN
 F 3 "~" H 13700 2400 50  0001 C CNN
 F 4 "conn-th-01in-6-2-rec-ra" H 1300 0   50  0001 C CNN "Key"
@@ -1939,7 +1936,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J22
 U 1 1 5B1E5EFC
 P 13700 4100
 F 0 "J22" H 13750 4400 50  0000 C CNN
-F 1 "PMOD_1B" H 13750 3700 50  0000 C CNN
+F 1 "PMOD" H 13750 3700 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x06" H 13700 4100 50  0001 C CNN
 F 3 "~" H 13700 4100 50  0001 C CNN
 F 4 "conn-th-01in-6-2-rec-ra" H 1300 0   50  0001 C CNN "Key"
@@ -2387,7 +2384,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J23
 U 1 1 5BFA913D
 P 12700 5600
 F 0 "J23" H 12750 6020 50  0000 C CNN
-F 1 "PMOD_2H" H 12750 5927 50  0000 C CNN
+F 1 "PMOD" H 12750 5927 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x06" H 12700 5600 50  0001 C CNN
 F 3 "~" H 12700 5600 50  0001 C CNN
 F 4 "conn-th-01in-6-2-rec-ra" H 300 0   50  0001 C CNN "Key"
@@ -2400,7 +2397,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J24
 U 1 1 5BFA93A4
 P 15000 5500
 F 0 "J24" H 15050 5920 50  0000 C CNN
-F 1 "PMOD_2P" H 15050 5827 50  0000 C CNN
+F 1 "PMOD" H 15050 5827 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 15000 5500 50  0001 C CNN
 F 3 "~" H 15000 5500 50  0001 C CNN
 F 4 "conn-th-01in-6-2-hdr-ra" H 950 -100 50  0001 C CNN "Key"
@@ -3138,11 +3135,11 @@ L pkl_device:pkl_Led_Small D3
 U 1 1 5E180C7D
 P 11400 5900
 F 0 "D3" H 11250 6000 50  0000 L CNN
-F 1 "GRN" H 11450 6000 50  0000 L CNN
+F 1 "BLU" H 11450 6000 50  0000 L CNN
 F 2 "pkl_dipol:D_0603" V 11400 5900 60  0001 C CNN
 F 3 "" V 11400 5900 60  0000 C CNN
-F 4 "ANY" H 11400 5900 50  0001 C CNN "Source"
-F 5 "led-0603-grn" H 0   0   50  0001 C CNN "Key"
+F 4 "led-0603-blu" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 11400 5900 50  0001 C CNN "Source"
 	1    11400 5900
 	0    1    1    0   
 $EndComp
@@ -3671,8 +3668,9 @@ F 0 "C34" H 13465 5803 50  0000 L CNN
 F 1 "DNP" H 13465 5896 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 13442 5757 60  0001 L CNN
 F 3 "" H 13350 5850 60  0000 C CNN
-F 4 "ANY" H 13350 5850 50  0001 C CNN "Source"
-F 5 "cap-cer-0603-10u" H 300 0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-10u" H 300 0   50  0001 C CNN "Key"
+F 5 "ANY" H 13350 5850 50  0001 C CNN "Source"
+F 6 "YES" H 13350 5850 50  0001 C CNN "DNP"
 	1    13350 5850
 	1    0    0    1   
 $EndComp
@@ -3698,8 +3696,9 @@ F 0 "C33" H 14565 4303 50  0000 L CNN
 F 1 "DNP" H 14565 4396 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 14542 4257 60  0001 L CNN
 F 3 "" H 14450 4350 60  0000 C CNN
-F 4 "ANY" H 14450 4350 50  0001 C CNN "Source"
-F 5 "cap-cer-0603-10u" H 1400 0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-10u" H 1400 0   50  0001 C CNN "Key"
+F 5 "ANY" H 14450 4350 50  0001 C CNN "Source"
+F 6 "YES" H 14450 4350 50  0001 C CNN "DNP"
 	1    14450 4350
 	1    0    0    1   
 $EndComp
@@ -3721,8 +3720,9 @@ F 0 "C32" H 14565 2603 50  0000 L CNN
 F 1 "DNP" H 14565 2696 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 14542 2557 60  0001 L CNN
 F 3 "" H 14450 2650 60  0000 C CNN
-F 4 "ANY" H 14450 2650 50  0001 C CNN "Source"
-F 5 "cap-cer-0603-10u" H 1400 0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-10u" H 1400 0   50  0001 C CNN "Key"
+F 5 "ANY" H 14450 2650 50  0001 C CNN "Source"
+F 6 "YES" H 14450 2650 50  0001 C CNN "DNP"
 	1    14450 2650
 	1    0    0    1   
 $EndComp
@@ -3759,7 +3759,9 @@ F 0 "C35" V 8400 5800 50  0000 L CNN
 F 1 "DNP" V 8300 5750 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8442 5907 60  0001 L CNN
 F 3 "" H 8350 6000 60  0000 C CNN
-F 4 "ANY" H 8350 6000 50  0001 C CNN "Source"
+F 4 "cap-cer-0402-100n" H 8350 6000 50  0001 C CNN "Key"
+F 5 "ANY" H 8350 6000 50  0001 C CNN "Source"
+F 6 "YES" H 8350 6000 50  0001 C CNN "DNP"
 	1    8350 6000
 	-1   0    0    -1  
 $EndComp
@@ -3862,7 +3864,6 @@ F 2 "pkl_dipol:R_Array_Convex_4x0402" H 1900 5600 60  0001 C CNN
 F 3 "" H 1900 5600 60  0000 C CNN
 F 4 "res-0402cv-array-4-10k" H -100 -50 50  0001 C CNN "Key"
 F 5 "ANY" H 1900 5600 50  0001 C CNN "Source"
-F 6 "YES" H 1900 5600 50  0001 C CNN "DNP"
 	1    1900 5600
 	1    0    0    1   
 $EndComp
@@ -3876,7 +3877,6 @@ F 2 "pkl_dipol:R_Array_Convex_4x0402" H 1800 5600 60  0001 C CNN
 F 3 "" H 1800 5600 60  0000 C CNN
 F 4 "res-0402cv-array-4-10k" H 0   -50 50  0001 C CNN "Key"
 F 5 "ANY" H 1800 5600 50  0001 C CNN "Source"
-F 6 "YES" H 1800 5600 50  0001 C CNN "DNP"
 	2    1800 5600
 	1    0    0    1   
 $EndComp
@@ -3890,7 +3890,6 @@ F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2000 5600 60  0001 C CNN
 F 3 "" H 2000 5600 60  0000 C CNN
 F 4 "res-0402cv-array-4-10k" H -200 -50 50  0001 C CNN "Key"
 F 5 "ANY" H 2000 5600 50  0001 C CNN "Source"
-F 6 "YES" H 2000 5600 50  0001 C CNN "DNP"
 	3    2000 5600
 	1    0    0    1   
 $EndComp
@@ -4028,7 +4027,8 @@ F 0 "U7" H 1500 7170 50  0000 C CNN
 F 1 "12MHz" H 1500 7077 50  0000 C CNN
 F 2 "pkl_housings_sot:SOT-23-5" H 1500 6700 50  0001 C CNN
 F 3 "" H 1500 6700 50  0001 C CNN
-F 4 "ANY" H 1500 6800 50  0001 C CNN "Source"
+F 4 "xtal-sot23-5-12mhz-osc" H 1500 6800 50  0001 C CNN "Key"
+F 5 "ANY" H 1500 6800 50  0001 C CNN "Source"
 	1    1500 6800
 	-1   0    0    -1  
 $EndComp
@@ -4732,6 +4732,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 11000 5850 50
 F 3 "~" H 11000 5850 50  0001 C CNN
 F 4 "conn-th-01in-2-1-hdr" H -1400 -700 50  0001 C CNN "Key"
 F 5 "ANY" H 11000 5850 50  0001 C CNN "Source"
+F 6 "YES" H 11000 5850 50  0001 C CNN "DNP"
 	1    11000 5850
 	-1   0    0    1   
 $EndComp
