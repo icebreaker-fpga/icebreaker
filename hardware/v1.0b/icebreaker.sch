@@ -2782,9 +2782,9 @@ U 1 1 5CDE3312
 P 14600 6600
 F 0 "SW2" H 14850 6650 60  0000 C CNN
 F 1 "TACT" H 14850 6750 60  0000 C CNN
-F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 6575 60  0001 C CNN
+F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 14600 6575 60  0001 C CNN
 F 3 "" H 14600 6575 60  0000 C CNN
-F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
+F 4 "sw-tact-top-3x4x25" H 0   0   50  0001 C CNN "Key"
 	1    14600 6600
 	1    0    0    -1  
 $EndComp
@@ -2794,9 +2794,9 @@ U 1 1 5CDE364C
 P 14600 7000
 F 0 "SW3" H 14850 7050 60  0000 C CNN
 F 1 "TACT" H 14850 7150 60  0000 C CNN
-F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 6975 60  0001 C CNN
+F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 14600 6975 60  0001 C CNN
 F 3 "" H 14600 6975 60  0000 C CNN
-F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
+F 4 "sw-tact-top-3x4x25" H 0   0   50  0001 C CNN "Key"
 	1    14600 7000
 	1    0    0    -1  
 $EndComp
@@ -2806,9 +2806,9 @@ U 1 1 5CDE3718
 P 14600 7400
 F 0 "SW4" H 14850 7450 60  0000 C CNN
 F 1 "TACT" H 14850 7550 60  0000 C CNN
-F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 14600 7375 60  0001 C CNN
+F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 14600 7375 60  0001 C CNN
 F 3 "" H 14600 7375 60  0000 C CNN
-F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
+F 4 "sw-tact-top-3x4x25" H 0   0   50  0001 C CNN "Key"
 	1    14600 7400
 	1    0    0    -1  
 $EndComp
@@ -2926,9 +2926,9 @@ U 1 1 5D57921E
 P 13000 9650
 F 0 "SW1" H 12800 9800 60  0000 C CNN
 F 1 "TACT" H 13200 9800 60  0000 C CNN
-F 2 "pkl_buttons_switches:SW_SPST_KMR2" H 13000 9625 60  0001 C CNN
+F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 13000 9625 60  0001 C CNN
 F 3 "" H 13000 9625 60  0000 C CNN
-F 4 "sw-tact-top-4.2-2.8" H 0   0   50  0001 C CNN "Key"
+F 4 "sw-tact-top-3x4x25" H 0   0   50  0001 C CNN "Key"
 	1    13000 9650
 	1    0    0    -1  
 $EndComp
