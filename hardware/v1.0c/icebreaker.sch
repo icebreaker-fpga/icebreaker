@@ -1018,7 +1018,6 @@ Wire Wire Line
 	4900 3850 6400 3850
 Wire Wire Line
 	4900 3950 6000 3950
-NoConn ~ 4900 3550
 NoConn ~ 4900 3750
 Text Label 5000 3250 0    50   ~ 0
 iCE_SCK
@@ -4859,4 +4858,24 @@ F 3 "" H 8800 1900 50  0001 C CNN
 	1    8800 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L pkl_misc:pkl_jumper J29
+U 1 1 5BF627F5
+P 5600 3550
+F 0 "J29" H 5450 3600 60  0000 C CNN
+F 1 "Jumper" H 5600 3695 60  0001 C CNN
+F 2 "pkl_jumpers:J_0603" H 5600 3550 60  0001 C CNN
+F 3 "" H 5600 3550 60  0000 C CNN
+F 4 "ANY" H 5600 3550 50  0001 C CNN "Source"
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+Text Label 5000 3550 0    50   ~ 0
+SPI_CS
+Wire Wire Line
+	4900 3550 5500 3550
+Text Label 5800 3550 0    50   ~ 0
+~LEDR
+Wire Wire Line
+	5700 3550 5800 3550
 $EndSCHEMATC
