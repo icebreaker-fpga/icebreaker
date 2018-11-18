@@ -56,19 +56,6 @@ F 5 "ic-ft2232h" H -600 0   50  0001 C CNN "Key"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:pkl_R_Small R7
-U 1 1 5A52417F
-P 900 6700
-F 0 "R7" V 950 6550 50  0000 C CNN
-F 1 "10k" V 950 6850 50  0000 C CNN
-F 2 "pkl_dipol:R_0402" H 959 6607 60  0001 L CNN
-F 3 "" H 900 6700 60  0000 C CNN
-F 4 "ANY" H 900 6700 50  0001 C CNN "Source"
-F 5 "res-0402-10k" H -1600 -50 50  0001 C CNN "Key"
-	1    900  6700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3V3 #PWR02
 U 1 1 5A524395
 P 600 6600
@@ -4970,5 +4957,18 @@ F 2 "" H 14100 9200 50  0001 C CNN
 F 3 "" H 14100 9200 50  0001 C CNN
 	1    14100 9200
 	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_R4_Small R2
+U 4 1 5CCE7748
+P 900 6700
+F 0 "R2" V 850 6550 50  0000 C CNN
+F 1 "10k" V 850 6850 50  0000 C CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 900 6700 60  0001 C CNN
+F 3 "" H 900 6700 60  0000 C CNN
+F 4 "res-0402cv-array-4-10k" H -1300 1050 50  0001 C CNN "Key"
+F 5 "ANY" H 900 6700 50  0001 C CNN "Source"
+	4    900  6700
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
