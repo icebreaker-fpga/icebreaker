@@ -5232,9 +5232,9 @@ EB_OD1
 Text Label 11400 11000 0    50   ~ 0
 EB_OD2
 Text Notes 7100 10200 0    100  ~ 0
-WS2812
+WS2812 "Ear"
 Text Notes 9600 10200 0    100  ~ 0
-SADD
+SADD "Ear"
 Wire Notes Line
 	9500 10000 11700 10000
 Wire Notes Line
