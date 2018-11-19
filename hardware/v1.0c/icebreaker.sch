@@ -4971,4 +4971,274 @@ F 5 "ANY" H 900 6700 50  0001 C CNN "Source"
 	4    900  6700
 	0    -1   1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J31
+U 1 1 5CCEDF36
+P 7600 10500
+F 0 "J31" H 7600 10700 50  0000 L CNN
+F 1 "RGB Led" H 7500 10200 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 7600 10500 50  0001 C CNN
+F 3 "~" H 7600 10500 50  0001 C CNN
+F 4 "conn-th-01in-4-2-hdr" H -7300 1800 50  0001 C CNN "Key"
+F 5 "ANY" H 7600 10500 50  0001 C CNN "Source"
+	1    7600 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 10400 8000 10400
+Wire Wire Line
+	7400 10400 7300 10400
+Text Label 8000 10400 0    50   ~ 0
+ET_OD1
+Text Label 7300 10400 2    50   ~ 0
+ET_OD2
+Text Label 8000 10500 0    50   ~ 0
+ET_OD3
+Wire Wire Line
+	7300 10600 7400 10600
+Wire Wire Line
+	7900 10600 8000 10600
+Wire Wire Line
+	7900 10700 8000 10700
+Wire Wire Line
+	7300 10500 7400 10500
+Wire Wire Line
+	7900 10500 8000 10500
+Wire Wire Line
+	7300 10700 7400 10700
+Text Label 7300 10600 2    50   ~ 0
+ET_GND
+Text Label 7300 10500 2    50   ~ 0
+ET_1V2
+Text Label 7300 10700 2    50   ~ 0
+ET_5V
+Text Label 8000 10600 0    50   ~ 0
+ET_GND
+Text Label 8000 10700 0    50   ~ 0
+ET_3V3
+$Comp
+L Connector_Generic:Conn_01x03 J32
+U 1 1 5D042159
+P 9300 10500
+F 0 "J32" H 9250 10300 50  0000 L CNN
+F 1 "WS2812" V 9300 10700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9300 10500 50  0001 C CNN
+F 3 "~" H 9300 10500 50  0001 C CNN
+	1    9300 10500
+	1    0    0    1   
+$EndComp
+$Comp
+L pkl_device:pkl_Q_NMOS_BD_GSD Q1
+U 1 1 5D2D55E9
+P 8900 10800
+F 0 "Q1" H 8850 10950 50  0000 L CNN
+F 1 "BSS138" H 8550 10700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 10900 50  0001 C CNN
+F 3 "~" H 8900 10800 50  0001 C CNN
+	1    8900 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_R R7
+U 1 1 5D570685
+P 8700 10600
+F 0 "R7" V 8700 10600 50  0000 C CNN
+F 1 "10k" V 8600 10600 50  0000 C CNN
+F 2 "pkl_dipol:R_0603" H 8759 10507 60  0001 L CNN
+F 3 "" H 8700 10600 60  0000 C CNN
+F 4 "res-0402-10k" H -2500 5200 50  0001 C CNN "Key"
+F 5 "ANY" H 8700 10600 50  0001 C CNN "Source"
+	1    8700 10600
+	1    0    0    -1  
+$EndComp
+Text Label 8600 10300 2    50   ~ 0
+ET_3V3
+Wire Wire Line
+	9000 11000 9000 11100
+Wire Wire Line
+	9000 11100 8600 11100
+Text Label 8600 11100 2    50   ~ 0
+ET_GND
+Wire Wire Line
+	8700 10800 8600 10800
+Connection ~ 8700 10800
+Text Label 8600 10800 2    50   ~ 0
+ET_OD1
+Wire Wire Line
+	8600 10300 8700 10300
+Wire Wire Line
+	8700 10300 8700 10400
+$Comp
+L pkl_device:pkl_R R27
+U 1 1 5DAB4929
+P 9000 10300
+F 0 "R27" V 9000 10250 50  0000 L CNN
+F 1 "10k" V 8900 10200 50  0000 L CNN
+F 2 "pkl_dipol:R_0603" H 9059 10207 60  0001 L CNN
+F 3 "" H 9000 10300 60  0000 C CNN
+F 4 "res-0402-10k" H -2200 4900 50  0001 C CNN "Key"
+F 5 "ANY" H 9000 10300 50  0001 C CNN "Source"
+	1    9000 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 10100 8600 10100
+Text Label 8600 10100 2    50   ~ 0
+ET_5V
+Wire Wire Line
+	9100 10400 9100 10100
+Wire Wire Line
+	9100 10100 9000 10100
+Connection ~ 9000 10100
+Wire Wire Line
+	9000 10500 9100 10500
+Connection ~ 9000 10500
+Wire Wire Line
+	9000 10500 9000 10600
+Wire Wire Line
+	9100 10600 9100 11100
+Wire Wire Line
+	9100 11100 9000 11100
+Connection ~ 9000 11100
+Text Label 9000 10500 2    50   ~ 0
+ET_O1
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J33
+U 1 1 5E6CD6A5
+P 10100 10500
+F 0 "J33" H 10100 10700 50  0000 L CNN
+F 1 "RGB Led" H 9700 10250 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 10100 10500 50  0001 C CNN
+F 3 "~" H 10100 10500 50  0001 C CNN
+F 4 "conn-th-01in-4-2-hdr" H -4800 1800 50  0001 C CNN "Key"
+F 5 "ANY" H 10100 10500 50  0001 C CNN "Source"
+	1    10100 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 10400 10500 10400
+Wire Wire Line
+	9900 10400 9800 10400
+Text Label 10500 10400 0    50   ~ 0
+EB_OD1
+Text Label 9800 10400 2    50   ~ 0
+EB_OD2
+Text Label 10500 10500 0    50   ~ 0
+EB_OD3
+Wire Wire Line
+	9800 10600 9900 10600
+Wire Wire Line
+	9800 10500 9900 10500
+Wire Wire Line
+	10400 10500 10500 10500
+Wire Wire Line
+	9800 10700 9900 10700
+Text Label 9800 10600 2    50   ~ 0
+EB_GND
+Text Label 9800 10500 2    50   ~ 0
+EB_1V2
+Text Label 9800 10700 2    50   ~ 0
+EB_5V
+Text Label 10500 10600 0    50   ~ 0
+EB_GND
+Text Label 10500 10700 0    50   ~ 0
+EB_3V3
+Wire Notes Line
+	7000 10000 9400 10000
+Wire Notes Line
+	9400 10000 9400 11200
+Wire Notes Line
+	9400 11200 7000 11200
+Wire Notes Line
+	7000 11200 7000 10000
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J34
+U 1 1 5E8C751F
+P 10800 10900
+F 0 "J34" H 11000 10750 50  0000 C CNN
+F 1 "SADD" H 10650 10750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 10800 10900 50  0001 C CNN
+F 3 "~" H 10800 10900 50  0001 C CNN
+	1    10800 10900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 10600 10500 10600
+Wire Wire Line
+	10600 10900 10500 10900
+Wire Wire Line
+	10400 10700 10500 10700
+$Comp
+L pkl_device:pkl_R R28
+U 1 1 5E994380
+P 11200 10500
+F 0 "R28" V 11200 10500 50  0000 C CNN
+F 1 "10k" V 11250 10300 50  0000 C CNN
+F 2 "pkl_dipol:R_0603" H 11259 10407 60  0001 L CNN
+F 3 "" H 11200 10500 60  0000 C CNN
+F 4 "res-0402-10k" H 0   5100 50  0001 C CNN "Key"
+F 5 "ANY" H 11200 10500 50  0001 C CNN "Source"
+	1    11200 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pkl_device:pkl_R R29
+U 1 1 5E99507B
+P 11300 10500
+F 0 "R29" V 11300 10500 50  0000 C CNN
+F 1 "10k" V 11350 10300 50  0000 C CNN
+F 2 "pkl_dipol:R_0603" H 11359 10407 60  0001 L CNN
+F 3 "" H 11300 10500 60  0000 C CNN
+F 4 "res-0402-10k" H 100 5100 50  0001 C CNN "Key"
+F 5 "ANY" H 11300 10500 50  0001 C CNN "Source"
+	1    11300 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11200 10900 11100 10900
+Wire Wire Line
+	11300 11000 11100 11000
+Wire Wire Line
+	11200 10300 11200 10200
+Wire Wire Line
+	11200 10200 11300 10200
+Wire Wire Line
+	11300 10200 11300 10300
+Text Label 11100 10200 2    50   ~ 0
+EB_3V3
+Wire Wire Line
+	11200 10700 11200 10900
+Wire Wire Line
+	11300 10700 11300 11000
+Wire Wire Line
+	10600 11000 10500 11000
+Text Label 10500 10900 2    50   ~ 0
+EB_3V3
+Text Label 10500 11000 2    50   ~ 0
+EB_GND
+Wire Wire Line
+	11200 10900 11400 10900
+Connection ~ 11200 10900
+Wire Wire Line
+	11300 11000 11400 11000
+Connection ~ 11300 11000
+Text Label 11400 10900 0    50   ~ 0
+EB_OD1
+Text Label 11400 11000 0    50   ~ 0
+EB_OD2
+Text Notes 7100 10200 0    100  ~ 0
+WS2812
+Text Notes 9600 10200 0    100  ~ 0
+SADD
+Wire Notes Line
+	9500 10000 11700 10000
+Wire Notes Line
+	11700 10000 11700 11200
+Wire Notes Line
+	11700 11200 9500 11200
+Wire Notes Line
+	9500 11200 9500 10000
+Wire Wire Line
+	11200 10200 11100 10200
+Connection ~ 11200 10200
 $EndSCHEMATC
