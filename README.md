@@ -108,8 +108,11 @@ we need to be compatible with their firmware upload tools.
   * 1x Device PMOD (for other side of snap-off section)
 
 ![iCEBreaker block diagram](img/icebreaker-block-diagram.jpg)
+**iCEBreaker bolck diagram**  
 ![iCEBreaker V1.0b pinout legend](img/icebreaker-v1_0b-legend.jpg)
+**iCEBreaker V1.0b pinout legend**  
 ![iCEBreaker V1.0b jumper legend](img/icebreaker-v1_0b-legend-jumpers.jpg)
+**iCEBreaker V1.0b jumper legend**  
 
 * Branding
   * iCEbreaker (https://twitter.com/AboveVacant/status/948323920595308545)
