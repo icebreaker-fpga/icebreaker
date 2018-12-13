@@ -107,7 +107,9 @@ we need to be compatible with their firmware upload tools.
   * 3x Host PMOD (2x for dual PMOD port, 1x for snap-off section)
   * 1x Device PMOD (for other side of snap-off section)
 
-![iCEBreaker V1.0b legend](/img/icebreaker-v1_0b-legend.jpg)
+![iCEBreaker block diagram](img/icebreaker-block-diagram.jpg)
+![iCEBreaker V1.0b pinout legend](img/icebreaker-v1_0b-legend.jpg)
+![iCEBreaker V1.0b jumper legend](img/icebreaker-v1_0b-legend-jumpers.jpg)
 
 * Branding
   * iCEbreaker (https://twitter.com/AboveVacant/status/948323920595308545)
