@@ -6493,7 +6493,7 @@
   (gr_text "Button 1" (at 99.4 38.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text V1.0c (at 99.4 47.5 270) (layer B.SilkS) (tstamp 5A60E74F)
+  (gr_text V1.0d (at 99.4 47.5 270) (layer B.SilkS) (tstamp 5A60E74F)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text iCEBreaker (at 101.7 47.6 270) (layer B.SilkS) (tstamp 5A60E73A)
