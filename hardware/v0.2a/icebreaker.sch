@@ -19,11 +19,11 @@ L pkl_lattice:ICE5LP4K-SG48 U6
 U 1 1 5A512943
 P 9600 4200
 F 0 "U6" H 9600 6370 50  0000 C CNN
-F 1 "ICE5LP4K-SG48" H 9600 6277 50  0000 C CNN
+F 1 "ICE5UP5K-SG48" H 9600 6277 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-48-1EP_7x7mm_Pitch0.5mm" H 11900 4400 50  0001 C CNN
 F 3 "" H 11900 4400 50  0001 C CNN
-F 4 "ANY" H 9600 4200 50  0001 C CNN "Source"
-F 5 "ic-ice5lp4k-sg48" H 0   0   50  0001 C CNN "Key"
+F 4 "ic-ice5up5k-sg48" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 9600 4200 50  0001 C CNN "Source"
 	1    9600 4200
 	1    0    0    -1  
 $EndComp
@@ -487,7 +487,7 @@ F 0 "C9" H 3100 2550 50  0000 L CNN
 F 1 "4u7" H 3050 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 3092 2357 60  0001 L CNN
 F 3 "" H 3000 2450 60  0000 C CNN
-F 4 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 F 5 "ANY" H 3000 2450 50  0001 C CNN "Source"
 	1    3000 2450
 	-1   0    0    -1  
@@ -500,7 +500,7 @@ F 0 "C6" H 2800 2550 50  0000 L CNN
 F 1 "4u7" H 2750 2350 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 2792 2357 60  0001 L CNN
 F 3 "" H 2700 2450 60  0000 C CNN
-F 4 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 F 5 "ANY" H 2700 2450 50  0001 C CNN "Source"
 	1    2700 2450
 	-1   0    0    -1  
@@ -1276,8 +1276,8 @@ F 0 "D2" H 8050 5750 50  0000 C CNN
 F 1 "CDBU0520" H 8400 5850 50  0000 C CNN
 F 2 "pkl_dipol:D_0603" V 8150 5800 60  0001 C CNN
 F 3 "" V 8150 5800 60  0000 C CNN
-F 4 "ANY" H 8150 5800 50  0001 C CNN "Source"
-F 5 "diode-shottky-0603" H 0   0   50  0001 C CNN "Key"
+F 4 "diode-schottky-0603" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 8150 5800 50  0001 C CNN "Source"
 	1    8150 5800
 	1    0    0    -1  
 $EndComp
@@ -3783,7 +3783,7 @@ F 0 "C7" H 2815 3697 50  0000 L CNN
 F 1 "4u7" H 2815 3604 50  0000 L CNN
 F 2 "pkl_dipol:C_0603" H 2792 3557 60  0001 L CNN
 F 3 "" H 2700 3650 60  0000 C CNN
-F 4 "cap-cer-0402-4u7" H 0   0   50  0001 C CNN "Key"
+F 4 "cap-cer-0603-4u7" H 0   0   50  0001 C CNN "Key"
 F 5 "ANY" H 2700 3650 50  0001 C CNN "Source"
 	1    2700 3650
 	-1   0    0    -1  
@@ -3926,10 +3926,11 @@ L pkl_device:pkl_C_Small C35
 U 1 1 5BD3BE0E
 P 8350 6000
 F 0 "C35" V 8400 5800 50  0000 L CNN
-F 1 "DNP" V 8300 5750 50  0000 L CNN
+F 1 "100n" V 8300 5750 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 8442 5907 60  0001 L CNN
 F 3 "" H 8350 6000 60  0000 C CNN
-F 4 "ANY" H 8350 6000 50  0001 C CNN "Source"
+F 4 "cap-cer-100n" H 8350 6000 50  0001 C CNN "Key"
+F 5 "ANY" H 8350 6000 50  0001 C CNN "Source"
 	1    8350 6000
 	-1   0    0    -1  
 $EndComp
@@ -4195,7 +4196,8 @@ F 0 "U7" H 2000 7170 50  0000 C CNN
 F 1 "12MHz" H 2000 7077 50  0000 C CNN
 F 2 "pkl_housings_sot:SOT-23-5" H 2000 6700 50  0001 C CNN
 F 3 "" H 2000 6700 50  0001 C CNN
-F 4 "ANY" H 2000 6800 50  0001 C CNN "Source"
+F 4 "xtal-sot23-5-12mhz-osc" H 2000 6800 50  0001 C CNN "Key"
+F 5 "ANY" H 2000 6800 50  0001 C CNN "Source"
 	1    2000 6800
 	-1   0    0    -1  
 $EndComp

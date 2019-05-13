@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 337)
+    (drawings 336)
     (tracks 1478)
     (zones 0)
-    (modules 128)
+    (modules 127)
     (nets 134)
   )
 
@@ -47,8 +47,6 @@
     (zone_clearance 0.15)
     (zone_45_only yes)
     (trace_min 0.149)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.5)
     (via_drill 0.3)
     (via_min_size 0.5)
@@ -58,6 +56,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -66,9 +66,10 @@
     (pad_size 0.5 0.5)
     (pad_drill 0)
     (pad_to_mask_clearance 0.05)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 55.1 47.5)
-    (visible_elements FFFFFF1F)
+    (visible_elements FFFFEF1F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
@@ -420,6 +421,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_buttons_switches.3dshapes/PTS810SJG250SMTRLFS.stp
+      (offset (xyz 0 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module pkl_buttons_switches:SW_SPST_3x4x2.5 (layer F.Cu) (tedit 5BC3C028) (tstamp 5BC4E178)
@@ -466,6 +472,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_buttons_switches.3dshapes/PTS810SJG250SMTRLFS.stp
+      (offset (xyz 0 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -514,6 +525,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_buttons_switches.3dshapes/PTS810SJG250SMTRLFS.stp
+      (offset (xyz 0 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module pkl_buttons_switches:SW_SPST_3x4x2.5 (layer F.Cu) (tedit 5BC3C028) (tstamp 5BC4E142)
@@ -560,6 +576,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_buttons_switches.3dshapes/PTS810SJG250SMTRLFS.stp
+      (offset (xyz 0 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -623,10 +644,10 @@
       (net 123 /FLASH_~HLD~|~RST~|IO3))
     (pad 7 thru_hole oval (at 0 15.24 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 26 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x07.wrl
-      (offset (xyz 0 -7.619999885559082 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -661,10 +682,10 @@
       (net 32 +5V))
     (pad 8 thru_hole oval (at 2.54 7.62 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 +3V3))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x04.wrl
-      (offset (xyz 1.269999980926514 -3.809999942779541 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -687,7 +708,7 @@
       (net 26 GND))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 44 /iCE_CRESET))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x01_P2.54mm_VerticalX.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x01_P2.54mm_Vertical.stepX
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -713,10 +734,10 @@
       (net 32 +5V))
     (pad 2 thru_hole oval (at 2.54 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 26 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x01.wrl
-      (offset (xyz 1.269999980926514 0 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -739,10 +760,10 @@
       (net 32 +5V))
     (pad 2 thru_hole oval (at 2.54 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 26 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x01.wrl
-      (offset (xyz 1.269999980926514 0 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -785,10 +806,10 @@
       (net 99 /P2_1x))
     (pad 7 thru_hole oval (at 2.54 12.7 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 107 /P2_7x))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x06.wrl
-      (offset (xyz 1.269999980926514 -6.349999904632568 0))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x06_P2.54mm_Horizontal.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -831,10 +852,10 @@
       (net 99 /P2_1x))
     (pad 7 thru_hole oval (at 12.7 2.54 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 107 /P2_7x))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x06.wrl
-      (offset (xyz 6.349999904632568 -1.269999980926514 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -877,7 +898,7 @@
       (net 3 +3V3))
     (pad 6 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 +3V3))
-    (model dis${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.step
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.stepX
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -923,8 +944,8 @@
       (net 92 /P1A1x))
     (pad 7 thru_hole oval (at 12.7 2.54 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 93 /P1A7x))
-    (model dis${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.step
-      (offset (xyz 6.35 -1.27 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.stepX
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
@@ -1483,36 +1504,6 @@
       (net 7 /~BUTTON))
     (pad 1 smd roundrect (at -0.575 0) (size 0.95 0.9) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 6 /xFIFO_WKUP))
-  )
-
-  (module pkl_logos:1b2_Logo_SilkS_5mm locked (layer B.Cu) (tedit 5A7CF31B) (tstamp 5A660AE2)
-    (at 42.2 47.2 180)
-    (fp_text reference REF** (at 0 -4 180) (layer B.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
-    (fp_text value 1b2_Logo_SilkS_5mm (at 0 4 180) (layer B.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
-    (fp_line (start -0.5 0.5) (end -0.5 2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -0.5 2.5) (end -2.5 2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.5 2.5) (end -2.5 0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.5 0.5) (end -0.5 0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -0.5 2.5) (end 0 2) (layer B.SilkS) (width 0.2))
-    (fp_line (start 0 2) (end 0 0) (layer B.SilkS) (width 0.2))
-    (fp_line (start 0 0) (end -0.5 0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.5 0.5) (end -2 0) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2 0) (end 0 0) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2 2) (end 0.5 2) (layer B.SilkS) (width 0.2))
-    (fp_line (start 0.5 2) (end 0.5 -0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start 0.5 -0.5) (end -2 -0.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2 -0.5) (end -2 -2) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2 -2) (end 2 -2) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2 -2) (end 2 2) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2 2) (end 2.5 1.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2.5 1.5) (end 2.5 -2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2.5 -2.5) (end 2 -2) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2 -2) (end -1.5 -2.5) (layer B.SilkS) (width 0.2))
-    (fp_line (start -1.5 -2.5) (end 2.5 -2.5) (layer B.SilkS) (width 0.2))
   )
 
   (module pkl_dipol:R_Array_Convex_4x0402 (layer F.Cu) (tedit 5AEF8AD8) (tstamp 5AA47831)
@@ -2891,6 +2882,7 @@
   (module pkl_connectors:Connector_USB_Micro_B_SMD locked (layer F.Cu) (tedit 5A77A473) (tstamp 5A58D9B3)
     (at 31.5 47.5 180)
     (path /5A52ACD0)
+    (attr smd)
     (fp_text reference P1 (at 4 0 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5688,9 +5680,6 @@
   )
   (gr_text "(C) 2018\n1Bitsquared" (at 52.7 42.4) (layer F.SilkS) (tstamp 5A660E54)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text 1Bitsquared (at 42.1 51) (layer B.SilkS) (tstamp 5A660CFC)
-    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
   (gr_text CDONE (at 56.7 56.7) (layer F.SilkS) (tstamp 5A60F05E)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
