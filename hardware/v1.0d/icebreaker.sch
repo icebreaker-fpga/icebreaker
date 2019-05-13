@@ -1235,19 +1235,6 @@ Text Label 10700 5600 0    50   ~ 0
 iCE_CDONE
 Text Label 10700 5700 0    50   ~ 0
 iCE_CRESET
-$Comp
-L pkl_device:pkl_Diode_Small D2
-U 1 1 5A83A5CC
-P 8150 5800
-F 0 "D2" H 8050 5750 50  0000 C CNN
-F 1 "CDBU0520" H 8400 5850 50  0000 C CNN
-F 2 "pkl_dipol:D_0603" V 8150 5800 60  0001 C CNN
-F 3 "" V 8150 5800 60  0000 C CNN
-F 4 "diode-schottky-0603" H 0   0   50  0001 C CNN "Key"
-F 5 "ANY" H 8150 5800 50  0001 C CNN "Source"
-	1    8150 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8250 5800 8350 5800
 Wire Wire Line
@@ -5254,4 +5241,19 @@ Text Notes 7050 11150 0    75   ~ 0
 Unpopulated
 Text Notes 15250 9850 0    75   ~ 0
 Unpopulated
+$Comp
+L pkl_device:pkl_Diode_Small D2
+U 1 1 5A83A5CC
+P 8150 5800
+F 0 "D2" H 8000 5750 50  0000 L CNN
+F 1 "~~800mVf" H 8000 5650 50  0000 L CNN
+F 2 "pkl_dipol:D_SOD-523" V 8150 5800 60  0001 C CNN
+F 3 "" V 8150 5800 60  0000 C CNN
+F 4 "diode-schottky-sod523" H 0   0   50  0001 C CNN "Key"
+F 5 "ANY" H 8150 5800 50  0001 C CNN "Source"
+	1    8150 5800
+	1    0    0    -1  
+$EndComp
+Text Label 8600 5800 2    50   ~ 0
+VPP_2V5
 $EndSCHEMATC
