@@ -1466,11 +1466,11 @@ Wire Wire Line
 Wire Wire Line
 	10600 4100 10800 4100
 Text Label 10800 4100 0    50   ~ 0
-~LED_BLU
+~LED_RGB0
 Text Label 10800 4000 0    50   ~ 0
-~LED_GRN
+~LED_RGB1
 Text Label 10800 3900 0    50   ~ 0
-~LED_RED
+~LED_RGB2
 Text Notes 600  1700 0    100  ~ 0
 FTDI Programmer/UART/FIFO
 $Comp
@@ -2065,12 +2065,12 @@ Wire Wire Line
 	15200 8600 15600 8600
 Wire Wire Line
 	14700 8600 14300 8600
-Text Label 15600 8600 0    50   ~ 0
-~LED_RED
 Text Label 14300 8600 2    50   ~ 0
-~LED_GRN
+~LED_RGB1
+Text Label 15600 8600 0    50   ~ 0
+~LED_RGB2
 Text Label 15600 8700 0    50   ~ 0
-~LED_BLU
+~LED_RGB0
 Wire Wire Line
 	13300 4400 13500 4400
 Wire Wire Line
@@ -4880,7 +4880,7 @@ $EndComp
 Text Notes 11200 3250 0    50   ~ 0
 RAM CS
 $Comp
-L Device:LED_RGB D11
+L pkl_device:LED_BGR D11
 U 1 1 5C0C5D9F
 P 14950 9500
 F 0 "D11" H 14750 9200 50  0000 C CNN
@@ -4888,6 +4888,8 @@ F 1 "LED_RGB" H 15300 9200 50  0000 C CNN
 F 2 "pkl_led:LED_Cree_PLCC6_3.4x3.4mm" H 14950 9450 50  0001 C CNN
 F 3 "~" H 14950 9450 50  0001 C CNN
 F 4 "YES" H 14950 9500 50  0001 C CNN "DNP"
+F 5 "Cree" H 14950 9500 50  0001 C CNN "Manufacturer"
+F 6 "CLX6F-FKC" H 14950 9500 50  0001 C CNN "MFN"
 	1    14950 9500
 	-1   0    0    -1  
 $EndComp
@@ -4909,11 +4911,11 @@ Wire Wire Line
 Wire Wire Line
 	15150 9700 15250 9700
 Text Label 15250 9300 0    50   ~ 0
-~LED_RED
+~LED_RGB2
 Text Label 15250 9500 0    50   ~ 0
-~LED_GRN
+~LED_RGB1
 Text Label 15250 9700 0    50   ~ 0
-~LED_BLU
+~LED_RGB0
 $Comp
 L pkl_misc:pkl_double_jumper_ncno J30
 U 1 1 5CA12263
