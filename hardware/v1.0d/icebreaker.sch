@@ -5223,7 +5223,7 @@ EB_OD2
 Text Notes 7100 10200 0    100  ~ 0
 WS2812 "Ear"
 Text Notes 9600 10200 0    100  ~ 0
-SADD "Ear"
+SAO/I2C "Ear"
 Wire Notes Line
 	9500 10000 11700 10000
 Wire Notes Line
