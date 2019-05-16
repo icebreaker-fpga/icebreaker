@@ -4674,8 +4674,6 @@ Wire Wire Line
 	4900 5250 6000 5250
 Wire Wire Line
 	5800 6750 5800 7050
-Text Notes 550  5500 0    50   ~ 0
-Optional:\nWe are not programming the\nFTDI flash. We will keep the\nfootprint but will not populate.
 $Comp
 L pkl_device:pkl_R_Small R26
 U 1 1 5B973233
@@ -5256,4 +5254,6 @@ F 5 "ANY" H 8150 5800 50  0001 C CNN "Source"
 $EndComp
 Text Label 8600 5800 2    50   ~ 0
 VPP_2V5
+Text Notes 550  5500 0    50   ~ 0
+We need the FTDI flash.\nWe program a unique serial\nso multiple iCEBreakers can\nbe used at the same time.
 $EndSCHEMATC
