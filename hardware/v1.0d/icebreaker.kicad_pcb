@@ -5842,7 +5842,7 @@
   (gr_text RAM_CS (at 59.6 54.8) (layer F.SilkS) (tstamp 5BF42D7B)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (gr_text "AUX\n\nCS" (at 41.6 53.8 90) (layer B.SilkS) (tstamp 5CDFF11A)
+  (gr_text "AUX\n\nCS" (at 41.6 53.8 270) (layer B.SilkS) (tstamp 5CDFF11A)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
   )
   (gr_arc (start 102 34.2) (end 102 35.2) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BF1D89C))
