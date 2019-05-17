@@ -4976,11 +4976,11 @@ Wire Wire Line
 Wire Wire Line
 	7400 10400 7300 10400
 Text Label 8000 10400 0    50   ~ 0
-ET_OD1
-Text Label 7300 10400 2    50   ~ 0
 ET_OD2
+Text Label 7300 10400 2    50   ~ 0
+ET_OD1
 Text Label 8000 10500 0    50   ~ 0
-ET_OD3
+ET_OD0
 Wire Wire Line
 	7300 10600 7400 10600
 Wire Wire Line
@@ -5052,7 +5052,7 @@ Wire Wire Line
 	8700 10800 8600 10800
 Connection ~ 8700 10800
 Text Label 8600 10800 2    50   ~ 0
-ET_OD1
+ET_OD2
 Wire Wire Line
 	8600 10300 8700 10300
 Wire Wire Line
@@ -5091,7 +5091,7 @@ Wire Wire Line
 	9100 11100 9000 11100
 Connection ~ 9000 11100
 Text Label 9000 10500 2    50   ~ 0
-ET_O1
+ET_O2
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J33
 U 1 1 5E6CD6A5
@@ -5110,11 +5110,11 @@ Wire Wire Line
 Wire Wire Line
 	9900 10400 9800 10400
 Text Label 10500 10400 0    50   ~ 0
-EB_OD1
-Text Label 9800 10400 2    50   ~ 0
 EB_OD2
+Text Label 9800 10400 2    50   ~ 0
+EB_OD1
 Text Label 10500 10500 0    50   ~ 0
-EB_OD3
+EB_OD0
 Wire Wire Line
 	9800 10600 9900 10600
 Wire Wire Line
@@ -5215,9 +5215,9 @@ Wire Wire Line
 	11300 11000 11400 11000
 Connection ~ 11300 11000
 Text Label 11400 10900 0    50   ~ 0
-EB_OD1
-Text Label 11400 11000 0    50   ~ 0
 EB_OD2
+Text Label 11400 11000 0    50   ~ 0
+EB_OD1
 Text Notes 7100 10200 0    100  ~ 0
 WS2812 "Ear"
 Text Notes 9600 10200 0    100  ~ 0
