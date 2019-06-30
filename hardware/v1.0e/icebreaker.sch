@@ -5089,7 +5089,7 @@ Wire Wire Line
 	9100 11100 9000 11100
 Connection ~ 9000 11100
 Text Label 9000 10500 2    50   ~ 0
-ET_O2
+ET_O0
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J33
 U 1 1 5E6CD6A5
