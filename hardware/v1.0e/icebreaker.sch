@@ -1465,11 +1465,12 @@ L pkl_memory:W25Q U5
 U 1 1 5A9D24AF
 P 7900 7950
 F 0 "U5" H 7900 8380 50  0000 C CNN
-F 1 "W25Q" H 7900 8287 50  0000 C CNN
+F 1 "W25Q128JV-DTR" H 7900 8287 50  0000 C CNN
 F 2 "pkl_housings_soic:SOIC-8_5.3x5.3mm_Pitch1.27mm" H 7900 7950 50  0001 C CNN
-F 3 "" H 7900 7950 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf" H 7900 7950 50  0001 C CNN
 F 4 "ANY" H 7900 7950 50  0001 C CNN "Source"
 F 5 "eeprom-so8w-W25Q" H 0   0   50  0001 C CNN "Key"
+F 6 "W25Q128JVSIM" H 7900 7950 50  0001 C CNN "MFN"
 	1    7900 7950
 	-1   0    0    -1  
 $EndComp
