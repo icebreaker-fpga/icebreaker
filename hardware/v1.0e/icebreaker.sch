@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "iCEBreaker"
 Date ""
-Rev "V1.0d"
+Rev "V1.0e"
 Comp "1BitSquared"
 Comment1 "2019 (C) 1BitSquared <info@1bitsquared.com>"
 Comment2 "2019 (C) Piotr Esden-Tempski <piotr@esden.net>"
@@ -15,11 +15,11 @@ Comment3 "License: CC-BY-SA V4.0"
 Comment4 ""
 $EndDescr
 $Comp
-L pkl_lattice:ICE5LP4K-SG48 U6
+L pkl_lattice:ICE40UP5K-SG48 U6
 U 1 1 5A512943
 P 9600 4200
 F 0 "U6" H 9600 6370 50  0000 C CNN
-F 1 "ICE5LP4K-SG48" H 9600 6277 50  0000 C CNN
+F 1 "ICE40UP5K-SG48" H 9600 6277 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-48-1EP_7x7mm_Pitch0.5mm" H 11900 4400 50  0001 C CNN
 F 3 "" H 11900 4400 50  0001 C CNN
 F 4 "ic-ice40up5k-sg48" H 0   0   50  0001 C CNN "Key"
@@ -1453,11 +1453,11 @@ Wire Wire Line
 Wire Wire Line
 	10600 4100 10800 4100
 Text Label 10800 4100 0    50   ~ 0
-~LED_RGB0
+~LED_RGB2
 Text Label 10800 4000 0    50   ~ 0
 ~LED_RGB1
 Text Label 10800 3900 0    50   ~ 0
-~LED_RGB2
+~LED_RGB0
 Text Notes 600  1700 0    100  ~ 0
 FTDI Programmer/UART/FIFO
 $Comp
@@ -2055,9 +2055,9 @@ Wire Wire Line
 Text Label 14300 8600 2    50   ~ 0
 ~LED_RGB1
 Text Label 15600 8600 0    50   ~ 0
-~LED_RGB2
-Text Label 15600 8700 0    50   ~ 0
 ~LED_RGB0
+Text Label 15600 8700 0    50   ~ 0
+~LED_RGB2
 Wire Wire Line
 	13300 4400 13500 4400
 Wire Wire Line
@@ -4896,11 +4896,11 @@ Wire Wire Line
 Wire Wire Line
 	15150 9700 15250 9700
 Text Label 15250 9300 0    50   ~ 0
-~LED_RGB2
+~LED_RGB0
 Text Label 15250 9500 0    50   ~ 0
 ~LED_RGB1
 Text Label 15250 9700 0    50   ~ 0
-~LED_RGB0
+~LED_RGB2
 $Comp
 L pkl_misc:pkl_double_jumper_ncno J30
 U 1 1 5CA12263
@@ -4976,11 +4976,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 10400 7300 10400
 Text Label 8000 10400 0    50   ~ 0
-ET_OD2
-Text Label 7300 10400 2    50   ~ 0
-ET_OD1
-Text Label 8000 10500 0    50   ~ 0
 ET_OD0
+Text Label 8000 10500 0    50   ~ 0
+ET_OD2
 Wire Wire Line
 	7300 10600 7400 10600
 Wire Wire Line
@@ -5052,7 +5050,7 @@ Wire Wire Line
 	8700 10800 8600 10800
 Connection ~ 8700 10800
 Text Label 8600 10800 2    50   ~ 0
-ET_OD2
+ET_OD0
 Wire Wire Line
 	8600 10300 8700 10300
 Wire Wire Line
@@ -5110,11 +5108,11 @@ Wire Wire Line
 Wire Wire Line
 	9900 10400 9800 10400
 Text Label 10500 10400 0    50   ~ 0
-EB_OD2
+EB_OD0
 Text Label 9800 10400 2    50   ~ 0
 EB_OD1
 Text Label 10500 10500 0    50   ~ 0
-EB_OD0
+EB_OD2
 Wire Wire Line
 	9800 10600 9900 10600
 Wire Wire Line
@@ -5215,7 +5213,7 @@ Wire Wire Line
 	11300 11000 11400 11000
 Connection ~ 11300 11000
 Text Label 11400 10900 0    50   ~ 0
-EB_OD2
+EB_OD0
 Text Label 11400 11000 0    50   ~ 0
 EB_OD1
 Text Notes 7100 10200 0    100  ~ 0
@@ -5256,4 +5254,6 @@ Text Label 8600 5800 2    50   ~ 0
 VPP_2V5
 Text Notes 550  5500 0    50   ~ 0
 We need the FTDI flash.\nWe program a unique serial\nso multiple iCEBreakers can\nbe used at the same time.
+Text Label 7300 10400 2    50   ~ 0
+ET_OD1
 $EndSCHEMATC
