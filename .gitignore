@@ -3,3 +3,7 @@
 *.zip
 *gerber*
 _autosave-*
+panel
+fp-info-cache
+*-rescue.dcm
+*-rescue.lib
