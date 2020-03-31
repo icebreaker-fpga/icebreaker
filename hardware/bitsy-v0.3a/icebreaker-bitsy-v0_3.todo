@@ -5,6 +5,13 @@ Circuit changes and updates:
  ✔ Replace Normally Open Jumpers with Normally Closed Jumpers @done (20-03-26 13:42)
  ✔ Remove SRAM/FLASH programming swapping jumpers to make more space. We don't really need them as we can just swap the pins on the programmer... @done (20-03-26 14:02)
  ✔ Add RGB Led with jumpers @done (20-03-26 14:43)
- ☐ Add PSRAM footprint to the back of the board
- ☐ Replace MEMS oscillator with a more widely available footprint
- ☐ Replace VPP2V5 circuit with a jumper
+ ✔ Add PSRAM footprint to the back of the board @done (20-03-29 12:53)
+ ✔ Replace VPP2V5 circuit with a jumper @done (20-03-29 13:01)
+ ✔ Add Button 3D Model @done (20-03-29 13:19)
+ ✔ Replace MEMS oscillator with a more widely available footprint @done (20-03-29 14:13)
+
+Routing:
+ ☐ Route FLASH/PSRAM
+ ☐ Route RGB LED and Jumpers
+ ☐ Routing cleanup
+ ☐ Silkscreen cleanup
