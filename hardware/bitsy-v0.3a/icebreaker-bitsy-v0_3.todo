@@ -14,5 +14,5 @@ Routing:
  ✔ Match the Oscillator footprint to work better with LCSC option @done (20-04-01 12:36)
  ✔ Route FLASH/PSRAM @done (20-04-02 20:40)
  ✔ Route RGB LED and Jumpers @done (20-04-02 20:40)
- ☐ Routing cleanup
- ☐ Silkscreen cleanup
+ ✔ Routing cleanup @done (20-04-03 00:26)
+ ✔ Silkscreen cleanup @done (20-04-03 00:26)
