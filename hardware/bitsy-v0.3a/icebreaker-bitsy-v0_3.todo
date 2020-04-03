@@ -12,7 +12,7 @@ Circuit changes and updates:
 
 Routing:
  ✔ Match the Oscillator footprint to work better with LCSC option @done (20-04-01 12:36)
- ☐ Route FLASH/PSRAM
- ☐ Route RGB LED and Jumpers
+ ✔ Route FLASH/PSRAM @done (20-04-02 20:40)
+ ✔ Route RGB LED and Jumpers @done (20-04-02 20:40)
  ☐ Routing cleanup
  ☐ Silkscreen cleanup

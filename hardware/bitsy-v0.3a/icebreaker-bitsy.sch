@@ -370,10 +370,6 @@ F 3 "" H 6000 3300 50  0001 C CNN
 	1    6000 3300
 	1    0    0    -1  
 $EndComp
-Text Label 9400 3100 0    50   ~ 0
-~LED_BLU
-Text Label 9400 3000 0    50   ~ 0
-~LED_GRN
 Text Label 9400 2900 0    50   ~ 0
 ~LED_RED
 $Comp
@@ -481,27 +477,27 @@ FLASH_MOSI-IO0
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 1 1 5AB5AE47
-P 4650 6500
-F 0 "R11" V 4600 6200 50  0000 L CNN
-F 1 "10k" V 4600 6600 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6500 60  0001 C CNN
-F 3 "" H 4650 6500 60  0000 C CNN
-F 4 "ANY" H 4650 6500 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -4150 -900 50  0001 C CNN "Key"
-	1    4650 6500
+P 4650 6100
+F 0 "R11" V 4600 5800 50  0000 L CNN
+F 1 "10k" V 4600 6200 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6100 60  0001 C CNN
+F 3 "" H 4650 6100 60  0000 C CNN
+F 4 "ANY" H 4650 6100 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -4150 -1300 50  0001 C CNN "Key"
+	1    4650 6100
 	0    1    1    0   
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 2 1 5AB5B376
-P 4650 6200
-F 0 "R11" V 4600 5900 50  0000 L CNN
-F 1 "10k" V 4600 6300 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6200 60  0001 C CNN
-F 3 "" H 4650 6200 60  0000 C CNN
-F 4 "ANY" H 4650 6200 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -4050 -1200 50  0001 C CNN "Key"
-	2    4650 6200
+P 4650 6600
+F 0 "R11" V 4600 6300 50  0000 L CNN
+F 1 "10k" V 4600 6700 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6600 60  0001 C CNN
+F 3 "" H 4650 6600 60  0000 C CNN
+F 4 "ANY" H 4650 6600 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -4050 -800 50  0001 C CNN "Key"
+	2    4650 6600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -515,27 +511,27 @@ Wire Wire Line
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 3 1 5ABF6624
-P 4650 6100
-F 0 "R11" V 4600 5800 50  0000 L CNN
-F 1 "10k" V 4600 6200 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6100 60  0001 C CNN
-F 3 "" H 4650 6100 60  0000 C CNN
-F 4 "ANY" H 4650 6100 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -3950 -1300 50  0001 C CNN "Key"
-	3    4650 6100
+P 4650 6500
+F 0 "R11" V 4600 6200 50  0000 L CNN
+F 1 "10k" V 4600 6600 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6500 60  0001 C CNN
+F 3 "" H 4650 6500 60  0000 C CNN
+F 4 "ANY" H 4650 6500 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -3950 -900 50  0001 C CNN "Key"
+	3    4650 6500
 	0    1    1    0   
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R11
 U 4 1 5ABF66A6
-P 4650 6600
-F 0 "R11" V 4600 6300 50  0000 L CNN
-F 1 "10k" V 4600 6700 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6600 60  0001 C CNN
-F 3 "" H 4650 6600 60  0000 C CNN
-F 4 "ANY" H 4650 6600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -4250 -800 50  0001 C CNN "Key"
-	4    4650 6600
+P 4650 6200
+F 0 "R11" V 4600 5900 50  0000 L CNN
+F 1 "10k" V 4600 6300 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 4650 6200 60  0001 C CNN
+F 3 "" H 4650 6200 60  0000 C CNN
+F 4 "ANY" H 4650 6200 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -4250 -1200 50  0001 C CNN "Key"
+	4    4650 6200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2657,4 +2653,8 @@ Wire Wire Line
 	5750 3800 5750 4700
 Text Label 1750 1200 0    50   ~ 0
 UVBUS
+Text Label 9400 3000 0    50   ~ 0
+~LED_GRN
+Text Label 9400 3100 0    50   ~ 0
+~LED_BLU
 $EndSCHEMATC
