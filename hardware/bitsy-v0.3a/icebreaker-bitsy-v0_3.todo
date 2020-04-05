@@ -16,3 +16,7 @@ Routing:
  ✔ Route RGB LED and Jumpers @done (20-04-02 20:40)
  ✔ Routing cleanup @done (20-04-03 00:26)
  ✔ Silkscreen cleanup @done (20-04-03 00:26)
+
+Polish:
+ ✔ Add more legends on silkscreen @done (20-04-04 21:20)
+ ✔ Add via to connect decoupling caps better @done (20-04-04 21:41)
