@@ -1,0 +1,18 @@
+
+Circuit changes and updates:
+ ☐ Adjust pinout to be more teensy compatible
+ ☐ Consider an ADC solution for the analog pins without breaking digital IO capability
+ ✔ Replace 1v2 with GND @done(20-05-21 19:50)
+ ☐ Move RGB LED Pins to have normal GPIO in their place
+ ☐ Investigate low bandwidth ADC inputs
+ ✔ Explore USB-C connector @done(20-05-21 19:52)
+ ✔ Replace the VREG with Glasgow DFN @done(20-05-21 19:51)
+ ☐ Use smaller pin header for FLASH programming
+ ☐ Swap the RGB LED for the 2020 part
+
+Routing:
+✔ Move Oscillator to the left side of the FPGA @done(20-05-21 19:51)
+✔ Move all VIA to the outside of the FPGA and increase the thermal pad size back to nominal. @done(20-05-21 19:52)
+✔ Move the PSRAM chip to the top of the PCB @done(20-05-21 19:52)
+
+Polish:
