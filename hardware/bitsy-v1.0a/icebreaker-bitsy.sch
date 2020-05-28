@@ -842,30 +842,6 @@ Wire Notes Line
 	16450 3250 16450 4650
 Wire Notes Line
 	16450 4650 14150 4650
-$Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 5B1151BE
-P -3450 2300
-F 0 "J1" H -3370 2295 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2300 50  0001 C CNN
-F 3 "~" H -3450 2300 50  0001 C CNN
-F 4 "ANY" H -3450 2300 50  0001 C CNN "Source"
-	1    -3450 2300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5B14536A
-P -3450 2400
-F 0 "J2" H -3370 2395 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2400 50  0001 C CNN
-F 3 "~" H -3450 2400 50  0001 C CNN
-F 4 "ANY" H -3450 2400 50  0001 C CNN "Source"
-	1    -3450 2400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	-3250 2400 -3150 2400
 Wire Wire Line
@@ -885,18 +861,6 @@ F 2 "" H -3150 2200 50  0001 C CNN
 F 3 "" H -3150 2200 50  0001 C CNN
 	1    -3150 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5B1A6195
-P -3450 2500
-F 0 "J3" H -3370 2495 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2500 50  0001 C CNN
-F 3 "~" H -3450 2500 50  0001 C CNN
-F 4 "ANY" H -3450 2500 50  0001 C CNN "Source"
-	1    -3450 2500
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	-3250 2500 -2950 2500
@@ -952,54 +916,6 @@ Wire Wire Line
 	4200 3100 4200 3200
 Wire Wire Line
 	800  6000 800  6100
-$Comp
-L Connector_Generic:Conn_01x01 J34
-U 1 1 5ACEF407
-P 4300 1900
-F 0 "J34" H 4380 1895 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 1849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 1900 50  0001 C CNN
-F 3 "~" H 4300 1900 50  0001 C CNN
-F 4 "ANY" H 4300 1900 50  0001 C CNN "Source"
-	1    4300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J35
-U 1 1 5ACEF48F
-P 4300 2000
-F 0 "J35" H 4380 1995 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 1949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 2000 50  0001 C CNN
-F 3 "~" H 4300 2000 50  0001 C CNN
-F 4 "ANY" H 4300 2000 50  0001 C CNN "Source"
-	1    4300 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J36
-U 1 1 5ACEF519
-P 4300 2100
-F 0 "J36" H 4380 2095 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 2049 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 2100 50  0001 C CNN
-F 3 "~" H 4300 2100 50  0001 C CNN
-F 4 "ANY" H 4300 2100 50  0001 C CNN "Source"
-	1    4300 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J37
-U 1 1 5ACEF5A5
-P 4300 2200
-F 0 "J37" H 4380 2195 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 2149 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 2200 50  0001 C CNN
-F 3 "~" H 4300 2200 50  0001 C CNN
-F 4 "ANY" H 4300 2200 50  0001 C CNN "Source"
-	1    4300 2200
-	1    0    0    -1  
-$EndComp
 Text Label 1500 3500 0    50   ~ 0
 VCCIO_2
 Text Label 4300 3500 0    50   ~ 0
@@ -1111,18 +1027,6 @@ Text Label 4300 5200 0    50   ~ 0
 ~RGB1
 Text Label 4300 5300 0    50   ~ 0
 ~RGB2
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5B1A6265
-P -3450 2600
-F 0 "J4" H -3370 2595 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2549 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2600 50  0001 C CNN
-F 3 "~" H -3450 2600 50  0001 C CNN
-F 4 "ANY" H -3450 2600 50  0001 C CNN "Source"
-	1    -3450 2600
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J15
 U 1 1 5AE1DB99
@@ -1316,30 +1220,6 @@ F 4 "ANY" H 1200 3900 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5B1A640B
-P -3450 2800
-F 0 "J6" H -3370 2795 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2800 50  0001 C CNN
-F 3 "~" H -3450 2800 50  0001 C CNN
-F 4 "ANY" H -3450 2800 50  0001 C CNN "Source"
-	1    -3450 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5B1A6337
-P -3450 2700
-F 0 "J5" H -3370 2695 50  0000 L CNN
-F 1 "Conn_01x01" H -3370 2649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2700 50  0001 C CNN
-F 3 "~" H -3450 2700 50  0001 C CNN
-F 4 "ANY" H -3450 2700 50  0001 C CNN "Source"
-	1    -3450 2700
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J20
 U 1 1 5AE1E2D5
 P 5000 4200
@@ -1349,18 +1229,6 @@ F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4200 50  0001 C CNN
 F 3 "~" H 5000 4200 50  0001 C CNN
 F 4 "ANY" H 5000 4200 50  0001 C CNN "Source"
 	1    5000 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J38
-U 1 1 5ACEF633
-P 4300 2300
-F 0 "J38" H 4380 2295 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 2249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 2300 50  0001 C CNN
-F 3 "~" H 4300 2300 50  0001 C CNN
-F 4 "ANY" H 4300 2300 50  0001 C CNN "Source"
-	1    4300 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1533,18 +1401,6 @@ Text Label 4300 4600 0    50   ~ 0
 CLK
 Wire Wire Line
 	4100 6300 4200 6300
-$Comp
-L Connector_Generic:Conn_01x01 J33
-U 1 1 5ACEE8F6
-P 4300 1800
-F 0 "J33" H 4380 1795 50  0000 L CNN
-F 1 "Conn_01x01" H 4380 1749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 4300 1800 50  0001 C CNN
-F 3 "~" H 4300 1800 50  0001 C CNN
-F 4 "ANY" H 4300 1800 50  0001 C CNN "Source"
-	1    4300 1800
-	1    0    0    -1  
-$EndComp
 Text Label -2150 6000 2    50   ~ 0
 RAM_SS-~LEDG
 Text Label 4200 6000 0    50   ~ 0
@@ -2176,10 +2032,10 @@ F 4 "ANY" H 14400 400 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 P1
+L Connector:USB_C_Receptacle_USB2.0 J34
 U 1 1 5ECFA32E
 P 13500 1200
-F 0 "P1" H 13607 2067 50  0000 C CNN
+F 0 "J34" H 13607 2067 50  0000 C CNN
 F 1 "USB_C" H 13607 1976 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 13650 1200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 13650 1200 50  0001 C CNN
@@ -2284,10 +2140,10 @@ Wire Wire Line
 Wire Wire Line
 	14700 500  14700 600 
 $Comp
-L pkl_misc:PAD_SMD P4
+L pkl_misc:PAD_SMD P3
 U 1 1 5D65D419
 P 14900 300
-F 0 "P4" H 15100 300 60  0000 R CNN
+F 0 "P3" H 15100 300 60  0000 R CNN
 F 1 "UP" V 15100 350 60  0001 R CNN
 F 2 "pkl_pads:PAD_SMD_1x2.65" H 14900 50  60  0001 C CNN
 F 3 "" H 14900 150 60  0000 C CNN
@@ -2296,10 +2152,10 @@ F 4 "ANY" H 14900 300 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pkl_misc:PAD_SMD P3
+L pkl_misc:PAD_SMD P2
 U 1 1 5D65D33D
 P 14800 300
-F 0 "P3" H 15000 300 60  0000 R CNN
+F 0 "P2" H 15000 300 60  0000 R CNN
 F 1 "UP" V 15000 350 60  0001 R CNN
 F 2 "pkl_pads:PAD_SMD_1x2.65" H 14800 50  60  0001 C CNN
 F 3 "" H 14800 150 60  0000 C CNN
@@ -2308,10 +2164,10 @@ F 4 "ANY" H 14800 300 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pkl_misc:PAD_SMD P2
+L pkl_misc:PAD_SMD P1
 U 1 1 5D65C8E0
 P 14700 300
-F 0 "P2" H 14900 300 60  0000 R CNN
+F 0 "P1" H 14900 300 60  0000 R CNN
 F 1 "UP" V 14900 350 60  0001 R CNN
 F 2 "pkl_pads:PAD_SMD_1x2.65" H 14700 50  60  0001 C CNN
 F 3 "" H 14700 150 60  0000 C CNN
@@ -2320,10 +2176,10 @@ F 4 "ANY" H 14700 300 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pkl_misc:PAD_SMD P5
+L pkl_misc:PAD_SMD P4
 U 1 1 5D65D4F7
 P 15000 300
-F 0 "P5" H 15200 300 60  0000 R CNN
+F 0 "P4" H 15200 300 60  0000 R CNN
 F 1 "UP" V 15200 350 60  0001 R CNN
 F 2 "pkl_pads:PAD_SMD_1x2.65" H 15000 50  60  0001 C CNN
 F 3 "" H 15000 150 60  0000 C CNN
@@ -2553,4 +2409,142 @@ Wire Wire Line
 	-2150 7200 -2050 7200
 Text Notes -2350 7500 0    50   ~ 0
 TODO: fix symbol pinout
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5B1A640B
+P -3450 2800
+F 0 "J6" H -3370 2795 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2749 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2800 50  0001 C CNN
+F 3 "~" H -3450 2800 50  0001 C CNN
+F 4 "ANY" H -3450 2800 50  0001 C CNN "Source"
+	1    -3450 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5B1A6337
+P -3450 2700
+F 0 "J5" H -3370 2695 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2649 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2700 50  0001 C CNN
+F 3 "~" H -3450 2700 50  0001 C CNN
+F 4 "ANY" H -3450 2700 50  0001 C CNN "Source"
+	1    -3450 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5B1A6265
+P -3450 2600
+F 0 "J4" H -3370 2595 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2549 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2600 50  0001 C CNN
+F 3 "~" H -3450 2600 50  0001 C CNN
+F 4 "ANY" H -3450 2600 50  0001 C CNN "Source"
+	1    -3450 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5B1A6195
+P -3450 2500
+F 0 "J3" H -3370 2495 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2449 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2500 50  0001 C CNN
+F 3 "~" H -3450 2500 50  0001 C CNN
+F 4 "ANY" H -3450 2500 50  0001 C CNN "Source"
+	1    -3450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5B14536A
+P -3450 2400
+F 0 "J2" H -3370 2395 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2349 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2400 50  0001 C CNN
+F 3 "~" H -3450 2400 50  0001 C CNN
+F 4 "ANY" H -3450 2400 50  0001 C CNN "Source"
+	1    -3450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5B1151BE
+P -3450 2300
+F 0 "J1" H -3370 2295 50  0000 L CNN
+F 1 "Conn_01x01" H -3370 2249 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2300 50  0001 C CNN
+F 3 "~" H -3450 2300 50  0001 C CNN
+F 4 "ANY" H -3450 2300 50  0001 C CNN "Source"
+	1    -3450 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P5
+U 1 1 5ED048A1
+P 4300 1800
+F 0 "P5" H 4378 1795 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 1742 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 1550 60  0001 C CNN
+F 3 "" H 4300 1650 60  0000 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P6
+U 1 1 5ED3CC0E
+P 4300 1900
+F 0 "P6" H 4378 1895 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 1842 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 1650 60  0001 C CNN
+F 3 "" H 4300 1750 60  0000 C CNN
+	1    4300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P7
+U 1 1 5ED3CDEF
+P 4300 2000
+F 0 "P7" H 4378 1995 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 1942 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 1750 60  0001 C CNN
+F 3 "" H 4300 1850 60  0000 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P8
+U 1 1 5ED3CFD9
+P 4300 2100
+F 0 "P8" H 4378 2095 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 2042 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 1850 60  0001 C CNN
+F 3 "" H 4300 1950 60  0000 C CNN
+	1    4300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P9
+U 1 1 5ED3D1F2
+P 4300 2200
+F 0 "P9" H 4378 2195 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 2142 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 1950 60  0001 C CNN
+F 3 "" H 4300 2050 60  0000 C CNN
+	1    4300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:POGO_PAD_SMD P10
+U 1 1 5ED3D3C3
+P 4300 2300
+F 0 "P10" H 4378 2295 60  0000 L CNN
+F 1 "POGO_PAD_SMD" H 4378 2242 60  0001 L CNN
+F 2 "pkl_pads:POGO_PAD_SMD_R_1x1" H 4300 2050 60  0001 C CNN
+F 3 "" H 4300 2150 60  0000 C CNN
+	1    4300 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
