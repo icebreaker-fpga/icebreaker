@@ -1,14 +1,14 @@
 
 Circuit changes and updates:
- ☐ Adjust pinout to be more teensy compatible
+ ✔ Adjust pinout to be more teensy compatible @done(20-05-24 23:23)
  ☐ Consider an ADC solution for the analog pins without breaking digital IO capability
  ✔ Replace 1v2 with GND @done(20-05-21 19:50)
- ☐ Move RGB LED Pins to have normal GPIO in their place
+ ✔ Move RGB LED Pins to have normal GPIO in their place @done(20-05-24 23:23)
  ☐ Investigate low bandwidth ADC inputs
  ✔ Explore USB-C connector @done(20-05-21 19:52)
  ✔ Replace the VREG with Glasgow DFN @done(20-05-21 19:51)
  ☐ Use smaller pin header for FLASH programming
- ☐ Swap the RGB LED for the 2020 part
+ ☐ Swap the RGB LED for the 2020 part (change symbol pinout)
 
 Routing:
 ✔ Move Oscillator to the left side of the FPGA @done(20-05-21 19:51)
