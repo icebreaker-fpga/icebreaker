@@ -7,8 +7,8 @@ Circuit changes and updates:
  ☐ Investigate low bandwidth ADC inputs
  ✔ Explore USB-C connector @done(20-05-21 19:52)
  ✔ Replace the VREG with Glasgow DFN @done(20-05-21 19:51)
- ☐ Use smaller pin header for FLASH programming
- ☐ Swap the RGB LED for the 2020 part (change symbol pinout)
+ ✔ Use smaller pin header for FLASH programming @done(20-05-29 12:03)
+ ✔ Swap the RGB LED for the 2020 part (change symbol pinout) @done(20-05-29 12:03)
 
 Routing:
 ✔ Move Oscillator to the left side of the FPGA @done(20-05-21 19:51)
