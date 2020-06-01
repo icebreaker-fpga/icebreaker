@@ -1373,14 +1373,14 @@ $Comp
 L pkl_device:pkl_R_Small R10
 U 1 1 5A87208D
 P 1600 6800
-F 0 "R10" V 1550 6650 50  0000 C CNN
-F 1 "100E" V 1550 7000 50  0000 C CNN
+F 0 "R10" V 1650 6950 50  0000 C CNN
+F 1 "100E" V 1650 6600 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 1659 6707 60  0001 L CNN
 F 3 "" H 1600 6800 60  0000 C CNN
 F 4 "ANY" H 1600 6800 50  0001 C CNN "Source"
 F 5 "res-0402-100" H -5750 1100 50  0001 C CNN "Key"
 	1    1600 6800
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	800  7400 1000 7400
@@ -2383,12 +2383,10 @@ Wire Wire Line
 	-1550 7000 -1550 6300
 Wire Wire Line
 	-1650 7000 -1550 7000
-Text Label -2150 6800 2    50   ~ 0
+Text Label -2150 7200 2    50   ~ 0
 ~RGB0
 Text Label -2150 7000 2    50   ~ 0
 ~RGB1
-Text Label -2150 7200 2    50   ~ 0
-~RGB2
 Wire Wire Line
 	-2150 6800 -2050 6800
 Wire Wire Line
@@ -2546,4 +2544,6 @@ Text Label 6350 1850 0    50   ~ 0
 iCE_SCK
 Text Label 6350 1750 0    50   ~ 0
 iCE_SS_B
+Text Label -2150 6800 2    50   ~ 0
+~RGB2
 $EndSCHEMATC
