@@ -853,7 +853,7 @@ U 1 1 5AE1DB99
 P 5000 3700
 F 0 "J15" H 5080 3695 50  0000 L CNN
 F 1 "16" H 5080 3649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 3700 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 3700 50  0001 C CNN
 F 3 "~" H 5000 3700 50  0001 C CNN
 F 4 "ANY" H 5000 3700 50  0001 C CNN "Source"
 	1    5000 3700
@@ -865,7 +865,7 @@ U 1 1 5AE1E029
 P 5000 3800
 F 0 "J16" H 5080 3795 50  0000 L CNN
 F 1 "15" H 5080 3749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 3800 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 3800 50  0001 C CNN
 F 3 "~" H 5000 3800 50  0001 C CNN
 F 4 "ANY" H 5000 3800 50  0001 C CNN "Source"
 	1    5000 3800
@@ -877,7 +877,7 @@ U 1 1 5AE1E0D1
 P 5000 3900
 F 0 "J17" H 5080 3895 50  0000 L CNN
 F 1 "18" H 5080 3849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 3900 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 3900 50  0001 C CNN
 F 3 "~" H 5000 3900 50  0001 C CNN
 F 4 "ANY" H 5000 3900 50  0001 C CNN "Source"
 	1    5000 3900
@@ -889,7 +889,7 @@ U 1 1 5AE1E17B
 P 5000 4000
 F 0 "J18" H 5080 3995 50  0000 L CNN
 F 1 "17" H 5080 3949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4000 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4000 50  0001 C CNN
 F 3 "~" H 5000 4000 50  0001 C CNN
 F 4 "ANY" H 5000 4000 50  0001 C CNN "Source"
 	1    5000 4000
@@ -901,7 +901,7 @@ U 1 1 5AE1E227
 P 5000 4100
 F 0 "J19" H 5080 4095 50  0000 L CNN
 F 1 "19" H 5080 4049 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4100 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4100 50  0001 C CNN
 F 3 "~" H 5000 4100 50  0001 C CNN
 F 4 "ANY" H 5000 4100 50  0001 C CNN "Source"
 	1    5000 4100
@@ -913,7 +913,7 @@ U 1 1 5AE1E385
 P 5000 4300
 F 0 "J21" H 5080 4295 50  0000 L CNN
 F 1 "21" H 5080 4249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4300 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4300 50  0001 C CNN
 F 3 "~" H 5000 4300 50  0001 C CNN
 F 4 "ANY" H 5000 4300 50  0001 C CNN "Source"
 	1    5000 4300
@@ -925,7 +925,7 @@ U 1 1 5AE5210D
 P 5000 4400
 F 0 "J22" H 5080 4395 50  0000 L CNN
 F 1 "22" H 5080 4349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4400 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4400 50  0001 C CNN
 F 3 "~" H 5000 4400 50  0001 C CNN
 F 4 "ANY" H 5000 4400 50  0001 C CNN "Source"
 	1    5000 4400
@@ -937,7 +937,7 @@ U 1 1 5AE1E437
 P 5000 4700
 F 0 "J23" H 5080 4695 50  0000 L CNN
 F 1 "23" H 5080 4649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4700 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4700 50  0001 C CNN
 F 3 "~" H 5000 4700 50  0001 C CNN
 F 4 "ANY" H 5000 4700 50  0001 C CNN "Source"
 	1    5000 4700
@@ -949,7 +949,7 @@ U 1 1 5AD4189B
 P 1200 4300
 F 0 "J13" H 1280 4295 50  0000 L CNN
 F 1 "7" H 1280 4249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 4300 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 4300 50  0001 C CNN
 F 3 "~" H 1200 4300 50  0001 C CNN
 F 4 "ANY" H 1200 4300 50  0001 C CNN "Source"
 	1    1200 4300
@@ -961,7 +961,7 @@ U 1 1 5AD4193D
 P 1200 4400
 F 0 "J14" H 1280 4395 50  0000 L CNN
 F 1 "6" H 1280 4349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 4400 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 4400 50  0001 C CNN
 F 3 "~" H 1200 4400 50  0001 C CNN
 F 4 "ANY" H 1200 4400 50  0001 C CNN "Source"
 	1    1200 4400
@@ -973,7 +973,7 @@ U 1 1 5AD417FB
 P 1200 4200
 F 0 "J12" H 1280 4195 50  0000 L CNN
 F 1 "5" H 1280 4149 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 4200 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 4200 50  0001 C CNN
 F 3 "~" H 1200 4200 50  0001 C CNN
 F 4 "ANY" H 1200 4200 50  0001 C CNN "Source"
 	1    1200 4200
@@ -985,7 +985,7 @@ U 1 1 5AD416C1
 P 1200 4000
 F 0 "J10" H 1280 3995 50  0000 L CNN
 F 1 "4" H 1280 3949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 4000 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 4000 50  0001 C CNN
 F 3 "~" H 1200 4000 50  0001 C CNN
 F 4 "ANY" H 1200 4000 50  0001 C CNN "Source"
 	1    1200 4000
@@ -997,7 +997,7 @@ U 1 1 5AD4158F
 P 1200 3800
 F 0 "J8" H 1280 3795 50  0000 L CNN
 F 1 "3" H 1280 3749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 3800 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 3800 50  0001 C CNN
 F 3 "~" H 1200 3800 50  0001 C CNN
 F 4 "ANY" H 1200 3800 50  0001 C CNN "Source"
 	1    1200 3800
@@ -1009,7 +1009,7 @@ U 1 1 5AD40D83
 P 1200 3700
 F 0 "J7" H 1280 3695 50  0000 L CNN
 F 1 "2" H 1280 3649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 3700 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 3700 50  0001 C CNN
 F 3 "~" H 1200 3700 50  0001 C CNN
 F 4 "ANY" H 1200 3700 50  0001 C CNN "Source"
 	1    1200 3700
@@ -1021,7 +1021,7 @@ U 1 1 5AD4175D
 P 1200 4100
 F 0 "J11" H 1280 4095 50  0000 L CNN
 F 1 "1" H 1280 4049 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 4100 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 4100 50  0001 C CNN
 F 3 "~" H 1200 4100 50  0001 C CNN
 F 4 "ANY" H 1200 4100 50  0001 C CNN "Source"
 	1    1200 4100
@@ -1033,7 +1033,7 @@ U 1 1 5AD41627
 P 1200 3900
 F 0 "J9" H 1280 3895 50  0000 L CNN
 F 1 "0" H 1280 3849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 1200 3900 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 1200 3900 50  0001 C CNN
 F 3 "~" H 1200 3900 50  0001 C CNN
 F 4 "ANY" H 1200 3900 50  0001 C CNN "Source"
 	1    1200 3900
@@ -1045,7 +1045,7 @@ U 1 1 5AE1E2D5
 P 5000 4200
 F 0 "J20" H 5080 4195 50  0000 L CNN
 F 1 "20" H 5080 4149 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 4200 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 4200 50  0001 C CNN
 F 3 "~" H 5000 4200 50  0001 C CNN
 F 4 "ANY" H 5000 4200 50  0001 C CNN "Source"
 	1    5000 4200
@@ -1216,7 +1216,7 @@ U 1 1 5AECE209
 P 5000 6600
 F 0 "J30" H 5080 6595 50  0000 L CNN
 F 1 "10" H 5080 6549 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6600 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6600 50  0001 C CNN
 F 3 "~" H 5000 6600 50  0001 C CNN
 F 4 "ANY" H 5000 6600 50  0001 C CNN "Source"
 	1    5000 6600
@@ -1228,7 +1228,7 @@ U 1 1 5AECE13D
 P 5000 6500
 F 0 "J29" H 5080 6495 50  0000 L CNN
 F 1 "11" H 5080 6449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6500 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6500 50  0001 C CNN
 F 3 "~" H 5000 6500 50  0001 C CNN
 F 4 "ANY" H 5000 6500 50  0001 C CNN "Source"
 	1    5000 6500
@@ -1240,7 +1240,7 @@ U 1 1 5AECE05B
 P 5000 6400
 F 0 "J28" H 5080 6395 50  0000 L CNN
 F 1 "12" H 5080 6349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6400 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6400 50  0001 C CNN
 F 3 "~" H 5000 6400 50  0001 C CNN
 F 4 "ANY" H 5000 6400 50  0001 C CNN "Source"
 	1    5000 6400
@@ -1252,7 +1252,7 @@ U 1 1 5AECDEA1
 P 5000 5800
 F 0 "J25" H 5080 5795 50  0000 L CNN
 F 1 "9" H 5080 5749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 5800 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 5800 50  0001 C CNN
 F 3 "~" H 5000 5800 50  0001 C CNN
 F 4 "ANY" H 5000 5800 50  0001 C CNN "Source"
 	1    5000 5800
@@ -1264,7 +1264,7 @@ U 1 1 5AECDDB7
 P 5000 5700
 F 0 "J24" H 5080 5695 50  0000 L CNN
 F 1 "8" H 5080 5649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 5700 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 5700 50  0001 C CNN
 F 3 "~" H 5000 5700 50  0001 C CNN
 F 4 "ANY" H 5000 5700 50  0001 C CNN "Source"
 	1    5000 5700
@@ -1276,7 +1276,7 @@ U 1 1 5AECDF67
 P 5000 6200
 F 0 "J27" H 5080 6195 50  0000 L CNN
 F 1 "14" H 5080 6149 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6200 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6200 50  0001 C CNN
 F 3 "~" H 5000 6200 50  0001 C CNN
 F 4 "ANY" H 5000 6200 50  0001 C CNN "Source"
 	1    5000 6200
@@ -1288,7 +1288,7 @@ U 1 1 5ED292DF
 P 5000 6000
 F 0 "J26" H 5080 5995 50  0000 L CNN
 F 1 "13" H 5080 5949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6000 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6000 50  0001 C CNN
 F 3 "~" H 5000 6000 50  0001 C CNN
 F 4 "ANY" H 5000 6000 50  0001 C CNN "Source"
 	1    5000 6000
@@ -1656,7 +1656,7 @@ U 1 1 5ACEF755
 P 5000 6900
 F 0 "J32" H 5080 6895 50  0000 L CNN
 F 1 "CRESET" H 5080 6849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6900 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6900 50  0001 C CNN
 F 3 "~" H 5000 6900 50  0001 C CNN
 F 4 "ANY" H 5000 6900 50  0001 C CNN "Source"
 	1    5000 6900
@@ -1673,7 +1673,7 @@ U 1 1 5ACEF6C3
 P 5000 6800
 F 0 "J31" H 5080 6795 50  0000 L CNN
 F 1 "CDONE" H 5080 6749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5000 6800 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 5000 6800 50  0001 C CNN
 F 3 "~" H 5000 6800 50  0001 C CNN
 F 4 "ANY" H 5000 6800 50  0001 C CNN "Source"
 	1    5000 6800
@@ -2139,7 +2139,7 @@ U 1 1 5B1A640B
 P -3450 2800
 F 0 "J6" H -3370 2795 50  0000 L CNN
 F 1 "GND" H -3370 2749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2800 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2800 50  0001 C CNN
 F 3 "~" H -3450 2800 50  0001 C CNN
 F 4 "ANY" H -3450 2800 50  0001 C CNN "Source"
 	1    -3450 2800
@@ -2151,7 +2151,7 @@ U 1 1 5B1A6337
 P -3450 2700
 F 0 "J5" H -3370 2695 50  0000 L CNN
 F 1 "GND" H -3370 2649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2700 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2700 50  0001 C CNN
 F 3 "~" H -3450 2700 50  0001 C CNN
 F 4 "ANY" H -3450 2700 50  0001 C CNN "Source"
 	1    -3450 2700
@@ -2163,7 +2163,7 @@ U 1 1 5B1A6265
 P -3450 2600
 F 0 "J4" H -3370 2595 50  0000 L CNN
 F 1 "GND" H -3370 2549 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2600 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2600 50  0001 C CNN
 F 3 "~" H -3450 2600 50  0001 C CNN
 F 4 "ANY" H -3450 2600 50  0001 C CNN "Source"
 	1    -3450 2600
@@ -2175,7 +2175,7 @@ U 1 1 5B1A6195
 P -3450 2500
 F 0 "J3" H -3370 2495 50  0000 L CNN
 F 1 "VIN" H -3370 2449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2500 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2500 50  0001 C CNN
 F 3 "~" H -3450 2500 50  0001 C CNN
 F 4 "ANY" H -3450 2500 50  0001 C CNN "Source"
 	1    -3450 2500
@@ -2187,7 +2187,7 @@ U 1 1 5B14536A
 P -3450 2400
 F 0 "J2" H -3370 2395 50  0000 L CNN
 F 1 "3V3" H -3370 2349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2400 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2400 50  0001 C CNN
 F 3 "~" H -3450 2400 50  0001 C CNN
 F 4 "ANY" H -3450 2400 50  0001 C CNN "Source"
 	1    -3450 2400
@@ -2199,7 +2199,7 @@ U 1 1 5B1151BE
 P -3450 2300
 F 0 "J1" H -3370 2295 50  0000 L CNN
 F 1 "3V3" H -3370 2249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H -3450 2300 50  0001 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H -3450 2300 50  0001 C CNN
 F 3 "~" H -3450 2300 50  0001 C CNN
 F 4 "ANY" H -3450 2300 50  0001 C CNN "Source"
 	1    -3450 2300
@@ -2610,7 +2610,7 @@ Text Label 6350 1950 0    50   ~ 0
 FLASH_MISO-IO1
 Text Label 6350 2050 0    50   ~ 0
 FLASH_MOSI-IO0
-Text Label 6350 2150 0    50   ~ 0
+Text Label 5650 2150 2    50   ~ 0
 FLASH_~HLD~-IO3
 Wire Wire Line
 	6250 1950 6350 1950
@@ -2618,19 +2618,8 @@ Wire Wire Line
 	6250 2050 6350 2050
 Wire Wire Line
 	6250 2150 6350 2150
-Text Label 5650 2150 2    50   ~ 0
+Text Label 6350 2150 0    50   ~ 0
 FLASH_~WP~-IO2
-$Comp
-L pkl_logos:1BitSquared LOGO1
-U 1 1 5EEF5C17
-P 11000 6950
-F 0 "LOGO1" V 11200 6975 60  0001 C CNN
-F 1 "1BitSquared" H 11153 6950 40  0001 L CNN
-F 2 "pkl_logos:null_Logo_SilkS_6.5mm" H 11153 6912 60  0001 L CNN
-F 3 "" H 11000 6950 60  0000 C CNN
-	1    11000 6950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR0125
 U 1 1 5F0465D8
@@ -2645,4 +2634,15 @@ $EndComp
 Connection ~ 2000 6100
 Text Label 1800 6100 0    50   ~ 0
 VCC
+$Comp
+L pkl_logos:1BitSquared LOGO1
+U 1 1 5EEF5C17
+P 11000 6950
+F 0 "LOGO1" V 11200 6975 60  0001 C CNN
+F 1 "1BitSquared" H 11153 6950 40  0001 L CNN
+F 2 "pkl_logos:null_Logo_SilkS_6.5mm" H 11153 6912 60  0001 L CNN
+F 3 "" H 11000 6950 60  0000 C CNN
+	1    11000 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
