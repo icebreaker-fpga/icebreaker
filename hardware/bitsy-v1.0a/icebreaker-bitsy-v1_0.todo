@@ -9,10 +9,13 @@ Circuit changes and updates:
  ✔ Replace the VREG with Glasgow DFN @done(20-05-21 19:51)
  ✔ Use smaller pin header for FLASH programming @done(20-05-29 12:03)
  ✔ Swap the RGB LED for the 2020 part (change symbol pinout) @done(20-05-29 12:03)
+ ✔ Add jumper for RAM_SS @done(20-06-04 13:46)
+ ✔ Change DNP cap to 100nF @done(20-06-04 13:46)
 
 Routing:
 ✔ Move Oscillator to the left side of the FPGA @done(20-05-21 19:51)
 ✔ Move all VIA to the outside of the FPGA and increase the thermal pad size back to nominal. @done(20-05-21 19:52)
 ✔ Move the PSRAM chip to the top of the PCB @done(20-05-21 19:52)
+✔ Remove ground fill on F.Cu & B.Cu @done(20-06-04 13:46)
 
 Polish:
