@@ -290,7 +290,7 @@ Wire Wire Line
 Text Label 4950 4900 0    50   ~ 0
 iCE_SCK
 Text Label 4950 4800 0    50   ~ 0
-iCE_SS_B
+iCE_SS
 Text Label 3700 3700 2    50   ~ 0
 ~RGB2
 Text Label 4950 5000 0    50   ~ 0
@@ -1528,7 +1528,7 @@ FLASH_MOSI-IO0
 Text Label 5600 7100 0    50   ~ 0
 FLASH_MISO-IO1
 Text Label 6350 6800 0    50   ~ 0
-iCE_SS_B
+iCE_SS
 $Comp
 L pkl_misc:pkl_jumper_nc JP3
 U 1 1 5AA93E10
@@ -1695,10 +1695,6 @@ F 3 "" H 6300 3500 50  0001 C CNN
 $EndComp
 Text Label 9700 2800 0    50   ~ 0
 ~RGB0
-Text Label 9700 3800 0    50   ~ 0
-FLASH_~WP~-IO2
-Text Label 9700 4000 0    50   ~ 0
-FLASH_~HLD~-IO3
 $Comp
 L power:+3V3 #PWR046
 U 1 1 5AF7DB02
@@ -1737,7 +1733,7 @@ F 4 "ANY" H 10900 1000 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9600 2200 9700 2200
+	9600 3400 9700 3400
 Wire Wire Line
 	9600 1400 10300 1400
 Wire Wire Line
@@ -1755,11 +1751,9 @@ Wire Wire Line
 Wire Wire Line
 	9600 2100 10300 2100
 Wire Wire Line
-	9600 3600 9700 3600
+	9600 4300 9700 4300
 Wire Wire Line
-	9600 3800 9700 3800
-Wire Wire Line
-	9600 2400 10300 2400
+	9600 2600 10300 2600
 Wire Wire Line
 	7600 1400 6900 1400
 Wire Wire Line
@@ -1779,10 +1773,8 @@ Wire Wire Line
 Wire Wire Line
 	7500 3800 7500 4400
 Connection ~ 7500 4400
-Text Label 9700 3600 0    50   ~ 0
-~UBTN
 Wire Wire Line
-	9600 2600 9700 2600
+	9600 2200 9700 2200
 Text Notes 8400 800  0    100  ~ 0
 FPGA
 Wire Notes Line
@@ -1869,21 +1861,21 @@ Connection ~ 6900 4300
 Wire Wire Line
 	6900 4300 6700 4300
 Text Label 7000 1400 0    50   ~ 0
-IOB_0A
+IOB_0a
 Text Label 7000 1500 0    50   ~ 0
-IOB_2A
+IOB_2a
 Text Label 7000 1600 0    50   ~ 0
-IOB_3B_G6
+IOB_3b_G6
 Text Label 7000 1700 0    50   ~ 0
-IOB_4A
+IOB_4a
 Text Label 7000 1800 0    50   ~ 0
-IOB_5B
+IOB_5b
 Text Label 7000 1900 0    50   ~ 0
-IOB_6A
+IOB_6a
 Text Label 7000 2000 0    50   ~ 0
-IOB_8A
+IOB_8a
 Text Label 7000 2100 0    50   ~ 0
-IOB_9B
+IOB_9b
 Wire Wire Line
 	9600 3000 9700 3000
 Wire Wire Line
@@ -1891,41 +1883,39 @@ Wire Wire Line
 Wire Wire Line
 	9600 2800 9700 2800
 Text Label 9700 1400 0    50   ~ 0
-IOT_36B
+IOT_36b
 Text Label 9700 1500 0    50   ~ 0
-IOT_37A
+IOT_37a
 Text Label 9700 1600 0    50   ~ 0
-IOT_38B
+IOT_38b
 Text Label 9700 1700 0    50   ~ 0
-IOT_39A
+IOT_39a
 Text Label 9700 1800 0    50   ~ 0
-IOT_41A
+IOT_41a
 Text Label 9700 1900 0    50   ~ 0
-IOT_42B
+IOT_42b
 Text Label 9700 2000 0    50   ~ 0
-IOT_43A
+IOT_43a
 Text Label 9700 2100 0    50   ~ 0
-IOT_44B
-Text Label 9700 2400 0    50   ~ 0
-IOT_48B
+IOT_44b
 Text Label 9700 2600 0    50   ~ 0
+IOT_50b
+Text Label 9700 2200 0    50   ~ 0
 USB_DET
 Text Label 9700 2500 0    50   ~ 0
 USB_P
 Text Label 9700 2700 0    50   ~ 0
 USB_N
-Text Label 9700 3400 0    50   ~ 0
-IOB_13B
 Text Label 9700 3500 0    50   ~ 0
-IOB_16A
+IOB_13b
+Text Label 9700 3600 0    50   ~ 0
+IOB_18a
 Text Label 9700 3900 0    50   ~ 0
-IOB_23B
+IOB_23b
 Text Label 9700 4100 0    50   ~ 0
-IOB_25B_G3
-Text Label 9700 4200 0    50   ~ 0
-IOB_29B
-Text Label 9700 4300 0    50   ~ 0
-IOB_31B
+IOB_25b_G3
+Text Label 9700 3800 0    50   ~ 0
+IOB_22a
 Wire Wire Line
 	10900 1100 10900 1200
 Wire Wire Line
@@ -1952,10 +1942,10 @@ Text Label 9700 3000 0    50   ~ 0
 ~RGB2
 $Comp
 L Connector_Generic:Conn_01x01 J15
-U 1 1 5AE1DB99
+U 1 1 5AE1E029
 P 10500 1400
 F 0 "J15" H 10580 1395 50  0000 L CNN
-F 1 "16" H 10580 1349 50  0001 L CNN
+F 1 "15" H 10580 1349 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1400 50  0001 C CNN
 F 3 "~" H 10500 1400 50  0001 C CNN
 F 4 "ANY" H 10500 1400 50  0001 C CNN "Source"
@@ -1963,23 +1953,11 @@ F 4 "ANY" H 10500 1400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 5AE1E029
-P 10500 1500
-F 0 "J16" H 10580 1495 50  0000 L CNN
-F 1 "15" H 10580 1449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1500 50  0001 C CNN
-F 3 "~" H 10500 1500 50  0001 C CNN
-F 4 "ANY" H 10500 1500 50  0001 C CNN "Source"
-	1    10500 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J17
 U 1 1 5AE1E0D1
 P 10500 1600
 F 0 "J17" H 10580 1595 50  0000 L CNN
-F 1 "18" H 10580 1549 50  0001 L CNN
+F 1 "18" H 10580 1549 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1600 50  0001 C CNN
 F 3 "~" H 10500 1600 50  0001 C CNN
 F 4 "ANY" H 10500 1600 50  0001 C CNN "Source"
@@ -1987,23 +1965,11 @@ F 4 "ANY" H 10500 1600 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J18
-U 1 1 5AE1E17B
-P 10500 1700
-F 0 "J18" H 10580 1695 50  0000 L CNN
-F 1 "17" H 10580 1649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1700 50  0001 C CNN
-F 3 "~" H 10500 1700 50  0001 C CNN
-F 4 "ANY" H 10500 1700 50  0001 C CNN "Source"
-	1    10500 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J19
-U 1 1 5AE1E227
+U 1 1 5AE1E17B
 P 10500 1800
 F 0 "J19" H 10580 1795 50  0000 L CNN
-F 1 "19" H 10580 1749 50  0001 L CNN
+F 1 "17" H 10580 1749 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1800 50  0001 C CNN
 F 3 "~" H 10500 1800 50  0001 C CNN
 F 4 "ANY" H 10500 1800 50  0001 C CNN "Source"
@@ -2011,11 +1977,23 @@ F 4 "ANY" H 10500 1800 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
+L Connector_Generic:Conn_01x01 J18
+U 1 1 5AE1E227
+P 10500 1700
+F 0 "J18" H 10580 1695 50  0000 L CNN
+F 1 "19" H 10580 1649 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1700 50  0001 C CNN
+F 3 "~" H 10500 1700 50  0001 C CNN
+F 4 "ANY" H 10500 1700 50  0001 C CNN "Source"
+	1    10500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
 L Connector_Generic:Conn_01x01 J21
 U 1 1 5AE1E385
 P 10500 2000
 F 0 "J21" H 10580 1995 50  0000 L CNN
-F 1 "21" H 10580 1949 50  0001 L CNN
+F 1 "21" H 10580 1949 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 2000 50  0001 C CNN
 F 3 "~" H 10500 2000 50  0001 C CNN
 F 4 "ANY" H 10500 2000 50  0001 C CNN "Source"
@@ -2027,7 +2005,7 @@ L Connector_Generic:Conn_01x01 J22
 U 1 1 5AE5210D
 P 10500 2100
 F 0 "J22" H 10580 2095 50  0000 L CNN
-F 1 "22" H 10580 2049 50  0001 L CNN
+F 1 "22" H 10580 2049 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 2100 50  0001 C CNN
 F 3 "~" H 10500 2100 50  0001 C CNN
 F 4 "ANY" H 10500 2100 50  0001 C CNN "Source"
@@ -2037,117 +2015,21 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J23
 U 1 1 5AE1E437
-P 10500 2400
-F 0 "J23" H 10580 2395 50  0000 L CNN
-F 1 "23" H 10580 2349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 2400 50  0001 C CNN
-F 3 "~" H 10500 2400 50  0001 C CNN
-F 4 "ANY" H 10500 2400 50  0001 C CNN "Source"
-	1    10500 2400
+P 10500 2600
+F 0 "J23" H 10580 2595 50  0000 L CNN
+F 1 "23" H 10580 2549 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 2600 50  0001 C CNN
+F 3 "~" H 10500 2600 50  0001 C CNN
+F 4 "ANY" H 10500 2600 50  0001 C CNN "Source"
+	1    10500 2600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 5AD4189B
-P 6700 2000
-F 0 "J13" H 6780 1995 50  0000 L CNN
-F 1 "7" H 6780 1949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 2000 50  0001 C CNN
-F 3 "~" H 6700 2000 50  0001 C CNN
-F 4 "ANY" H 6700 2000 50  0001 C CNN "Source"
-	1    6700 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5AD4193D
-P 6700 2100
-F 0 "J14" H 6780 2095 50  0000 L CNN
-F 1 "6" H 6780 2049 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 2100 50  0001 C CNN
-F 3 "~" H 6700 2100 50  0001 C CNN
-F 4 "ANY" H 6700 2100 50  0001 C CNN "Source"
-	1    6700 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5AD417FB
-P 6700 1900
-F 0 "J12" H 6780 1895 50  0000 L CNN
-F 1 "5" H 6780 1849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1900 50  0001 C CNN
-F 3 "~" H 6700 1900 50  0001 C CNN
-F 4 "ANY" H 6700 1900 50  0001 C CNN "Source"
-	1    6700 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5AD416C1
-P 6700 1700
-F 0 "J10" H 6780 1695 50  0000 L CNN
-F 1 "4" H 6780 1649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1700 50  0001 C CNN
-F 3 "~" H 6700 1700 50  0001 C CNN
-F 4 "ANY" H 6700 1700 50  0001 C CNN "Source"
-	1    6700 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5AD4158F
-P 6700 1500
-F 0 "J8" H 6780 1495 50  0000 L CNN
-F 1 "3" H 6780 1449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1500 50  0001 C CNN
-F 3 "~" H 6700 1500 50  0001 C CNN
-F 4 "ANY" H 6700 1500 50  0001 C CNN "Source"
-	1    6700 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5AD40D83
-P 6700 1400
-F 0 "J7" H 6780 1395 50  0000 L CNN
-F 1 "2" H 6780 1349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1400 50  0001 C CNN
-F 3 "~" H 6700 1400 50  0001 C CNN
-F 4 "ANY" H 6700 1400 50  0001 C CNN "Source"
-	1    6700 1400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5AD4175D
-P 6700 1800
-F 0 "J11" H 6780 1795 50  0000 L CNN
-F 1 "1" H 6780 1749 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1800 50  0001 C CNN
-F 3 "~" H 6700 1800 50  0001 C CNN
-F 4 "ANY" H 6700 1800 50  0001 C CNN "Source"
-	1    6700 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 5AD41627
-P 6700 1600
-F 0 "J9" H 6780 1595 50  0000 L CNN
-F 1 "0" H 6780 1549 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1600 50  0001 C CNN
-F 3 "~" H 6700 1600 50  0001 C CNN
-F 4 "ANY" H 6700 1600 50  0001 C CNN "Source"
-	1    6700 1600
-	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J20
 U 1 1 5AE1E2D5
 P 10500 1900
 F 0 "J20" H 10580 1895 50  0000 L CNN
-F 1 "20" H 10580 1849 50  0001 L CNN
+F 1 "20" H 10580 1849 50  0000 L CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1900 50  0001 C CNN
 F 3 "~" H 10500 1900 50  0001 C CNN
 F 4 "ANY" H 10500 1900 50  0001 C CNN "Source"
@@ -2190,106 +2072,22 @@ Connection ~ 6300 4300
 Text Label 9700 2300 0    50   ~ 0
 CLK
 Wire Wire Line
-	9600 4000 9700 4000
-$Comp
-L Connector_Generic:Conn_01x01 J30
-U 1 1 5AECE209
-P 10500 4300
-F 0 "J30" H 10580 4295 50  0000 L CNN
-F 1 "10" H 10580 4249 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4300 50  0001 C CNN
-F 3 "~" H 10500 4300 50  0001 C CNN
-F 4 "ANY" H 10500 4300 50  0001 C CNN "Source"
-	1    10500 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J29
-U 1 1 5AECE13D
-P 10500 4200
-F 0 "J29" H 10580 4195 50  0000 L CNN
-F 1 "11" H 10580 4149 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4200 50  0001 C CNN
-F 3 "~" H 10500 4200 50  0001 C CNN
-F 4 "ANY" H 10500 4200 50  0001 C CNN "Source"
-	1    10500 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J28
-U 1 1 5AECE05B
-P 10500 4100
-F 0 "J28" H 10580 4095 50  0000 L CNN
-F 1 "12" H 10580 4049 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4100 50  0001 C CNN
-F 3 "~" H 10500 4100 50  0001 C CNN
-F 4 "ANY" H 10500 4100 50  0001 C CNN "Source"
-	1    10500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J25
-U 1 1 5AECDEA1
-P 10500 3500
-F 0 "J25" H 10580 3495 50  0000 L CNN
-F 1 "9" H 10580 3449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3500 50  0001 C CNN
-F 3 "~" H 10500 3500 50  0001 C CNN
-F 4 "ANY" H 10500 3500 50  0001 C CNN "Source"
-	1    10500 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J24
-U 1 1 5AECDDB7
-P 10500 3400
-F 0 "J24" H 10580 3395 50  0000 L CNN
-F 1 "8" H 10580 3349 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3400 50  0001 C CNN
-F 3 "~" H 10500 3400 50  0001 C CNN
-F 4 "ANY" H 10500 3400 50  0001 C CNN "Source"
-	1    10500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J27
-U 1 1 5AECDF67
-P 10500 3900
-F 0 "J27" H 10580 3895 50  0000 L CNN
-F 1 "14" H 10580 3849 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3900 50  0001 C CNN
-F 3 "~" H 10500 3900 50  0001 C CNN
-F 4 "ANY" H 10500 3900 50  0001 C CNN "Source"
-	1    10500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J26
-U 1 1 5ED292DF
-P 10500 3700
-F 0 "J26" H 10580 3695 50  0000 L CNN
-F 1 "13" H 10580 3649 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3700 50  0001 C CNN
-F 3 "~" H 10500 3700 50  0001 C CNN
-F 4 "ANY" H 10500 3700 50  0001 C CNN "Source"
-	1    10500 3700
-	1    0    0    -1  
-$EndComp
+	9600 4200 9700 4200
 Wire Wire Line
-	9600 4300 10300 4300
+	9600 3700 10300 3700
 Wire Wire Line
-	9600 4200 10300 4200
+	9600 3800 10300 3800
 Wire Wire Line
 	9600 4100 10300 4100
 Wire Wire Line
-	9600 3500 10300 3500
+	9600 3600 10300 3600
 Wire Wire Line
-	9600 3400 10300 3400
+	9600 3500 10300 3500
 Wire Wire Line
 	9600 3900 10300 3900
 Wire Wire Line
-	9600 3700 10300 3700
-Text Label 9700 2200 0    50   ~ 0
+	9600 4000 10300 4000
+Text Label 9700 3400 0    50   ~ 0
 ~LEDG
 $Comp
 L power:GND #PWR045
@@ -2346,7 +2144,7 @@ $EndComp
 Wire Wire Line
 	7600 3600 7500 3600
 Text Label 7500 3600 2    50   ~ 0
-iCE_SS_B
+iCE_SS
 Wire Wire Line
 	7600 3500 7500 3500
 Text Label 7500 3500 2    50   ~ 0
@@ -2359,35 +2157,11 @@ Wire Wire Line
 	7600 3300 7500 3300
 Text Label 7500 3300 2    50   ~ 0
 FLASH_MOSI-IO0
-$Comp
-L Connector_Generic:Conn_01x01 J32
-U 1 1 5ACEF755
-P 10500 4600
-F 0 "J32" H 10580 4595 50  0000 L CNN
-F 1 "CRESET" H 10580 4549 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4600 50  0001 C CNN
-F 3 "~" H 10500 4600 50  0001 C CNN
-F 4 "ANY" H 10500 4600 50  0001 C CNN "Source"
-	1    10500 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 4600 10200 4700
 Connection ~ 10200 4600
 Wire Wire Line
 	10200 4600 10300 4600
-$Comp
-L Connector_Generic:Conn_01x01 J31
-U 1 1 5ACEF6C3
-P 10500 4500
-F 0 "J31" H 10580 4495 50  0000 L CNN
-F 1 "CDONE" H 10580 4449 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4500 50  0001 C CNN
-F 3 "~" H 10500 4500 50  0001 C CNN
-F 4 "ANY" H 10500 4500 50  0001 C CNN "Source"
-	1    10500 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 4500 10300 4500
 Wire Wire Line
@@ -2559,8 +2333,6 @@ $EndComp
 Wire Wire Line
 	9600 3200 10900 3200
 Connection ~ 10900 1200
-Wire Wire Line
-	9600 1200 10900 1200
 Connection ~ 6300 1200
 Wire Wire Line
 	6300 1200 7600 1200
@@ -2633,8 +2405,6 @@ Text Label 7300 3800 0    50   ~ 0
 VCC
 Wire Wire Line
 	7300 4900 7300 4700
-Text Label 9700 3700 0    50   ~ 0
-~LEDR
 $Comp
 L pkl_device:pkl_C_Small C9
 U 1 1 5BD3BE0E
@@ -2671,4 +2441,366 @@ F 5 "ANY" H 4850 1700 50  0001 C CNN "Source"
 	1    4850 1700
 	0    1    1    0   
 $EndComp
+Text Label 9700 4200 0    50   ~ 0
+FLASH_~HLD~-IO3
+Text Label 9700 4300 0    50   ~ 0
+FLASH_~WP~-IO2
+Text Label 9700 3700 0    50   ~ 0
+IOB_20a
+Wire Wire Line
+	9600 1200 10900 1200
+$Comp
+L Connector_Generic:Conn_01x01 J16
+U 1 1 5AE1DB99
+P 10500 1500
+F 0 "J16" H 10580 1495 50  0000 L CNN
+F 1 "16" H 10580 1449 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 1500 50  0001 C CNN
+F 3 "~" H 10500 1500 50  0001 C CNN
+F 4 "ANY" H 10500 1500 50  0001 C CNN "Source"
+	1    10500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J32
+U 1 1 5ACEF755
+P 10500 4600
+F 0 "J32" H 10580 4595 50  0000 L CNN
+F 1 "CRESET" H 10580 4549 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4600 50  0001 C CNN
+F 3 "~" H 10500 4600 50  0001 C CNN
+F 4 "ANY" H 10500 4600 50  0001 C CNN "Source"
+	1    10500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J31
+U 1 1 5ACEF6C3
+P 10500 4500
+F 0 "J31" H 10580 4495 50  0000 L CNN
+F 1 "CDONE" H 10580 4449 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4500 50  0001 C CNN
+F 3 "~" H 10500 4500 50  0001 C CNN
+F 4 "ANY" H 10500 4500 50  0001 C CNN "Source"
+	1    10500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5AD41627
+P 6700 1600
+F 0 "J9" H 6780 1595 50  0000 L CNN
+F 1 "1" H 6780 1549 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1600 50  0001 C CNN
+F 3 "~" H 6700 1600 50  0001 C CNN
+F 4 "ANY" H 6700 1600 50  0001 C CNN "Source"
+	1    6700 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5AD40D83
+P 6700 1500
+F 0 "J8" H 6780 1495 50  0000 L CNN
+F 1 "0" H 6780 1449 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1500 50  0001 C CNN
+F 3 "~" H 6700 1500 50  0001 C CNN
+F 4 "ANY" H 6700 1500 50  0001 C CNN "Source"
+	1    6700 1500
+	-1   0    0    1   
+$EndComp
+Text Notes 8750 4000 0    50   ~ 0
++
+Text Notes 8750 4100 0    50   ~ 0
+-
+Wire Notes Line
+	8100 1500 8350 1500
+Wire Notes Line
+	8350 1500 8350 1600
+Wire Notes Line
+	8350 1600 8250 1600
+Wire Notes Line
+	8100 1700 8350 1700
+Wire Notes Line
+	8350 1700 8350 1800
+Wire Notes Line
+	8350 1800 8100 1800
+Wire Notes Line
+	8100 2000 8350 2000
+Wire Notes Line
+	8350 2000 8350 2100
+Wire Notes Line
+	8350 2100 8100 2100
+Wire Notes Line
+	9050 2100 8850 2100
+Wire Notes Line
+	8850 2100 8850 2200
+Wire Notes Line
+	8850 2200 8900 2200
+Wire Notes Line
+	9050 2400 8850 2400
+Wire Notes Line
+	8850 2400 8850 2500
+Wire Notes Line
+	8850 2500 9050 2500
+Wire Notes Line
+	9050 1400 8850 1400
+Wire Notes Line
+	8850 1400 8850 1500
+Wire Notes Line
+	8850 1500 9050 1500
+Wire Notes Line
+	9050 1600 8850 1600
+Wire Notes Line
+	8850 1600 8850 1700
+Wire Notes Line
+	8850 1700 9050 1700
+Wire Notes Line
+	9050 1900 8850 1900
+Wire Notes Line
+	8850 1900 8850 2000
+Wire Notes Line
+	8850 2000 9050 2000
+Wire Notes Line
+	9050 2600 8850 2600
+Wire Notes Line
+	8850 2600 8850 2700
+Wire Notes Line
+	8850 2700 9050 2700
+Wire Notes Line
+	9050 3800 8850 3800
+Wire Notes Line
+	8850 3800 8850 3900
+Wire Notes Line
+	8850 3900 9050 3900
+Wire Notes Line
+	9050 4000 8850 4000
+Wire Notes Line
+	8850 4000 8850 4100
+Wire Notes Line
+	8850 4100 8900 4100
+Text Notes 8150 1500 0    50   ~ 0
+DPair
+Text Notes 8850 4000 0    50   ~ 0
+DPair
+Text Notes 8850 2100 0    50   ~ 0
+DPair
+Text Notes 8850 2400 0    50   ~ 0
+DPair
+Text Notes 8850 1900 0    50   ~ 0
+DPair
+Text Notes 8850 1600 0    50   ~ 0
+DPair
+Text Notes 8850 1400 0    50   ~ 0
+DPair
+Text Notes 8850 2600 0    50   ~ 0
+DPair
+Text Notes 8150 2000 0    50   ~ 0
+DPair
+Text Notes 8150 1700 0    50   ~ 0
+DPair
+Text Notes 8850 3800 0    50   ~ 0
+DPair
+Text Notes 8400 1500 0    50   ~ 0
++
+Text Notes 8400 1600 0    50   ~ 0
+-
+Text Notes 8400 1700 0    50   ~ 0
++
+Text Notes 8400 1800 0    50   ~ 0
+-
+Text Notes 8400 2000 0    50   ~ 0
++
+Text Notes 8400 2100 0    50   ~ 0
+-
+Text Notes 8750 1500 0    50   ~ 0
++
+Text Notes 8750 1400 0    50   ~ 0
+-
+Text Notes 8750 1700 0    50   ~ 0
++
+Text Notes 8750 1600 0    50   ~ 0
+-
+Text Notes 8750 2000 0    50   ~ 0
++
+Text Notes 8750 1900 0    50   ~ 0
+-
+Text Notes 8750 2200 0    50   ~ 0
++
+Text Notes 8750 2100 0    50   ~ 0
+-
+Text Notes 8750 2500 0    50   ~ 0
++
+Text Notes 8750 2400 0    50   ~ 0
+-
+Text Notes 8750 2700 0    50   ~ 0
++
+Text Notes 8750 2600 0    50   ~ 0
+-
+Text Notes 8750 3800 0    50   ~ 0
++
+Text Notes 8750 3900 0    50   ~ 0
+-
+Text Label 9700 4000 0    50   ~ 0
+~LEDR
+$Comp
+L Connector_Generic:Conn_01x01 J24
+U 1 1 5AECDDB7
+P 10500 3500
+F 0 "J24" H 10580 3495 50  0000 L CNN
+F 1 "8" H 10580 3449 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3500 50  0001 C CNN
+F 3 "~" H 10500 3500 50  0001 C CNN
+F 4 "ANY" H 10500 3500 50  0001 C CNN "Source"
+	1    10500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J25
+U 1 1 5AECDEA1
+P 10500 3600
+F 0 "J25" H 10580 3595 50  0000 L CNN
+F 1 "9" H 10580 3549 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3600 50  0001 C CNN
+F 3 "~" H 10500 3600 50  0001 C CNN
+F 4 "ANY" H 10500 3600 50  0001 C CNN "Source"
+	1    10500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J28
+U 1 1 5AECE05B
+P 10500 3900
+F 0 "J28" H 10580 3895 50  0000 L CNN
+F 1 "12" H 10580 3849 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3900 50  0001 C CNN
+F 3 "~" H 10500 3900 50  0001 C CNN
+F 4 "ANY" H 10500 3900 50  0001 C CNN "Source"
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J27
+U 1 1 5AECE13D
+P 10500 3800
+F 0 "J27" H 10580 3795 50  0000 L CNN
+F 1 "11" H 10580 3749 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3800 50  0001 C CNN
+F 3 "~" H 10500 3800 50  0001 C CNN
+F 4 "ANY" H 10500 3800 50  0001 C CNN "Source"
+	1    10500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J26
+U 1 1 5AECE209
+P 10500 3700
+F 0 "J26" H 10580 3695 50  0000 L CNN
+F 1 "10" H 10580 3649 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 3700 50  0001 C CNN
+F 3 "~" H 10500 3700 50  0001 C CNN
+F 4 "ANY" H 10500 3700 50  0001 C CNN "Source"
+	1    10500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J30
+U 1 1 5AECDF67
+P 10500 4100
+F 0 "J30" H 10580 4095 50  0000 L CNN
+F 1 "14" H 10580 4049 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4100 50  0001 C CNN
+F 3 "~" H 10500 4100 50  0001 C CNN
+F 4 "ANY" H 10500 4100 50  0001 C CNN "Source"
+	1    10500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J29
+U 1 1 5ED292DF
+P 10500 4000
+F 0 "J29" H 10580 3995 50  0000 L CNN
+F 1 "13" H 10580 3949 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 10500 4000 50  0001 C CNN
+F 3 "~" H 10500 4000 50  0001 C CNN
+F 4 "ANY" H 10500 4000 50  0001 C CNN "Source"
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5AD4175D
+P 6700 1700
+F 0 "J10" H 6780 1695 50  0000 L CNN
+F 1 "3" H 6780 1649 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1700 50  0001 C CNN
+F 3 "~" H 6700 1700 50  0001 C CNN
+F 4 "ANY" H 6700 1700 50  0001 C CNN "Source"
+	1    6700 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5AD416C1
+P 6700 1800
+F 0 "J11" H 6780 1795 50  0000 L CNN
+F 1 "4" H 6780 1749 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1800 50  0001 C CNN
+F 3 "~" H 6700 1800 50  0001 C CNN
+F 4 "ANY" H 6700 1800 50  0001 C CNN "Source"
+	1    6700 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 5AD417FB
+P 6700 1900
+F 0 "J12" H 6780 1895 50  0000 L CNN
+F 1 "5" H 6780 1849 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1900 50  0001 C CNN
+F 3 "~" H 6700 1900 50  0001 C CNN
+F 4 "ANY" H 6700 1900 50  0001 C CNN "Source"
+	1    6700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 5AD4193D
+P 6700 2000
+F 0 "J13" H 6780 1995 50  0000 L CNN
+F 1 "6" H 6780 1949 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 2000 50  0001 C CNN
+F 3 "~" H 6700 2000 50  0001 C CNN
+F 4 "ANY" H 6700 2000 50  0001 C CNN "Source"
+	1    6700 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 5AD4189B
+P 6700 2100
+F 0 "J14" H 6780 2095 50  0000 L CNN
+F 1 "7" H 6780 2049 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 2100 50  0001 C CNN
+F 3 "~" H 6700 2100 50  0001 C CNN
+F 4 "ANY" H 6700 2100 50  0001 C CNN "Source"
+	1    6700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5AD4158F
+P 6700 1400
+F 0 "J7" H 6780 1395 50  0000 L CNN
+F 1 "2" H 6780 1349 50  0000 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 6700 1400 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+F 4 "ANY" H 6700 1400 50  0001 C CNN "Source"
+	1    6700 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9600 2400 9700 2400
+Text Label 9700 2400 0    50   ~ 0
+~UBTN
 $EndSCHEMATC
