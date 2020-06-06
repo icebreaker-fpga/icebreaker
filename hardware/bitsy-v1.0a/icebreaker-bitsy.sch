@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iCEBreaker-bitsy"
-Date "2020-06-04"
+Date "2020-06-06"
 Rev "v1.0a"
 Comp "1BitSquared"
 Comment1 "© 2018-2020 1BitSquared <info@1bitsquared.com>"
@@ -737,7 +737,7 @@ U 1 1 5ECFA32E
 P 1200 1800
 F 0 "J33" H 1307 2667 50  0000 C CNN
 F 1 "USB_C" H 1307 2576 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1350 1800 50  0001 C CNN
+F 2 "pkl_connectors:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1350 1800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 1800 50  0001 C CNN
 	1    1200 1800
 	1    0    0    -1  
@@ -748,7 +748,7 @@ U 1 1 5B61B8D4
 P 2100 1000
 F 0 "JP1" H 2100 900 50  0000 C CNN
 F 1 "Jumper" H 2100 1145 60  0001 C CNN
-F 2 "pkl_jumpers:J_NC_0603_20x2" H 2100 1000 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_40" H 2100 1000 60  0001 C CNN
 F 3 "" H 2100 1000 60  0000 C CNN
 F 4 "ANY" H 2100 1000 50  0001 C CNN "Source"
 	1    2100 1000
@@ -1718,7 +1718,7 @@ U 1 1 5B0E558D
 P 6300 3600
 F 0 "JP5" H 6300 3500 50  0000 C CNN
 F 1 "Jumper" H 6300 3745 60  0001 C CNN
-F 2 "pkl_jumpers:J_NC_0603_20x2" H 6300 3600 60  0001 C CNN
+F 2 "pkl_jumpers:J_NC_0603_40" H 6300 3600 60  0001 C CNN
 F 3 "" H 6300 3600 60  0000 C CNN
 F 4 "ANY" H 6300 3600 50  0001 C CNN "Source"
 	1    6300 3600
