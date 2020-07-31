@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "iCEBreaker-bitsy"
 Date "2020-06-10"
-Rev "v1.0a"
+Rev "v1.1a"
 Comp "1BitSquared"
 Comment1 "© 2018-2020 1BitSquared <info@1bitsquared.com>"
 Comment2 "© 2018-2020 Piotr Esden-Tempski <piotr@esden.net>"
@@ -1809,9 +1809,9 @@ SPI_~CS
 Text Label 7500 3500 2    50   ~ 0
 SPI_SCK
 Text Label 7500 3400 2    50   ~ 0
-SPI_PISO-IO1
+SPI_MISO-IO1
 Text Label 7500 3300 2    50   ~ 0
-SPI_POSI-IO0
+SPI_MOSI-IO0
 Text Label 5200 3500 0    50   ~ 0
 CDONE
 Text Label 5200 2700 2    50   ~ 0
@@ -1827,7 +1827,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2500 3900 2600
 Wire Wire Line
-	9600 4600 10300 4600
+	9600 4600 10200 4600
 $Comp
 L pkl_device:pkl_C_Small C9
 U 1 1 5A88D14B
@@ -2027,97 +2027,6 @@ F 5 "res-0402-10k" H 300 -4650 50  0001 C CNN "Key"
 $EndComp
 Wire Notes Line
 	4600 7700 4600 6500
-Wire Wire Line
-	6000 7200 6550 7200
-Wire Wire Line
-	6000 7100 6100 7100
-$Comp
-L power:+3.3V #PWR0111
-U 1 1 5EF49BD0
-P 6000 7400
-F 0 "#PWR0111" H 6000 7250 50  0001 C CNN
-F 1 "+3.3V" V 6015 7528 50  0000 L CNN
-F 2 "" H 6000 7400 50  0001 C CNN
-F 3 "" H 6000 7400 50  0001 C CNN
-	1    6000 7400
-	0    1    -1   0   
-$EndComp
-Text Label 6100 7200 0    50   ~ 0
-~CRESET
-Text Label 6100 7100 0    50   ~ 0
-CDONE
-Text Label 5400 7100 2    50   ~ 0
-SPI_~CS
-Text Label 5400 7200 2    50   ~ 0
-SPI_SCK
-Text Label 5400 7300 2    50   ~ 0
-SPI_PISO-IO1
-Text Label 5400 7400 2    50   ~ 0
-SPI_POSI-IO0
-Text Label 6100 7500 0    50   ~ 0
-SPI_~WP~-IO2
-Text Label 5400 7500 2    50   ~ 0
-SPI_~HLD~-IO3
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5EF51AE9
-P 5800 7300
-F 0 "J2" H 5850 7717 50  0000 C CNN
-F 1 "PROG" H 5850 7626 50  0000 C CNN
-F 2 "pkl_pin_headers:PinHeader_2x05_P2.54mm_Vertical_SMD" H 5800 7300 50  0001 C CNN
-F 3 "~" H 5800 7300 50  0001 C CNN
-	1    5800 7300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 7100 5400 7100
-Wire Wire Line
-	5500 7200 5400 7200
-$Comp
-L power:GND #PWR0120
-U 1 1 5EFA44D2
-P 6000 7300
-F 0 "#PWR0120" H 6000 7050 50  0001 C CNN
-F 1 "GND" V 6005 7172 50  0000 R CNN
-F 2 "" H 6000 7300 50  0001 C CNN
-F 3 "" H 6000 7300 50  0001 C CNN
-	1    6000 7300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5500 7500 5400 7500
-Wire Wire Line
-	5400 7300 5500 7300
-Wire Wire Line
-	5400 7400 5500 7400
-Wire Wire Line
-	6000 7500 6100 7500
-Wire Wire Line
-	6550 7200 6550 7000
-$Comp
-L power:+3V3 #PWR0121
-U 1 1 5F121167
-P 6550 6800
-F 0 "#PWR0121" H 6550 6650 50  0001 C CNN
-F 1 "+3V3" H 6550 6950 50  0000 C CNN
-F 2 "" H 6550 6800 50  0001 C CNN
-F 3 "" H 6550 6800 50  0001 C CNN
-	1    6550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pkl_device:pkl_R4_Small R9
-U 4 1 5ABF66A6
-P 6550 6900
-F 0 "R9" V 6500 6650 50  0000 L CNN
-F 1 "10k" V 6600 6650 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 6550 6900 60  0001 C CNN
-F 3 "" H 6550 6900 60  0000 C CNN
-F 4 "ANY" H 6550 6900 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -2350 -500 50  0001 C CNN "Key"
-	4    6550 6900
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6000 4800 4600 4800
 Wire Notes Line
@@ -2171,14 +2080,12 @@ Connection ~ 2900 5300
 Wire Wire Line
 	2900 5500 2900 5300
 Wire Wire Line
-	2800 5300 2800 5500
-Wire Wire Line
 	2900 5300 2800 5300
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0125
 U 1 1 5F107E69
 P 2900 5300
-F 0 "#PWR?" H 2900 5150 50  0001 C CNN
+F 0 "#PWR0125" H 2900 5150 50  0001 C CNN
 F 1 "+3V3" H 2900 5450 50  0000 C CNN
 F 2 "" H 2900 5300 50  0001 C CNN
 F 3 "" H 2900 5300 50  0001 C CNN
@@ -2187,41 +2094,28 @@ F 3 "" H 2900 5300 50  0001 C CNN
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R9
-U 3 1 5ABF6624
-P 2800 5600
-F 0 "R9" V 2750 5350 50  0000 L CNN
-F 1 "10k" V 2750 5700 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2800 5600 60  0001 C CNN
-F 3 "" H 2800 5600 60  0000 C CNN
-F 4 "ANY" H 2800 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -5800 -1800 50  0001 C CNN "Key"
-	3    2800 5600
+U 2 1 5AB5B376
+P 10900 4500
+F 0 "R9" V 10850 4250 50  0000 L CNN
+F 1 "10k" V 10950 4250 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 10900 4500 60  0001 C CNN
+F 3 "" H 10900 4500 60  0000 C CNN
+F 4 "ANY" H 10900 4500 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H 2200 -2900 50  0001 C CNN "Key"
+	2    10900 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L pkl_device:pkl_R4_Small R9
-U 2 1 5AB5B376
+U 1 1 5AB5AE47
 P 2900 5600
 F 0 "R9" V 2850 5350 50  0000 L CNN
 F 1 "10k" V 2850 5700 50  0000 L CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2900 5600 60  0001 C CNN
 F 3 "" H 2900 5600 60  0000 C CNN
 F 4 "ANY" H 2900 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -5800 -1800 50  0001 C CNN "Key"
-	2    2900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L pkl_device:pkl_R4_Small R9
-U 1 1 5AB5AE47
-P 3000 5600
-F 0 "R9" V 2950 5350 50  0000 L CNN
-F 1 "10k" V 2950 5700 50  0000 L CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3000 5600 60  0001 C CNN
-F 3 "" H 3000 5600 60  0000 C CNN
-F 4 "ANY" H 3000 5600 50  0001 C CNN "Source"
-F 5 "res-0402cv-array-4-10k" H -5800 -1800 50  0001 C CNN "Key"
-	1    3000 5600
+F 5 "res-0402cv-array-4-10k" H -5900 -1800 50  0001 C CNN "Key"
+	1    2900 5600
 	1    0    0    -1  
 $EndComp
 Connection ~ 2900 6000
@@ -2261,9 +2155,9 @@ SPI_~CS
 Text Label 3100 6900 0    50   ~ 0
 SPI_SCK
 Text Label 3100 7000 0    50   ~ 0
-SPI_POSI-IO0
+SPI_MOSI-IO0
 Text Label 3100 7100 0    50   ~ 0
-SPI_PISO-IO1
+SPI_MISO-IO1
 Text Label 3100 7200 0    50   ~ 0
 SPI_~WP~-IO2
 Text Label 3100 7300 0    50   ~ 0
@@ -2515,10 +2409,10 @@ Wire Notes Line
 Wire Notes Line
 	6000 4800 6000 6400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 5F68FCC7
 P 6900 6100
-F 0 "#PWR?" H 6900 5850 50  0001 C CNN
+F 0 "#PWR0126" H 6900 5850 50  0001 C CNN
 F 1 "GND" H 6900 5950 50  0000 C CNN
 F 2 "" H 6900 6100 50  0001 C CNN
 F 3 "" H 6900 6100 50  0001 C CNN
@@ -2526,10 +2420,10 @@ F 3 "" H 6900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 5F68FA7B
 P 6600 6100
-F 0 "#PWR?" H 6600 5850 50  0001 C CNN
+F 0 "#PWR0127" H 6600 5850 50  0001 C CNN
 F 1 "GND" H 6600 5950 50  0000 C CNN
 F 2 "" H 6600 6100 50  0001 C CNN
 F 3 "" H 6600 6100 50  0001 C CNN
@@ -2537,10 +2431,10 @@ F 3 "" H 6600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0128
 U 1 1 5F6139CB
 P 7500 5800
-F 0 "#PWR?" H 7500 5650 50  0001 C CNN
+F 0 "#PWR0128" H 7500 5650 50  0001 C CNN
 F 1 "+3V3" H 7500 5950 50  0000 C CNN
 F 2 "" H 7500 5800 50  0001 C CNN
 F 3 "" H 7500 5800 50  0001 C CNN
@@ -2716,4 +2610,146 @@ F 4 "ANY" H 2400 900 50  0001 C CNN "Source"
 	1    2400 900 
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 5F121167
+P 10900 4400
+F 0 "#PWR0121" H 10900 4250 50  0001 C CNN
+F 1 "+3V3" H 10900 4550 50  0000 C CNN
+F 2 "" H 10900 4400 50  0001 C CNN
+F 3 "" H 10900 4400 50  0001 C CNN
+	1    10900 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 6250 0    50   ~ 0
+64M\nPSRAM
+Text Notes 1500 7150 0    50   ~ 0
+128M\nFlash
+Wire Wire Line
+	2800 5300 2800 5500
+$Comp
+L pkl_device:pkl_R4_Small R9
+U 4 1 5ABF66A6
+P 2800 5600
+F 0 "R9" V 2750 5350 50  0000 L CNN
+F 1 "10k" V 2750 5700 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 2800 5600 60  0001 C CNN
+F 3 "" H 2800 5600 60  0000 C CNN
+F 4 "ANY" H 2800 5600 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -6100 -1800 50  0001 C CNN "Key"
+	4    2800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_R4_Small R9
+U 3 1 5ABF6624
+P 3000 5600
+F 0 "R9" V 2950 5350 50  0000 L CNN
+F 1 "10k" V 2950 5700 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3000 5600 60  0001 C CNN
+F 3 "" H 3000 5600 60  0000 C CNN
+F 4 "ANY" H 3000 5600 50  0001 C CNN "Source"
+F 5 "res-0402cv-array-4-10k" H -5600 -1800 50  0001 C CNN "Key"
+	3    3000 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4600 10200 4800
+Wire Wire Line
+	10200 4800 10900 4800
+Wire Wire Line
+	10900 4800 10900 4600
+Connection ~ 10200 4600
+Wire Wire Line
+	10200 4600 10300 4600
+$Comp
+L Connector_Generic:Conn_01x01 P41
+U 1 1 5F35ED22
+P 5500 7500
+F 0 "P41" H 5580 7496 50  0000 L CNN
+F 1 "IO2" H 5580 7451 50  0001 L CNN
+F 2 "pkl_pads:PAD_SMD_R_1x1" H 5500 7500 50  0001 C CNN
+F 3 "~" H 5500 7500 50  0001 C CNN
+	1    5500 7500
+	-1   0    0    -1  
+$EndComp
+Text Label 5800 7000 0    50   ~ 0
+SPI_~CS
+Text Label 5800 7100 0    50   ~ 0
+SPI_SCK
+Text Label 5800 7200 0    50   ~ 0
+SPI_MISO-IO1
+Text Label 5800 7300 0    50   ~ 0
+SPI_MOSI-IO0
+Text Label 5800 7400 0    50   ~ 0
+SPI_~HLD~-IO3
+Wire Wire Line
+	5700 7000 5800 7000
+Wire Wire Line
+	5700 7100 5800 7100
+Wire Wire Line
+	5700 7400 5800 7400
+Wire Wire Line
+	5800 7200 5700 7200
+Wire Wire Line
+	5800 7300 5700 7300
+$Comp
+L Connector_Generic:Conn_01x01 P36
+U 1 1 5F31319B
+P 5500 7000
+F 0 "P36" H 5580 6996 50  0000 L CNN
+F 1 "CS" H 5580 6951 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5500 7000 50  0001 C CNN
+F 3 "~" H 5500 7000 50  0001 C CNN
+	1    5500 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P37
+U 1 1 5F31B068
+P 5500 7100
+F 0 "P37" H 5580 7096 50  0000 L CNN
+F 1 "SCK" H 5580 7051 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5500 7100 50  0001 C CNN
+F 3 "~" H 5500 7100 50  0001 C CNN
+	1    5500 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P38
+U 1 1 5F31B224
+P 5500 7200
+F 0 "P38" H 5580 7196 50  0000 L CNN
+F 1 "MISO" H 5580 7151 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5500 7200 50  0001 C CNN
+F 3 "~" H 5500 7200 50  0001 C CNN
+	1    5500 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P39
+U 1 1 5F31B48D
+P 5500 7300
+F 0 "P39" H 5580 7296 50  0000 L CNN
+F 1 "MOSI" H 5580 7251 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5500 7300 50  0001 C CNN
+F 3 "~" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P40
+U 1 1 5F31CDE3
+P 5500 7400
+F 0 "P40" H 5580 7396 50  0000 L CNN
+F 1 "IO3" H 5580 7351 50  0001 L CNN
+F 2 "pkl_pads:PAD_SMD_R_1x1" H 5500 7400 50  0001 C CNN
+F 3 "~" H 5500 7400 50  0001 C CNN
+	1    5500 7400
+	-1   0    0    -1  
+$EndComp
+Text Label 5800 7500 0    50   ~ 0
+SPI_~WP~-IO2
+Wire Wire Line
+	5800 7500 5700 7500
 $EndSCHEMATC
