@@ -141,7 +141,7 @@ F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 3600 2875 60  0001 C CNN
 F 3 "" H 3600 2875 60  0000 C CNN
 F 4 "sw-tact-top-4.2-2.8" H -9400 -6750 50  0001 C CNN "Key"
 	1    3600 2900
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 2900 3900 2900
