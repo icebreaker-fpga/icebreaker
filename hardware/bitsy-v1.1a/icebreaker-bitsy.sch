@@ -2752,4 +2752,6 @@ Text Label 5800 7500 0    50   ~ 0
 SPI_~WP~-IO2
 Wire Wire Line
 	5800 7500 5700 7500
+Text Notes 6300 3150 0    50   ~ 0
+SPI Terminology:\nMOSI - Main Out Secondary In\nMISO - Main In Secondary Out\nSCK  - Serial Clock\nCS   - Chip Select
 $EndSCHEMATC
