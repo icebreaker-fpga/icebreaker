@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iCEBreaker-bitsy"
-Date "2020-08-04"
+Title "iCEBreaker Bitsy"
+Date "2020-08-05"
 Rev "v1.1a"
 Comp "1BitSquared"
 Comment1 "© 2018-2020 1BitSquared <info@1bitsquared.com>"
@@ -2418,17 +2418,6 @@ F 3 "" H 6600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0128
-U 1 1 5F6139CB
-P 7500 5800
-F 0 "#PWR0128" H 7500 5650 50  0001 C CNN
-F 1 "+3V3" H 7500 5950 50  0000 C CNN
-F 2 "" H 7500 5800 50  0001 C CNN
-F 3 "" H 7500 5800 50  0001 C CNN
-	1    7500 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 P26
 U 1 1 5B1A640B
 P 6900 5900
@@ -2475,68 +2464,10 @@ F 4 "ANY" H 6300 5900 50  0001 C CNN "Source"
 	1    6300 5900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P27
-U 1 1 5B1151BE
-P 7200 6000
-F 0 "P27" V 7300 6000 50  0000 C CNN
-F 1 "3V3" H 7280 5949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7200 6000 50  0001 C CNN
-F 3 "~" H 7200 6000 50  0001 C CNN
-F 4 "ANY" H 7200 6000 50  0001 C CNN "Source"
-	1    7200 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P28
-U 1 1 5B14536A
-P 7500 6000
-F 0 "P28" V 7600 6000 50  0000 C CNN
-F 1 "3V3" H 7580 5949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7500 6000 50  0001 C CNN
-F 3 "~" H 7500 6000 50  0001 C CNN
-F 4 "ANY" H 7500 6000 50  0001 C CNN "Source"
-	1    7500 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P29
-U 1 1 5B1A6195
-P 7800 6000
-F 0 "P29" V 7900 6000 50  0000 C CNN
-F 1 "VIN" H 7880 5949 50  0001 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7800 6000 50  0001 C CNN
-F 3 "~" H 7800 6000 50  0001 C CNN
-F 4 "ANY" H 7800 6000 50  0001 C CNN "Source"
-	1    7800 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR04
-U 1 1 5B1A5E3B
-P 7200 5800
-F 0 "#PWR04" H 7200 5650 50  0001 C CNN
-F 1 "+3V3" H 7200 5950 50  0000 C CNN
-F 2 "" H 7200 5800 50  0001 C CNN
-F 3 "" H 7200 5800 50  0001 C CNN
-	1    7200 5800
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	8000 6400 6100 6400
 Wire Notes Line
 	6100 6400 6100 5500
-$Comp
-L pkl_power:VIN #PWR0109
-U 1 1 5F45B3FF
-P 7800 5800
-F 0 "#PWR0109" H 7800 5650 50  0001 C CNN
-F 1 "VIN" H 7800 5950 50  0000 C CNN
-F 2 "" H 7800 5800 50  0001 C CNN
-F 3 "" H 7800 5800 50  0001 C CNN
-	1    7800 5800
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	8000 5500 8000 6400
 Wire Notes Line
@@ -2764,4 +2695,73 @@ Text Notes 5900 7400 0    50   ~ 0
 Hold
 Text Notes 5900 7500 0    50   ~ 0
 Write Protect
+$Comp
+L pkl_power:VIN #PWR0109
+U 1 1 5F45B3FF
+P 7800 5900
+F 0 "#PWR0109" H 7800 5750 50  0001 C CNN
+F 1 "VIN" H 7800 6050 50  0000 C CNN
+F 2 "" H 7800 5900 50  0001 C CNN
+F 3 "" H 7800 5900 50  0001 C CNN
+	1    7800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 5B1A5E3B
+P 7200 5900
+F 0 "#PWR04" H 7200 5750 50  0001 C CNN
+F 1 "+3V3" H 7200 6050 50  0000 C CNN
+F 2 "" H 7200 5900 50  0001 C CNN
+F 3 "" H 7200 5900 50  0001 C CNN
+	1    7200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P29
+U 1 1 5B1A6195
+P 7800 6100
+F 0 "P29" V 7900 6100 50  0000 C CNN
+F 1 "VIN" H 7880 6049 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7800 6100 50  0001 C CNN
+F 3 "~" H 7800 6100 50  0001 C CNN
+F 4 "ANY" H 7800 6100 50  0001 C CNN "Source"
+	1    7800 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P28
+U 1 1 5B14536A
+P 7500 6100
+F 0 "P28" V 7600 6100 50  0000 C CNN
+F 1 "3V3" H 7580 6049 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7500 6100 50  0001 C CNN
+F 3 "~" H 7500 6100 50  0001 C CNN
+F 4 "ANY" H 7500 6100 50  0001 C CNN "Source"
+	1    7500 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P27
+U 1 1 5B1151BE
+P 7200 6100
+F 0 "P27" V 7300 6100 50  0000 C CNN
+F 1 "3V3" H 7280 6049 50  0001 L CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01_Castellated" H 7200 6100 50  0001 C CNN
+F 3 "~" H 7200 6100 50  0001 C CNN
+F 4 "ANY" H 7200 6100 50  0001 C CNN "Source"
+	1    7200 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0128
+U 1 1 5F6139CB
+P 7500 5900
+F 0 "#PWR0128" H 7500 5750 50  0001 C CNN
+F 1 "+3V3" H 7500 6050 50  0000 C CNN
+F 2 "" H 7500 5900 50  0001 C CNN
+F 3 "" H 7500 5900 50  0001 C CNN
+	1    7500 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
