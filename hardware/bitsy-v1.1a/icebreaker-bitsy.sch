@@ -168,7 +168,7 @@ F 1 "2k2" V 5500 2700 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 5659 2607 60  0001 L CNN
 F 3 "" H 5600 2700 60  0000 C CNN
 F 4 "ANY" H 5600 2700 50  0001 C CNN "Source"
-F 5 "res-0402-330" H -7300 -6200 50  0001 C CNN "Key"
+F 5 "res-0402-2k2" H -7300 -6200 50  0001 C CNN "Key"
 	1    5600 2700
 	0    -1   -1   0   
 $EndComp
@@ -181,7 +181,7 @@ F 1 "2k2" V 5500 3100 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 5659 3007 60  0001 L CNN
 F 3 "" H 5600 3100 60  0000 C CNN
 F 4 "ANY" H 5600 3100 50  0001 C CNN "Source"
-F 5 "res-0402-330" H -7300 -5500 50  0001 C CNN "Key"
+F 5 "res-0402-2k2" H -7300 -5500 50  0001 C CNN "Key"
 	1    5600 3100
 	0    -1   -1   0   
 $EndComp
@@ -373,7 +373,7 @@ F 1 "5k1" V 2150 1550 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2259 1307 60  0001 L CNN
 F 3 "" H 2200 1400 60  0000 C CNN
 F 4 "ANY" H 2200 1400 50  0001 C CNN "Source"
-F 5 "res-0402-1m" H 400 -3450 50  0001 C CNN "Key"
+F 5 "res-0402-5k1" H 400 -3450 50  0001 C CNN "Key"
 	1    2200 1400
 	0    1    1    0   
 $EndComp
@@ -386,7 +386,7 @@ F 1 "5k1" V 2150 1650 50  0000 C CNN
 F 2 "pkl_dipol:R_0402" H 2259 1407 60  0001 L CNN
 F 3 "" H 2200 1500 60  0000 C CNN
 F 4 "ANY" H 2200 1500 50  0001 C CNN "Source"
-F 5 "res-0402-1m" H 400 -3350 50  0001 C CNN "Key"
+F 5 "res-0402-5k1" H 400 -3350 50  0001 C CNN "Key"
 	1    2200 1500
 	0    1    1    0   
 $EndComp
@@ -503,6 +503,7 @@ F 0 "J1" H 1307 2667 50  0000 C CNN
 F 1 "USB_C" H 1307 2576 50  0000 C CNN
 F 2 "pkl_connectors:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1350 1800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 1800 50  0001 C CNN
+F 4 "conn-smd-usb-c-2" H 1200 1800 50  0001 C CNN "Key"
 	1    1200 1800
 	1    0    0    -1  
 $EndComp
@@ -582,9 +583,10 @@ L Regulator_Linear:TLV75512PDRV U3
 U 1 1 5F4BAFFA
 P 3800 4000
 F 0 "U3" H 3800 4342 50  0000 C CNN
-F 1 "TLV75512PDRV" H 3800 4251 50  0000 C CNN
+F 1 "TLV73312PDRV" H 3800 4251 50  0000 C CNN
 F 2 "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" H 3800 4325 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 3800 4050 50  0001 C CNN
+F 4 "vreg-dfn6-1v2-tlv73312" H 3800 4000 50  0001 C CNN "Key"
 	1    3800 4000
 	1    0    0    -1  
 $EndComp
@@ -1332,7 +1334,7 @@ F 0 "C8" V 7350 4850 50  0000 L CNN
 F 1 "100n" V 7350 5050 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 7392 4907 60  0001 L CNN
 F 3 "" H 7300 5000 60  0000 C CNN
-F 4 "cap-cer-0402-10n" H 7300 5000 50  0001 C CNN "Key"
+F 4 "cap-cer-0402-100n" H 7300 5000 50  0001 C CNN "Key"
 F 5 "ANY" H 7300 5000 50  0001 C CNN "Source"
 	1    7300 5000
 	-1   0    0    -1  
@@ -1943,6 +1945,7 @@ F 0 "U2" H 2300 4342 50  0000 C CNN
 F 1 "TLV75533PDRV" H 2300 4251 50  0000 C CNN
 F 2 "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" H 2300 4325 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 2300 4050 50  0001 C CNN
+F 4 "vreg-dfn6-1v2-tlv75533" H 2300 4000 50  0001 C CNN "Key"
 	1    2300 4000
 	1    0    0    -1  
 $EndComp
@@ -2317,6 +2320,7 @@ F 0 "X1" H 5200 5850 50  0000 L CNN
 F 1 "12MHz" H 5500 5850 50  0000 L CNN
 F 2 "pkl_misc:Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm" H 6100 5250 50  0001 C CNN
 F 3 "" H 5300 5600 50  0001 C CNN
+F 4 "osc-smd2520-12mhz" H 5400 5600 50  0001 C CNN "Key"
 	1    5400 5600
 	1    0    0    -1  
 $EndComp
@@ -2589,7 +2593,7 @@ F 1 "W25Q128JVxxM" H 1800 7300 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm" H 1800 7000 50  0001 C CNN
 F 3 "" H 1800 7000 50  0001 C CNN
 F 4 "ANY" H 1800 7000 50  0001 C CNN "Source"
-F 5 "eeprom-so8w-W25Q" H -6100 -950 50  0001 C CNN "Key"
+F 5 "eeprom-wson8-w25q128" H -6100 -950 50  0001 C CNN "Key"
 	1    1800 7000
 	-1   0    0    -1  
 $EndComp
