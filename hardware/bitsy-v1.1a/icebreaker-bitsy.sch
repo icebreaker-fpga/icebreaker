@@ -2320,7 +2320,7 @@ F 0 "X1" H 5200 5850 50  0000 L CNN
 F 1 "12MHz" H 5500 5850 50  0000 L CNN
 F 2 "pkl_misc:Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm" H 6100 5250 50  0001 C CNN
 F 3 "" H 5300 5600 50  0001 C CNN
-F 4 "osc-smd2520-12mhz" H 5400 5600 50  0001 C CNN "Key"
+F 4 "xtal-smd2520-12mhz-osc" H 5400 5600 50  0001 C CNN "Key"
 	1    5400 5600
 	1    0    0    -1  
 $EndComp
