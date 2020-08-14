@@ -1039,7 +1039,7 @@ F 1 "ICE40UP5K-SG48" H 8600 5177 50  0000 C CNN
 F 2 "pkl_housings_dfn_qfn:QFN-48-1EP_7x7mm_Pitch0.5mm" H 10900 3300 50  0001 C CNN
 F 3 "" H 10900 3300 50  0001 C CNN
 F 4 "ANY" H 8600 3100 50  0001 C CNN "Source"
-F 5 "ic-ice5lp4k-sg48" H -1000 -1100 50  0001 C CNN "Key"
+F 5 "ic-ice40up5k-sg48" H -1000 -1100 50  0001 C CNN "Key"
 	1    8600 3100
 	1    0    0    -1  
 $EndComp
