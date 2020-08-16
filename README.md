@@ -138,9 +138,7 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 * Castellated edges and single-side-load for easy module integration
 
 ![iCEBreaker-bitsy info card top](hardware/bitsy-v1.1a/img/info-card-top.svg)
-**iCEBreaker Bitsy Top Side**  
 ![iCEBreaker-bitsy info card bottom](hardware/bitsy-v1.1a/img/info-card-bot.svg)
-**iCEBreaker Bitsy Bottom Side**  
 
 * Branding
   * iCEbreaker (https://twitter.com/AboveVacant/status/948323920595308545)
