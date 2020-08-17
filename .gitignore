@@ -1,3 +1,4 @@
+.DS_Store
 *.bak
 *-bak
 *.zip
@@ -7,3 +8,4 @@ panel
 fp-info-cache
 *-rescue.dcm
 *-rescue.lib
+*bom*.txt
