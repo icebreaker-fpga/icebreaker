@@ -8,16 +8,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="96"
-   inkscape:export-xdpi="96"
-   inkscape:export-filename="C:\Users\jordi\Documents\Git\icebreaker-fpga\icebreaker\hardware\bitsy-v1.1a\img\info-card-front.png"
+   inkscape:export-ydpi="480"
+   inkscape:export-xdpi="480"
+   inkscape:export-filename="info-card-top_v1.1a.png"
    width="4in"
    height="6in"
    viewBox="0 0 101.6 152.4"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="info-card-top.svg">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="info-card-top_v1.1a.svg">
   <defs
      id="defs2">
     <marker
@@ -256,11 +256,11 @@
      inkscape:document-rotation="0"
      showgrid="false"
      units="in"
-     inkscape:window-width="1718"
-     inkscape:window-height="1368"
-     inkscape:window-x="1713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:pagecheckerboard="true">
     <inkscape:grid
