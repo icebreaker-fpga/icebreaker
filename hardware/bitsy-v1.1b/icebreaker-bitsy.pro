@@ -1,4 +1,4 @@
-update=Monday, October 19, 2020 at 05:55:23 PM
+update=Monday, October 19, 2020 at 06:33:58 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,7 +28,7 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
+ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.15
 MinViaDiameter=0.5
 MinViaDrill=0.25

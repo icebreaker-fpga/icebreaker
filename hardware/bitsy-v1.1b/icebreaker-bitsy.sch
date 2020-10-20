@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iCEBreaker Bitsy"
-Date "2020-08-05"
+Date "2020-10-19"
 Rev "v1.1b"
 Comp "1BitSquared"
 Comment1 "© 2018-2020 1BitSquared <info@1bitsquared.com>"
 Comment2 "© 2018-2020 Piotr Esden-Tempski <piotr@esden.net>"
-Comment3 "© 2020 Jordi Pakey-Rodriguez <jordi@0xdec.im>"
+Comment3 "© 2020 Jordi Pakey-Rodriguez <jordi@1bitsquared.com>"
 Comment4 "License: CC BY-SA 4.0"
 $EndDescr
 $Comp
