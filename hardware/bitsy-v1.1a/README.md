@@ -21,5 +21,5 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 * Compatible with Feather ecosystem using a [Teensy 3.x Feather Adapter](https://www.adafruit.com/product/3200)
 * Castellated edges and single-side-load for easy module integration
 
-![iCEBreaker-bitsy info card top](img/info-card-top.svg)
-![iCEBreaker-bitsy info card bottom](img/info-card-bot.svg)
+![iCEBreaker-bitsy info card top](img/bitsy-v1.1a-info-card-top.svg)
+![iCEBreaker-bitsy info card bottom](img/bitsy-v1.1a-info-card-bot.svg)
