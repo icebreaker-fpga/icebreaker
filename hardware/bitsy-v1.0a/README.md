@@ -32,7 +32,7 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 
 ## Changelog
 
-### v1.0a
+### v1.0a (2020-06-10)
 
 * Complete redesign
 * Pinout/dimensions now Teensy-compatible

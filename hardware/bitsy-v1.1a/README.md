@@ -32,12 +32,12 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 
 ## Changelog
 
-### v1.1a
+### v1.1a (2020-08-05)
 
 * Switched to WSON 6x5mm flash to accommodate through-hole programming header
 * Improved silkscreen
 
-### v1.0a
+### v1.0a (2020-06-10)
 
 * Complete redesign
 * Pinout/dimensions now Teensy-compatible

@@ -32,18 +32,18 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 
 ## Changelog
 
-### v1.1b
+### v1.1b (2020-10-19)
 
 * Changed board dimensions to metric instead of imperial (36x18mm)
 * Added top-side silkscreen labels
 * Enlarged USB-C solder paste openings
 
-### v1.1a
+### v1.1a (2020-08-05)
 
 * Switched to WSON 6x5mm flash to accommodate through-hole programming header
 * Improved silkscreen
 
-### v1.0a
+### v1.0a (2020-06-10)
 
 * Complete redesign
 * Pinout/dimensions now Teensy-compatible
