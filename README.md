@@ -118,7 +118,7 @@ we need to be compatible with their firmware upload tools.
 
 iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At just 36x18mm, it is compatible with the Teensy form-factor and can be easily embedded into any project.
 
-![iCEBreaker Bitsy v1.1a photo](hardware/bitsy-v1.1a/img/bitsy-v1.1a.jpg)
+![iCEBreaker Bitsy v1.1b panel photo](hardware/bitsy-v1.1b/img/bitsy-panel-v1.1b.jpeg)
 
 * iCE40UP5K in QFN48 (SG48) package
   * PLL, two SPI and two I2C hard IPs
@@ -139,8 +139,8 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 * Compatible with Feather ecosystem using a [Teensy 3.x Feather Adapter](//adafruit.com/product/3200)
 * Castellated edges and single-side-load for easy module integration
 
-![iCEBreaker Bitsy v1.1b info card, front](hardware/bitsy-v1.1b/img/bitsy-v1.1b_info-card_front.svg)
-![iCEBreaker Bitsy v1.1b info card, back](hardware/bitsy-v1.1b/img/bitsy-v1.1b_info-card_back.svg)
+![iCEBreaker Bitsy v1.1c info card, front](hardware/bitsy-v1.1c/ref/icebreaker-bitsy-v1.1c_info-card_front.svg)
+![iCEBreaker Bitsy v1.1c info card, back](hardware/bitsy-v1.1c/ref/icebreaker-bitsy-v1.1c_info-card_back.svg)
 
 ## Branding
 
