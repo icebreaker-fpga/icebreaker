@@ -4,7 +4,7 @@
 
 iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At just 36x18mm, it is compatible with the Teensy form-factor and can be easily embedded into any project.
 
-![iCEBreaker Bitsy v1.1a photo](../bitsy-v1.1a/img/bitsy-v1.1a.jpg)
+![iCEBreaker Bitsy v1.1b panel photo](img/bitsy-panel-v1.1b.jpeg)
 
 ## Features
   
