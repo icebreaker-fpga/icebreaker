@@ -88,7 +88,7 @@ we need to be compatible with their firmware upload tools.
   * 3 Push Buttons
 
 * Other stuff
-  * Status LEDs for Power and CDONE
+  * Status LEDs for Power and CDONE (Configuration DONE)
   * Header with supply rails: 5V, 3V3, 1V2, GND
   * Debug header for all 6 QSPI pins
   * Test points for UART Rx / Tx signals
@@ -127,14 +127,14 @@ iCEBreaker Bitsy is the smaller but just-as-capable sibling to iCEBreaker. At ju
 * USB-C interface (comes preloaded with a [RISC-V soft-core USB bootloader](//github.com/no2fpga/no2bootloader))
 * RGB LED connected to 3x 24mA hard PWM IP pins
 * Two user LEDs (one shared with RAM-CS)
-* Status LED for CDONE
+* Status LED for CDONE (Configuration DONE)
 * 12MHz external clock (on PLL GBIN)
 * One user button
 * Supply rails: 3.3V and 1.2V
 * FPGA SPI/programming header
   * 4 pins for config (SDI, SDO, SCK, CS)
   * 2 extra GPIO pins for QSPI/QPI
-  * CDONE, CRESET, 3.3V, and GND
+  * CDONE (Configuration DONE), CRESET (Configuration RESET), 3.3V, and GND
 * Teensy form-factor compatible
 * Compatible with Feather ecosystem using a [Teensy 3.x Feather Adapter](//adafruit.com/product/3200)
 * Castellated edges and single-side-load for easy module integration
