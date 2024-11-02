@@ -9,3 +9,4 @@ fp-info-cache
 *-rescue.dcm
 *-rescue.lib
 *bom*.txt
+*.kicad_prl
